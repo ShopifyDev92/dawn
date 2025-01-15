@@ -1553,6 +1553,160 @@
         "complete_your_purchase_title_error": "اپنی ادائیگی کی معلومات درست کریں۔",
         "continue_to_payment_gateway_notice_error": "آپ کی ادائیگی کی معلومات کی تصدیق نہیں ہو سکی۔",
         "continue_to_payment_gateway_button_label_error": "ادائیگی کی معلومات کو اپ ڈیٹ کریں۔"
+      },
+      "shipping": {
+        "delivery": "ڈیلیوری %{time}",
+        "arrives_time": "پہنچتا ہے %{time}",
+        "arrives_time_range": "آمد %{min_time}–%{max_time}",
+        "estimated_time": "تخمینہ %{وقت}",
+        "estimated_time_range": "تخمینی %{min_time}–%{max_time}",
+        "default_description": "1 کاروباری دن میں بحری جہاز",
+        "shipping_line_phone_label": "موبائل فون نمبر (ضروری)",
+        "shipping_line_phone": "آپ کا کورئیر آپ سے رابطہ کرنے کے لیے اس نمبر کا استعمال کر سکتا ہے۔",
+        "shipping_line_delivery_phone_label": "موبائل فون نمبر",
+        "shipping_line_delivery_phone": "آپ کی ترسیل پر اپ ڈیٹس کے ساتھ آپ سے رابطہ کیا جا سکتا ہے۔",
+        "optional_shipping_line_delivery_instructions_label": "ترسیل کی ہدایات (اختیاری)",
+        "shipping_line_delivery_instructions": "ضروری معلومات درج کریں جیسے دروازے کے کوڈز یا ڈراپ آف ہدایات۔",
+        "other_method": {
+          "zero": "کوئی اور طریقے دستیاب نہیں ہیں۔",
+          "one": "%{count} دوسرا طریقہ دستیاب ہے۔",
+          "other": "سے شروع ہونے والے %{count} دیگر طریقے دستیاب ہیں۔"
+        },
+        "shipping_rate_discounted_amount": "تھا: %{original_amount}۔ اب: %{amount}",
+        "local_delivery": "مقامی ترسیل",
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "%{count} مزید ڈیلیوری کے لیے مفت شپنگ",
+            "other": "%{count} مزید ترسیل کے لیے مفت ترسیل"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "%{count} ڈیلیوری کے لیے مفت شپنگ",
+            "other": "%{count} ڈیلیوری کے لیے مفت شپنگ"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "%{count} مزید ڈیلیوری کے لیے مفت شپنگ، پھر %{recurring_order_shipping_price}",
+            "other": "%{count} مزید ڈیلیوری کے لیے مفت ترسیل، پھر %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "%{count} ڈیلیوری کے لیے مفت شپنگ، پھر %{recurring_order_shipping_price}",
+            "other": "%{count} ڈیلیوری کے لیے مفت ترسیل، پھر %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{shipping_price} کے لیے %{count} مزید ڈیلیوری",
+            "other": "ہر ایک کے لیے %{count} مزید ڈیلیوری %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} ڈیلیوری %{shipping_price} کے لیے",
+            "other": "ہر ایک کے لیے %{count} مزید ڈیلیوری %{shipping_price}"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "پہلے %{cycle} کے لیے مفت ترسیل، اس کے بعد %{recurring_order_shipping_price}",
+            "other": "پہلے %{cycle} کے لیے مفت ترسیل، اس کے بعد %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے",
+            "other": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} %{count} ڈیلیوری کے لیے",
+            "other": "%{shipping_price} %{count} ڈیلیوری کے لیے (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے، اس کے بعد %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} مزید ڈیلیوری کے لیے (%{per_delivery_cost})، اس کے بعد %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} %{count} ڈیلیوری کے لیے، اس کے بعد %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} %{count} ڈیلیوری کے لیے (%{per_delivery_cost})، اس کے بعد %{recurring_order_shipping_price}"
+          },
+          "subscription_free_with_frequency_label": "مفت ترسیل %{delivery_frequency}",
+          "prepaid_delivery_frequency": {
+            "one": "%{count} ڈیلیوری کے لیے",
+            "other": "%{count} ڈیلیوری کے لیے"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ہر روز",
+              "other": "ہر %{count} دن"
+            },
+            "week": {
+              "one": "ہر ہفتے",
+              "other": "ہر %{count} ہفتوں میں"
+            },
+            "month": {
+              "one": "ہر مہینے",
+              "other": "ہر %{count} ماہ بعد"
+            },
+            "year": {
+              "one": "ہر سال",
+              "other": "ہر %{count} سال"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "فی ڈیلیوری %{shipping_price}",
+          "prepaid_shipping_price_label": "فی ڈیلیوری %{shipping_price} x %{delivery_interval_count}",
+          "initial_order_discounted": "پہلے شپنگ لاگت %{discounted_shipping_cost}، پھر %{frequency_description}",
+          "prepaid_initial_order_discounted": "پہلی شپنگ لاگت %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "پہلی ترسیل کی قیمت %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "پہلی شپنگ لاگت %{discounted_shipping_price} %{prepaid_delivery_frequency}، پھر %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "پہلی ترسیل کی قیمت %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})، پھر %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "شامل",
+          "recurring_order_shipping_price": "اس کے بعد %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "پہلا آرڈر شامل ہے، اس کے بعد %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} فی ڈیلیوری)، اس کے بعد %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "پہلا آرڈر مفت",
+            "other": "پہلے %{count} آرڈرز مفت"
+          },
+          "free_for_first_n_order": {
+            "one": "پہلے آرڈر کے لیے",
+            "other": "پہلے %{count} آرڈرز کے لیے"
+          }
+        },
+        "one_time_purchase_shipping": "ایک بار شپنگ",
+        "duties_and_taxes_title": "ڈیوٹی اور ٹیکس",
+        "shipping_information_required_notice": "شپنگ کی معلومات درکار ہے۔ {{link}}",
+        "shipping_information_redirect_link": "اپنی معلومات یہاں درج کریں۔",
+        "loading_progressive_rates": "مزید ریٹس تلاش کر رہے ہیں…",
+        "no_other_methods_available": "کوئی اور طریقے دستیاب نہیں ہیں۔",
+        "duties_and_taxes_options": {
+          "ddu_title": "ڈیلیوری پر ادائیگی کریں۔",
+          "ddu_caption": "اضافی فیسیں لاگو ہو سکتی ہیں۔",
+          "ddp_title": "ابھی ادائیگی کریں۔",
+          "ddp_caption": "ڈیلیوری پر کوئی اضافی فیس نہیں۔"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}، %{secondMethod}",
+          "with_separator": "%{آرام}، %{موجودہ}،",
+          "combination": "%{آرام} اور %{موجودہ}"
+        },
+        "shipping_used_as_billing_notice": "اسے اس آرڈر کے لیے آپ کے بلنگ ایڈریس کے طور پر بھی استعمال کیا جائے گا۔",
+        "address_update": "پتہ اپ ڈیٹ کریں۔",
+        "shipping_address_title": "کو بھیجیں۔",
+        "add_address": "ایک مختلف پتہ استعمال کریں۔",
+        "add_delivery_instructions": "ترسیل کی ہدایات شامل کریں۔",
+        "edit": "ترمیم کریں۔",
+        "delete": "حذف کریں۔",
+        "address_more": "اس ایڈریس کے لیے مزید کارروائیاں",
+        "address_edit": "ایڈریس میں ترمیم کریں۔",
+        "address_delete": "پتہ حذف کریں۔",
+        "address_confirm": "کیا آپ واقعی یہ پتہ اپنے اکاؤنٹ سے حذف کرنا چاہتے ہیں؟",
+        "address_default": "بطور ڈیفالٹ سیٹ کریں۔",
+        "address_form": {
+          "add_address": "ایڈریس شامل کریں۔",
+          "save": "محفوظ کریں۔",
+          "cancel": "منسوخ کریں۔",
+          "generic_error": "آپ کا پتہ محفوظ کرنے میں ایک مسئلہ تھا۔ براہ کرم دوبارہ کوشش کریں۔",
+          "one_time_address_subtitle": "اس آرڈر کے لیے ایک بار کا پتہ استعمال کریں۔"
+        },
+        "different_shipping_method_summary": "دستیاب شپنگ طریقوں کو دیکھنے کے لیے ایک مختلف شپنگ ایڈریس درج کریں۔",
+        "invalid_shipping_method_summary": "دستیاب شپنگ طریقوں کو دیکھنے کے لیے ایک درست ترسیل کا پتہ درج کریں۔",
+        "method_summary": {
+          "incomplete_address_entered": "دستیاب شپنگ طریقوں کو دیکھنے کے لیے ایک مکمل شپنگ ایڈریس درج کریں۔",
+          "incomplete_address_selected": "دستیاب شپنگ کے طریقے دیکھنے کے لیے ایک مکمل شپنگ ایڈریس منتخب کریں۔"
+        },
+        "local_pickup": {
+          "search_address": "پتہ تلاش کریں۔"
+        }
       }
     },
     "notices": {
@@ -2879,7 +3033,63 @@
     "orders": {
       "title": "آرڈر کی تاریخ",
       "order_number": "آرڈر",
-      "order_number_link": "آرڈر نمبر {{ number }}"
+      "order_number_link": "آرڈر نمبر {{ number }}",
+      "date": "تاریخ",
+      "payment_status": "ادائیگی کی حیثیت",
+      "fulfillment_status": "تکمیل کی حیثیت",
+      "total": "کل",
+      "none": "آپ نے ابھی تک کوئی آرڈر نہیں دیا ہے۔"
+    },
+    "recover_password": {
+      "title": "اپنا پاس ورڈ دوبارہ ترتیب دیں۔",
+      "subtext": "ہم آپ کو اپنا پاس ورڈ دوبارہ ترتیب دینے کے لیے ایک ای میل بھیجیں گے۔",
+      "success": "ہم نے آپ کو آپ کا پاس ورڈ اپ ڈیٹ کرنے کے لیے ایک لنک کے ساتھ ایک ای میل بھیجا ہے۔"
+    },
+    "register": {
+      "title": "اکاؤنٹ بنائیں",
+      "first_name": "پہلا نام",
+      "last_name": "آخری نام",
+      "email": "ای میل",
+      "password": "پاس ورڈ",
+      "submit": "بنائیں"
+    },
+    "reset_password": {
+      "title": "اکاؤنٹ کا پاس ورڈ دوبارہ ترتیب دیں۔",
+      "subtext": "نیا پاس ورڈ درج کریں۔",
+      "password": "پاس ورڈ",
+      "password_confirm": "پاس ورڈ کی تصدیق کریں۔",
+      "submit": "پاس ورڈ دوبارہ ترتیب دیں۔"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "گفٹ کارڈ کوڈ آن لائن یا QR کوڈ ان اسٹور استعمال کریں۔",
+      "title": "یہ رہا آپ کا {{ value }} گفٹ کارڈ بیلنس برائے {{ shop }} !",
+      "subtext": "آپ کا گفٹ کارڈ",
+      "gift_card_code": "گفٹ کارڈ کوڈ",
+      "shop_link": "آن لائن اسٹور پر جائیں۔",
+      "add_to_apple_wallet": "Apple Wallet میں شامل کریں۔",
+      "qr_image_alt": "QR کوڈ - گفٹ کارڈ کو چھڑانے کے لیے اسکین کریں۔",
+      "copy_code": "گفٹ کارڈ کوڈ کاپی کریں۔",
+      "expiration_date": "میعاد ختم ہو رہی ہے {{ expires_on }}",
+      "copy_code_success": "کوڈ کامیابی کے ساتھ کاپی ہو گیا۔",
+      "expired": "میعاد ختم"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "میں اسے بطور تحفہ بھیجنا چاہتا ہوں۔",
+      "expanded": "گفٹ کارڈ وصول کنندہ کے فارم کو بڑھا دیا گیا۔",
+      "collapsed": "گفٹ کارڈ وصول کنندہ کا فارم سکڑ گیا۔",
+      "email_label": "وصول کنندہ کا ای میل",
+      "email_label_optional_for_no_js_behavior": "وصول کنندہ کا ای میل (اختیاری)",
+      "email": "ای میل",
+      "name_label": "وصول کنندہ کا نام (اختیاری)",
+      "name": "نام",
+      "message_label": "پیغام (اختیاری)",
+      "message": "پیغام",
+      "max_characters": "{{ max_chars }} حروف زیادہ سے زیادہ",
+      "send_on_label": "بھیجیں (اختیاری)"
     }
   }
 }
