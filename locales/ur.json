@@ -408,6 +408,450 @@
         "express_payment_gateway_label": "ایکسپریس",
         "manual_payment_gateway_label": "دستی",
         "billing_address_title": "بلنگ کا پتہ"
+      },
+      "review": {
+        "blocks": {
+          "change_payment_method_link_label": "ادائیگی کا طریقہ تبدیل کریں۔",
+          "pick_up_in_store_shipping_method_html": "اسٹور میں پک اپ · %{location_name}",
+          "purchase_order_number_title": "پی او نمبر",
+          "change_purchase_order_number_label": "PO نمبر تبدیل کریں۔",
+          "change_delivery_method_link_label": "ترسیل کا طریقہ تبدیل کریں۔",
+          "no_address": "(کوئی پتہ نہیں)",
+          "no_purchase_order_number": "(کوئی PO نمبر نہیں)",
+          "due_after_order_reviewed_html": "آرڈر کا جائزہ لینے کے بعد واجب الادا ہے۔",
+          "review_title_free_order": "اپنے آرڈر کا جائزہ لیں اور مکمل کریں۔",
+          "payment_method_saved_company_location": "اس مقام کے لیے کارڈ محفوظ کریں۔"
+        },
+        "block_title": "اپنی معلومات کا جائزہ لیں۔",
+        "item_header": {
+          "change_value": "قدر تبدیل کریں۔",
+          "section": "سیکشن",
+          "value": "قدر"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "خبروں اور پیشکشوں کے ساتھ مجھے ای میل کریں۔",
+        "post_accept_marketing_checkbox_label": "آپ نے ای میل کی خبریں اور پیشکشیں حاصل کرنے کے لیے سبسکرائب کیا ہے۔",
+        "pending_accept_marketing_checkbox_label": "خبروں اور پیشکشوں کی اپنی رکنیت کی تصدیق کرنے کے لیے اپنا ای میل چیک کریں۔",
+        "accept_sms_checkbox_label": "خبروں اور پیشکشوں کے ساتھ مجھے ٹیکسٹ کریں۔",
+        "disclaimer": {
+          "privacy_policy": "رازداری کی پالیسی",
+          "terms_of_service": "سروس کی شرائط"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "رازداری کی پالیسی",
+            "terms_of_service": "سروس کی شرائط",
+            "description_html": "ٹیکسٹ کے ذریعے سائن اپ کرکے، آپ فراہم کردہ فون نمبر پر بار بار آنے والے خودکار مارکیٹنگ پیغامات بشمول کارٹ ریمائنڈرز وصول کرنے سے اتفاق کرتے ہیں۔ رضامندی خریداری کی شرط نہیں ہے۔ ان سبسکرائب کرنے کے لیے STOP کا جواب دیں۔ مدد کے لیے HELP کا جواب دیں۔ پیغام کی تعدد مختلف ہوتی ہے۔ میسج اور ڈیٹا ریٹس لاگو ہو سکتے ہیں۔ ہمارا %{privacy_policy_link} اور %{terms_of_service_link} دیکھیں۔",
+            "description_transactional_html": "آپ کو آرڈر کی تصدیق اور شپنگ اپ ڈیٹس سے متعلق ٹیکسٹ پیغامات موصول ہو سکتے ہیں۔ ان سبسکرائب کرنے کے لیے STOP کا جواب دیں۔ مدد کے لیے HELP کا جواب دیں۔ پیغام کی تعدد مختلف ہوتی ہے۔ میسج اور ڈیٹا ریٹس لاگو ہو سکتے ہیں۔ ہمارا %{privacy_policy_modal_link} اور %{terms_of_service_modal_link} دیکھیں۔"
+          },
+          "mobile_phone_number": "موبائل فون نمبر",
+          "get_offers_by_text": "متن کے ذریعہ پیشکشیں حاصل کریں۔"
+        },
+        "unsubscribe": {
+          "title": "آپ نے رکنیت ختم کر دی ہے۔",
+          "description": "آپ کو ہماری طرف سے مزید کارٹ یاد دہانیاں موصول نہیں ہوں گی۔"
+        },
+        "accept_shop_pay_marketing_checkbox_label": "اس اسٹور سے خبروں اور پیشکشوں کے لیے مجھے سائن اپ کریں۔"
+      },
+      "shop_policies": {
+        "refund_policy": "رقم کی واپسی کی پالیسی",
+        "privacy_policy": "رازداری کی پالیسی",
+        "terms_of_service": "سروس کی شرائط",
+        "legal_notice": "قانونی نوٹس",
+        "shipping_policy": "شپنگ پالیسی",
+        "terms_of_sale": "فروخت کی شرائط",
+        "subscription_policy": "منسوخی کی پالیسی",
+        "purchase_options_policy": "خریداری کے اختیارات کی پالیسی",
+        "contact_information": "رابطہ کی معلومات",
+        "purchase_options_cancellation_policy": "منسوخی کی پالیسی",
+        "cookie_preferences": "کوکی کی ترجیحات"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "مرچنٹ آف ریکارڈ کی شرائط و ضوابط",
+        "privacy_policy": "مرچنٹ آف ریکارڈ پرائیویسی پالیسی"
+      },
+      "markets": {
+        "invalid_market_manager_error": "ادائیگی مکمل کرنے سے پہلے اپنی رابطہ کی معلومات کا جائزہ لیں۔"
+      },
+      "notifications": {
+        "title": "اطلاعات"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "آرڈر کی ادائیگی کی رقم %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "شامل کیا گیا۔",
+            "other": "شامل کیا گیا %{count}"
+          },
+          "removed": "ہٹا دیا گیا۔",
+          "subtracted": "ہٹا دیا گیا %{count}",
+          "returned": "واپس کیا گیا %{count}",
+          "return_line_item_removed": "واپسی سے %{count} کو ہٹا دیا گیا۔"
+        },
+        "additional_payment_requested": "%{total_outstanding} کی ادائیگی درکار ہے۔",
+        "checkout_review_and_pay": "آپ کا آرڈر %{order_name} اپ ڈیٹ کر دیا گیا تھا۔ ان تبدیلیوں کا جائزہ لیں، پھر اپنے آرڈر کی تصدیق کے لیے ادائیگی کریں۔",
+        "order_updated_on": "آپ کا آرڈر %{last_edited_at} کو اپ ڈیٹ کیا گیا تھا۔",
+        "order_review_and_pay": "آپ کا آرڈر اپ ڈیٹ کر دیا گیا تھا۔ اپنے آرڈر کی تصدیق کے لیے جائزہ لیں اور ادائیگی کریں۔",
+        "pay_now": "ابھی ادائیگی کریں۔"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "آپ کے کریڈٹ کارڈ سے چارج کیا جائے گا %{amount}",
+        "payment_total_label": "کل ادائیگی",
+        "change_currency_link": "%{currency_name} میں تبدیل کریں",
+        "card_provider_fx_charges_warning": "آپ کا کارڈ فراہم کنندہ %{currency_code} ٹرانزیکشنز پر فیس وصول کر سکتا ہے۔",
+        "currency_not_supported_by_shop": "آپ کی منتخب کردہ کرنسی اب دستیاب نہیں ہے۔ تمام قیمتیں اب %{currency_code} میں ہیں۔"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "آپ کی کارٹ کو آپ کے شپنگ ملک کی بنیاد پر اپ ڈیٹ کر دیا گیا ہے۔",
+        "cart_and_currency_updated_based_on_country": "آپ کی کارٹ اور کرنسی کو آپ کے شپنگ ملک کی بنیاد پر اپ ڈیٹ کر دیا گیا ہے۔"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "آپ کا ملک/علاقہ اپ ڈیٹ کر دیا گیا ہے۔ چیک آؤٹ جاری رکھنے کے لیے اپنا شپنگ ایڈریس درج کریں۔"
+      },
+      "tips": {
+        "title": "ٹپ شامل کریں۔",
+        "description": "%{shop_name} پر ٹیم کے لیے اپنی حمایت دکھائیں",
+        "presets_description": "ٹپ فیصد منتخب کریں۔",
+        "custom_label": "حسب ضرورت ٹپ",
+        "add_tip": "ٹپ شامل کریں۔",
+        "update_tip": "اپ ڈیٹ ٹپ",
+        "message": "آپ کا شکریہ، ہم اس کی تعریف کرتے ہیں۔",
+        "no_tip_label": "کوئی نہیں۔"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "خریدیں %{product_name}",
+          "one": "%{product_name} اور %{count} دیگر آئٹم خریدیں۔",
+          "other": "%{product_name} اور %{count} دیگر آئٹمز خریدیں۔"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "دن",
+            "other": "%{count} دن"
+          },
+          "week": {
+            "one": "ہفتہ",
+            "other": "%{count} ہفتے"
+          },
+          "month": {
+            "one": "مہینہ",
+            "other": "%{count} مہینے"
+          },
+          "year": {
+            "one": "سال",
+            "other": "%{count} سال"
+          }
+        },
+        "recurring_totals": "%{total_price} ہر %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "پہلی ادائیگی %{total_price_with_discount}، پھر %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "پہلی ادائیگی %{total_price}",
+            "other": "پہلی %{count} ادائیگیاں %{total_price} ہر ایک"
+          },
+          "following_cycles": "، پھر %{total_price} ہر %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": "، پھر %{count} ادائیگی %{total_price} پر",
+            "other": "، پھر %{count} ادائیگیاں %{total_price} ہر ایک پر"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "ادائیگی کے طریقے",
+        "title": "ادائیگی کے طریقے",
+        "update_card_button_label": "کارڈ اپ ڈیٹ کریں۔",
+        "delete_customer_mandate": {
+          "generic_error": "آپ کی درخواست پر کارروائی کرنے میں ایک مسئلہ تھا۔",
+          "success_message": "آپ کی ادائیگی کا طریقہ کامیابی کے ساتھ حذف کر دیا گیا ہے۔"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "message": "بہت زیادہ کوششیں",
+          "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "gift_card_resend_description_text": {
+          "other": "اگر وہ موصول نہیں ہوئے تو متن دوبارہ بھیجیں یا"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "گفٹ کارڈ الگ ای میل میں بھیجا جائے گا۔",
+          "other": "ہر گفٹ کارڈ الگ ای میل میں بھیجا جائے گا۔"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "گفٹ کارڈ الگ متن میں بھیجا جائے گا۔",
+          "other": "ہر گفٹ کارڈ کو الگ متن میں بھیجا جائے گا۔"
+        },
+        "status_timestamp": "اپ ڈیٹ کیا گیا {{date}}",
+        "estimated_delivery": "متوقع {{date}}",
+        "delivered": "پہنچ گئی {{date}}",
+        "buy_with_prime_logo_accessibility_label": "ایمیزون پرائم لوگو کے ساتھ خریدیں۔",
+        "in_review_description": "اگر ہمیں مزید معلومات کی ضرورت ہو یا آپ کے آرڈر کی تصدیق ہو جائے تو ہم آپ کو بتائیں گے۔",
+        "in_review_label": "جائزہ میں",
+        "in_review_title": "آپ کے آرڈر کا جائزہ لیا جا رہا ہے۔",
+        "last_updated": "آخری بار اپ ڈیٹ کیا گیا {{date}}",
+        "multiple_shipments_label": "متعدد ترسیل",
+        "multiple_statuses_label": "ایک سے زیادہ آرڈر کے حالات",
+        "no_tracking_number": "اس شپمنٹ کے لیے کوئی ٹریکنگ نمبر نہیں ہے۔",
+        "tracking_number": {
+          "one": "ٹریکنگ نمبر",
+          "other": "ٹریکنگ نمبرز"
+        },
+        "on_its_way_label": "اپنے راستے پر",
+        "on_its_way_title": "آپ کی ترسیل راستے میں ہے۔",
+        "out_for_delivery_label": "ترسیل کے لئے باہر",
+        "out_for_delivery_title": "آپ کی کھیپ ترسیل کے لیے باہر ہے۔",
+        "resume_tracking": "ٹریکنگ دوبارہ شروع کریں۔",
+        "submitted_label": "جمع کرایا",
+        "submitted_description": "آرڈر اور ادائیگی کی تفصیلات کا جائزہ لیں۔",
+        "there_was_a_problem_label": "ایک مسئلہ تھا۔",
+        "track_shipment": "کھیپ کو ٹریک کریں۔",
+        "request_return": "واپسی کی درخواست کریں۔",
+        "view_order_for_details": "تفصیلات کے لیے آرڈر دیکھیں",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "ایمیزون پر انتظام کریں۔"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "ایمیزون کے ساتھ انتظام کریں۔",
+            "new_window_disclaimer": "(ایک نئی ونڈو کھولتا ہے)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "ڈیلیوری کی ضمانت دی گئی ہے۔",
+            "external_promise_brand_label": "کی طرف سے ترسیل",
+            "not_delivered_by_label": "{{date}} کے بعد پہنچایا گیا",
+            "delivery_guarantee_expired_label": "ڈیلیوری گارنٹی ختم ہو گئی۔",
+            "modal_accessibility_button_label": "ڈیلیوری وعدے کی تفصیلات",
+            "download_shop_app_button_label": "ٹریک کرنے کے لیے شاپ ڈاؤن لوڈ کریں۔",
+            "track_with_shop_button_label": "دکان کے ساتھ ٹریک کریں۔",
+            "claim_shop_cash_button_label": "دکان کیش کا دعوی کریں۔"
+          },
+          "details_modal": {
+            "title": "ڈلیوری گارنٹی",
+            "active_delivery_guarantee_label": "ڈیلیوری {{date}} تک",
+            "expired_delivery_guarantee_description": "اس آرڈر کی 30 دن کی دکان کے وعدے کی گارنٹی ختم ہو گئی ہے۔",
+            "expired_badge_label": "میعاد ختم",
+            "order_includes_guarantees_label": "آپ کے آرڈر میں {{deliveryAgreementsCount}} ضمانتیں شامل ہیں۔",
+            "order_includes_guarantees_description": "دکان کا وعدہ تیز، قابل اعتماد ترسیل کی ضمانت دیتا ہے۔ اگر آپ کا آرڈر {{date}} کے بعد آتا ہے تو شاپ کیش کا دعوی کریں۔",
+            "delivered_after_label": "{{date}} کے بعد پہنچایا گیا",
+            "delivered_after_description": "چونکہ آپ کا آرڈر دیر سے پہنچا، آپ {{amount}} شاپ کیش کا دعوی کرنے کے اہل ہیں۔",
+            "claimed_shop_cash_description": "چونکہ یہ آرڈر دیر سے پہنچا، آپ نے {{amount}} شاپ کیش کا دعویٰ کیا۔",
+            "eligible_to_claim_shop_cash_description": "چونکہ آپ کا آرڈر دیر سے پہنچا، آپ {{amount}} شاپ کیش کا دعوی کرنے کے اہل ہیں۔",
+            "learn_more_button_label": "مزید جانیں",
+            "claim_shop_cash_button_label": "دکان کیش کا دعوی کریں۔",
+            "view_balance_in_shop_button_label": "دکان میں بیلنس دیکھیں",
+            "scan_to_claim_shop_cash_label": "شاپ کیش کا دعوی کرنے کے لیے اسکین کریں۔"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "کی طرف سے حمایت کی ترسیل",
+            "mixed_brands_label": "ڈیلیوری کی ضمانت ہے۔",
+            "not_delivered_by_label": "{{date}} تک ڈیلیور نہیں کیا گیا",
+            "modal_accessibility_button_label": "ڈیلیوری وعدے کی تفصیلات"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "اپنے شاپ کیش کا دعوی کریں۔",
+            "no_shop_app_label": "شاپ کیش کا دعوی کرنے کے لیے {{appDownloadLink}}",
+            "download_shop_app_label": "دکان ڈاؤن لوڈ کریں۔"
+          },
+          "details_modal": {
+            "title": "کی طرف سے حمایت کی ترسیل",
+            "modal_accessiblity_label": "ڈیلیوری وعدے کی تفصیلات",
+            "delivery_guarantee_label": "ڈلیوری گارنٹی",
+            "delivery_by_label": "ڈیلیوری {{date}} تک",
+            "delivery_guaranteed_by_label": "ڈیلیوری کی گارنٹی {{date}} تک",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "اگر یہ آرڈر دیر سے آتا ہے تو آپ شاپ کیش کا دعوی کرنے کے اہل ہو سکتے ہیں۔",
+              "may_be_eligible_not_authorized_label": "آپ شاپ کیش کا دعوی کرنے کے اہل ہو سکتے ہیں کیونکہ یہ آرڈر دیر سے پہنچا ہے۔ تفصیلات دیکھنے کے لیے لاگ ان کریں۔",
+              "redeemed_label": "آپ پہلے ہی شاپ کیش کا دعوی کر چکے ہیں کیونکہ یہ آرڈر دیر سے پہنچا ہے۔",
+              "expired_label": "یہ آرڈر دیر سے ڈیلیوری کے دعوے کے لیے اہل نہیں ہے کیونکہ 30 دن کی گارنٹی ختم ہو چکی ہے۔",
+              "no_shop_cash_label": "یہ آرڈر دیر سے ڈیلیوری کے دعوے کے لیے اہل نہیں ہے کیونکہ اس کی ادائیگی شاپ پے سے نہیں کی گئی تھی۔",
+              "no_longer_guaranteed_label": "یہ آئٹمز اب ڈیلیوری گارنٹی کے ساتھ حمایت یافتہ نہیں ہیں۔",
+              "claim_shop_cash_title": "شاپ کیش میں {{amount}} دعوی کرنے کے لیے اسکین کریں۔",
+              "claim_shop_cash_description": "آپ شاپ ایپ میں مستقبل کی خریداریوں پر اپنا شاپ کیش استعمال کر سکتے ہیں۔"
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "بطور ڈیلیور نشان زد کریں۔",
+      "fulfillment_status_title": "تکمیل کی حیثیت: {{status}}",
+      "buy_again": "دوبارہ خریدیں۔",
+      "buy_again_accessibility_label": "آرڈر کے لیے دوبارہ خریدیں {{orderId}}",
+      "manage": "انتظام کریں۔",
+      "manage_accessiblity_label": "آرڈر کا نظم کریں {{orderId}}",
+      "group_title_label": "کا حصہ: {{groupTitle}}",
+      "havent_received_your_delivery": "آپ کی ترسیل موصول نہیں ہوئی؟",
+      "didnt_pick_up_order": "آپ کا آرڈر نہیں اٹھایا؟",
+      "if_you_didnt_receive_this": "اگر آپ کو یہ موصول نہیں ہوا،",
+      "if_not_received": {
+        "one": "اگر موصول نہ ہوا تو",
+        "other": "اگر وہ وصول نہ ہوئے تو"
+      },
+      "let_us_know": "ہمیں بتائیں",
+      "contact_us": "ہم سے رابطہ کریں۔"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "تفصیلات دکھائیں۔",
+        "expand_events_accessibility_label": "آرڈر کی کھیپ کی تفصیلات دکھائیں۔",
+        "hide_events_label": "تفصیلات چھپائیں۔",
+        "hide_events_accessibility_label": "آرڈر کی کھیپ کی تفصیلات چھپائیں۔"
+      },
+      "addresses_section_title": "بلنگ اور شپنگ",
+      "order_details": "آرڈر کی تفصیلات",
+      "order_details_skeleton_accessibility_label": "تمام آرڈر کی تفصیلات دیکھنے کے لیے لاگ ان کریں۔",
+      "billing_address": "بلنگ کا پتہ",
+      "card_ending_with": "{{lastDigits}} کے ساتھ ختم ہونے والا",
+      "contact_information": "رابطہ کی معلومات",
+      "company": "کمپنی",
+      "fully_refunded_label": "رقم کی واپسی"
+    }
+  },
+  "blogs": {
+    "article": {
+      "comment_form_title": "ایک تبصرہ چھوڑیں۔",
+      "name": "نام",
+      "email": "ای میل",
+      "message": "تبصرہ",
+      "post": "تبصرہ پوسٹ کریں۔",
+      "back_to_blog": "واپس بلاگ پر",
+      "share": "اس مضمون کو شیئر کریں۔",
+      "success": "آپ کا تبصرہ کامیابی کے ساتھ پوسٹ کیا گیا! شکریہ!",
+      "success_moderated": "آپ کا تبصرہ کامیابی کے ساتھ پوسٹ کیا گیا۔ ہم اسے تھوڑی دیر میں شائع کریں گے، کیونکہ ہمارا بلاگ معتدل ہے۔"
+    }
+  },
+  "onboarding": {
+    "product_title": "مثال پروڈکٹ کا عنوان",
+    "collection_title": "آپ کے مجموعہ کا نام"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "ٹوکری میں شامل کریں۔",
+      "choose_options": "اختیارات کا انتخاب کریں۔",
+      "choose_product_options": "{{ product_name }} کے لیے اختیارات کا انتخاب کریں",
+      "description": "تفصیل",
+      "inventory_in_stock": "اسٹاک میں",
+      "inventory_in_stock_show_count": "{{ quantity }} اسٹاک میں ہے۔",
+      "inventory_low_stock": "کم اسٹاک",
+      "inventory_low_stock_show_count": "کم اسٹاک: {{ quantity }} باقی ہے۔",
+      "inventory_out_of_stock": "اسٹاک ختم",
+      "inventory_out_of_stock_continue_selling": "اسٹاک میں",
+      "on_sale": "فروخت",
+      "product_variants": "مصنوعات کی مختلف حالتیں",
+      "media": {
+        "gallery_viewer": "گیلری دیکھنے والا",
+        "load_image": "تصویر {{ index }} کو گیلری کے منظر میں لوڈ کریں۔",
+        "load_model": "گیلری کے منظر میں 3D ماڈل {{ index }} لوڈ کریں۔",
+        "load_video": "گیلری ویو میں ویڈیو {{ index }} چلائیں۔",
+        "image_available": "تصویر {{ index }} اب گیلری کے منظر میں دستیاب ہے۔",
+        "open_media": "موڈل میں میڈیا {{ index }} کھولیں۔",
+        "play_model": "3D Viewer چلائیں۔",
+        "play_video": "ویڈیو چلائیں۔"
+      },
+      "quantity": {
+        "label": "مقدار",
+        "input_label": "{{ product }} کے لیے مقدار",
+        "increase": "{{ product }} کے لیے مقدار میں اضافہ کریں",
+        "decrease": "{{ product }} کے لیے مقدار کم کریں",
+        "minimum_of": "کم از کم {{ quantity }}",
+        "maximum_of": "زیادہ سے زیادہ {{ quantity }}",
+        "multiples_of": "{{ quantity }} کا اضافہ",
+        "min_of": "کم از کم {{ quantity }}",
+        "max_of": "زیادہ سے زیادہ {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> ٹوکری میں",
+        "note": "مقدار کے قواعد دیکھیں"
+      },
+      "volume_pricing": {
+        "title": "حجم کی قیمتوں کا تعین",
+        "note": "حجم کی قیمت دستیاب ہے۔",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "{{ price }} /ea پر"
+      },
+      "pickup_availability": {
+        "view_store_info": "اسٹور کی معلومات دیکھیں",
+        "check_other_stores": "دوسرے اسٹورز پر دستیابی چیک کریں۔",
+        "pick_up_available": "پک اپ دستیاب ہے۔",
+        "pick_up_available_at_html": "پک اپ <span class=\"color-foreground\">{{ location_name }}</span> پر دستیاب ہے",
+        "pick_up_unavailable_at_html": "پک اپ فی الحال <span class=\"color-foreground\">{{ location_name }}</span> پر دستیاب نہیں ہے",
+        "unavailable": "پک اپ کی دستیابی کو لوڈ نہیں کیا جا سکا",
+        "refresh": "ریفریش کریں۔"
+      },
+      "price": {
+        "from_price_html": "{{ price }} سے",
+        "regular_price": "باقاعدہ قیمت",
+        "sale_price": "فروخت کی قیمت",
+        "unit_price": "یونٹ کی قیمت"
+      },
+      "share": "اس پروڈکٹ کا اشتراک کریں۔",
+      "sold_out": "بک گیا۔",
+      "unavailable": "دستیاب نہیں",
+      "vendor": "فروش",
+      "value_unavailable": "{{ option_value }} - دستیاب نہیں ہے۔",
+      "variant_sold_out_or_unavailable": "متغیر فروخت ہو گیا یا دستیاب نہیں ہے۔",
+      "video_exit_message": "{{ title }} ایک ہی ونڈو میں فل سکرین ویڈیو کھولتا ہے۔",
+      "view_full_details": "مکمل تفصیلات دیکھیں",
+      "xr_button": "اپنی جگہ میں دیکھیں",
+      "xr_button_label": "اپنی جگہ میں دیکھیں، اگمینٹڈ رئیلٹی ونڈو میں آئٹم کو لوڈ کریں۔",
+      "taxes_included": "ٹیکس شامل ہیں۔",
+      "duties_included": "فرائض شامل ہیں۔",
+      "duties_and_taxes_included": "ڈیوٹی اور ٹیکس شامل ہیں۔",
+      "shipping_policy_html": "چیک آؤٹ پر <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">شپنگ کا</a> حساب لگایا جاتا ہے۔"
+    },
+    "modal": {
+      "label": "میڈیا گیلری"
+    },
+    "facets": {
+      "filter_and_operator_subtitle": "سب ملائیں",
+      "apply": "لگائیں",
+      "clear": "صاف",
+      "clear_all": "سب کو ہٹا دیں۔",
+      "from": "سے",
+      "filter_and_sort": "فلٹر اور ترتیب دیں۔",
+      "filter_by_label": "فلٹر:",
+      "filter_button": "فلٹر",
+      "filters_selected": {
+        "one": "{{ count }} منتخب کیا گیا۔",
+        "other": "{{ count }} منتخب کیا گیا۔"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} فلٹرز منتخب)",
+      "show_more": "مزید دکھائیں",
+      "show_less": "کم دکھائیں۔",
+      "max_price": "سب سے زیادہ قیمت {{ price }} ہے",
+      "product_count": {
+        "one": "{{ product_count }} از {{ count }} پروڈکٹ",
+        "other": "{{ product_count }} از {{ count }} مصنوعات"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} پروڈکٹ",
+        "other": "{{ count }} مصنوعات"
+      },
+      "reset": "دوبارہ ترتیب دیں۔",
+      "sort_button": "چھانٹنا",
+      "sort_by_label": "ترتیب دیں:",
+      "to": "کو",
+      "clear_filter": "فلٹر کو ہٹا دیں۔"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "\" {{ terms }} } کے لیے کوئی نتیجہ نہیں ملا۔ ہجے چیک کریں یا کوئی مختلف لفظ یا فقرہ استعمال کریں۔",
+      "page": "صفحہ",
+      "products": "مصنوعات",
+      "results_pages_with_count": {
+        "one": "{{ count }} صفحہ"
       }
     }
   }
