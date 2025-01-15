@@ -495,7 +495,8 @@
         "credit_card_expires_on_notice": "%{ماہ}/%{سال} کو ختم ہو جائے گا",
         "express_payment_gateway_label": "ایکسپریس",
         "manual_payment_gateway_label": "دستی",
-        "billing_address_title": "بلنگ کا پتہ"
+        "billing_address_title": "بلنگ کا پتہ",
+        "free_label": "مفت"
       },
       "review": {
         "blocks": {
@@ -874,7 +875,8 @@
           }
         },
         "reveal_more_label": {
-          "one": "%{count} مزید مقام دکھائیں۔"
+          "one": "%{count} مزید مقام دکھائیں۔",
+          "other": "%{count} مزید مقامات دکھائیں۔"
         }
       },
       "thank_you": {
@@ -1001,6 +1003,210 @@
       },
       "vaulted": {
         "change_button": "تبدیلی"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "ایک درست فون نمبر درج کریں۔",
+        "handle_email_invalid": "ایک درست ای میل درج کریں۔",
+        "email_invalid": "ایک درست ای میل درج کریں۔",
+        "email_or_phone_blank": "ای میل یا فون نمبر درج کریں۔",
+        "email_or_phone_invalid": "ایک درست ای میل یا موبائل فون نمبر درج کریں۔",
+        "address_first_name_blank": "پہلا نام درج کریں۔",
+        "address_first_name_too_long": "پہلا نام بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_first_name_contains_emojis": "پہلا نام ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_first_name_contains_html_tags": "پہلا نام HTML ٹیگز پر مشتمل نہیں ہو سکتا۔",
+        "address_first_name_contains_url": "پہلا نام URL پر مشتمل نہیں ہو سکتا",
+        "address_first_name_contains_mathematical_symbols": "پہلا نام ریاضی کی علامتوں پر مشتمل نہیں ہو سکتا",
+        "address_last_name_blank": "آخری نام درج کریں۔",
+        "address_last_name_too_long": "آخری نام بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_last_name_contains_emojis": "آخری نام ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_last_name_contains_html_tags": "آخری نام HTML ٹیگز پر مشتمل نہیں ہو سکتا۔",
+        "address_last_name_contains_url": "آخری نام میں یو آر ایل نہیں ہو سکتا",
+        "address_last_name_contains_mathematical_symbols": "آخری نام میں ریاضی کی علامتیں نہیں ہو سکتیں۔",
+        "address_address1_blank": "ایک پتہ درج کریں۔",
+        "address_address1_too_long": "پہلی ایڈریس لائن بہت لمبی ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_address1_contains_emojis": "ایڈریس 1 ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_address1_contains_html_tags": "ایڈریس 1 میں ایچ ٹی ایم ایل ٹیگز نہیں ہو سکتے۔",
+        "address_address1_contains_mathematical_symbols": "پہلی ایڈریس لائن میں ریاضی کی علامتیں نہیں ہوسکتی ہیں۔",
+        "address_address2_blank": "اپارٹمنٹ، سویٹ وغیرہ میں داخل ہوں۔",
+        "address_address2_too_long": "دوسری ایڈریس لائن بہت لمبی ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_address2_contains_emojis": "ایڈریس 2 ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_address2_contains_html_tags": "ایڈریس 2 میں ایچ ٹی ایم ایل ٹیگز نہیں ہو سکتے۔",
+        "address_address2_contains_mathematical_symbols": "دوسری ایڈریس لائن میں ریاضی کی علامتیں نہیں ہوسکتی ہیں۔",
+        "address_city_blank": "شہر میں داخل ہوں۔",
+        "address_city_too_long": "شہر بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_city_contains_emojis": "سٹی ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_city_contains_html_tags": "شہر HTML ٹیگز پر مشتمل نہیں ہو سکتا۔",
+        "address_city_contains_mathematical_symbols": "شہر ریاضی کی علامتوں پر مشتمل نہیں ہو سکتا",
+        "address_country_blank": "ایک ملک/علاقہ منتخب کریں۔",
+        "address_country_not_supported": "ہم اس ملک یا خطے میں جہاز نہیں بھیجتے ہیں۔ ایک نیا شپنگ پتہ درج کریں اور دوبارہ کوشش کریں۔",
+        "address_province_blank": "ایک ریاست/صوبہ منتخب کریں۔",
+        "address_province_invalid": "ایک درست ریاست/صوبہ منتخب کریں۔",
+        "address_company_blank": "کمپنی کا نام درج کریں۔",
+        "address_company_too_long": "کمپنی کا نام بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_company_contains_emojis": "کمپنی ایموجیز پر مشتمل نہیں ہو سکتی",
+        "address_company_contains_html_tags": "کمپنی HTML ٹیگز پر مشتمل نہیں ہو سکتی۔",
+        "address_company_contains_mathematical_symbols": "کمپنی ریاضی کی علامتوں پر مشتمل نہیں ہو سکتی",
+        "address_phone_blank": "ایک درست فون نمبر درج کریں۔",
+        "address_phone_contains_emojis": "فون نمبر ایموجیز پر مشتمل نہیں ہو سکتا",
+        "address_phone_invalid": "ایک درست فون نمبر درج کریں۔",
+        "address_zip_blank": "زپ/پوسٹل کوڈ درج کریں۔",
+        "address_zip_blocked_address": "یہ مقام تعاون یافتہ نہیں ہے۔",
+        "address_zip_too_long": "زپ / پوسٹل کوڈ بہت لمبا ہے (زیادہ سے زیادہ 255 حروف ہیں)",
+        "address_zip_not_supported": "یہ مقام تعاون یافتہ نہیں ہے۔",
+        "address_zip_invalid_for_country": "%{country} کے لیے ایک درست زپ/پوسٹل کوڈ درج کریں",
+        "address_zip_invalid_for_province": "%{صوبہ} کے لیے ایک درست زپ/پوسٹل کوڈ درج کریں",
+        "address_zip_invalid_for_country_and_province": "%{صوبہ}، %{ملک} کے لیے ایک درست زپ/پوسٹل کوڈ درج کریں",
+        "address_zip_contains_emojis": "زپ / پوسٹل کوڈ میں ایموجیز شامل نہیں ہو سکتے",
+        "address_zip_contains_mathematical_symbols": "زپ/پوسٹل کوڈ میں ریاضی کی علامتیں نہیں ہو سکتیں۔",
+        "address_generic_blank": "مطلوبہ فیلڈ",
+        "address_generic_invalid": "غلط اندراج",
+        "address_generic_error": "فیلڈ کی خرابی۔",
+        "credit_card_name_blank": "اپنا نام بالکل اسی طرح درج کریں جیسا کہ آپ کے کارڈ پر لکھا ہے۔",
+        "credit_card_name_invalid": "اپنا نام بالکل اسی طرح درج کریں جیسا کہ آپ کے کارڈ پر لکھا ہے۔",
+        "credit_card_number_invalid": "ایک درست کارڈ نمبر درج کریں۔",
+        "credit_card_expiry_invalid": "ایک درست میعاد ختم ہونے کی تاریخ درج کریں۔",
+        "credit_card_month_invalid": "ایک درست میعاد ختم ہونے کا مہینہ درج کریں۔",
+        "credit_card_year_invalid": "ایک درست میعاد ختم ہونے کا سال درج کریں۔",
+        "credit_card_start_invalid": "ایک درست کارڈ شروع ہونے کی تاریخ درج کریں۔",
+        "credit_card_start_month_invalid": "ایک درست کارڈ شروع مہینہ درج کریں۔",
+        "credit_card_start_year_invalid": "ایک درست کارڈ کا آغاز سال درج کریں۔",
+        "credit_card_number_blank": "کارڈ نمبر درج کریں۔",
+        "credit_card_verification_value_blank": "اپنے کارڈ پر CVV یا سیکیورٹی کوڈ درج کریں۔",
+        "delivery_line_detail_changed": "ڈیلیوری کی کچھ تفصیلات تبدیل ہو سکتی ہیں۔ اپنے ترسیل کے طریقہ کی تصدیق کریں اور دوبارہ کوشش کریں۔",
+        "delivery_zone_not_found": "مخصوص ملک میں مخصوص زون نہیں ملا۔",
+        "reduction_code_code_not_found": "ایک درست ڈسکاؤنٹ کوڈ یا گفٹ کارڈ درج کریں۔",
+        "reduction_code_discount_not_found": "ایک درست ڈسکاؤنٹ کوڈ درج کریں۔",
+        "reduction_code_gift_card_code_invalid": "ایک درست گفٹ کارڈ درج کریں۔",
+        "reduction_code_gift_card_unusable": "آپ دوسرا گفٹ کارڈ خریدنے کے لیے گفٹ کارڈ استعمال نہیں کر سکتے",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "گفٹ کارڈز موخر خریداری کے اختیارات کے ساتھ تعاون یافتہ نہیں ہیں۔",
+        "shipping_line_phone_blank": "ڈیلیوری کا یہ طریقہ استعمال کرنے کے لیے ایک فون نمبر درج کریں۔",
+        "shipping_line_phone_invalid": "ایک درست فون نمبر درج کریں۔",
+        "tips_invalid_tip_amount": "%{amount} سے کم ٹپ درج کریں",
+        "gift_card_already_applied": "یہ گفٹ کارڈ پہلے ہی آپ کے آرڈر پر لاگو ہو چکا ہے۔",
+        "gift_card_disabled": "یہ گفٹ کارڈ اب دستیاب نہیں ہے۔",
+        "gift_card_expired": "اس گفٹ کارڈ کی میعاد ختم ہو گئی ہے۔",
+        "gift_card_depleted": "اس گفٹ کارڈ میں کوئی فنڈز باقی نہیں ہیں۔",
+        "gift_card_currency_mismatch": "اس آرڈر کے ساتھ صرف %{checkout_currency} میں گفٹ کارڈز استعمال کیے جا سکتے ہیں۔",
+        "gift_cards_not_supported_with_deferred_purchase_options": "گفٹ کارڈز موخر خریداری کے اختیارات کے ساتھ تعاون یافتہ نہیں ہیں۔",
+        "gift_card_buying_gift_card": "آپ دوسرا گفٹ کارڈ خریدنے کے لیے گفٹ کارڈ استعمال نہیں کر سکتے",
+        "payment_gateway_missing": "ادائیگی کا طریقہ منتخب کریں۔",
+        "payment_gateway_needs_paid_plan_error": "ادائیگی کا یہ طریقہ ابھی اسٹور پر دستیاب نہیں ہے۔",
+        "payment_gateway_not_in_test_mode": "آرڈرز کی جانچ کے لیے سیٹ اپ نہیں ہے۔ یہ اسٹور حقیقی آرڈرز یا حقیقی ادائیگیاں قبول نہیں کر سکتا۔",
+        "payment_gateway_incompatible_with_multi_currency": "اس چیک آؤٹ کو اپنی مقامی کرنسی میں مکمل کرنے کے لیے، آپ کو کریڈٹ کارڈ کے ذریعے ادائیگی کرنی ہوگی۔",
+        "payment_gateway_unsupported_for_subscriptions": "ادائیگی کا یہ طریقہ سبسکرپشن آرڈرز کے لیے دستیاب نہیں ہے۔",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "ادائیگی کا یہ طریقہ موخر خریداری کے اختیارات کے لیے دستیاب نہیں ہے۔",
+        "payment_gateway_unsupported_for_country": "ادائیگی کا یہ طریقہ آپ کے شپنگ ملک کے لیے دستیاب نہیں ہے۔",
+        "payment_gateway_unsupported_for_development_store_html": "ٹیسٹ آرڈر دینے کے لیے، آپ کو ٹیسٹ پیمنٹ گیٹ وے استعمال کرنے کی ضرورت ہوگی۔ <a href=\"%{docs_link}\">ڈیولپمنٹ اسٹورز میں ٹیسٹنگ آرڈرز</a> کے بارے میں مزید جانیں۔",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "آپ اس ادائیگی کے پروسیسر کے ساتھ ڈیولپمنٹ اسٹور آرڈرز کی حد تک پہنچ گئے ہیں۔ دوسرا آرڈر کرنے کے لیے، آپ کو ٹیسٹ ادائیگی کا گیٹ وے استعمال کرنا ہوگا۔ <a href=\"%{docs_link}\">ڈیولپمنٹ اسٹورز میں ٹیسٹنگ آرڈرز</a> کے بارے میں مزید جانیں۔",
+        "purchase_options_agreement_blank": "اپنی خریداری کو جاری رکھنے کے لیے، موخر شدہ یا اعادی خریداری کی شرائط سے اتفاق کریں۔",
+        "physical_gift_card_invalid_quantity": "فزیکل گفٹ کارڈ لائن آئٹمز میں ایسی مقدار ہونی چاہیے جو گفٹ کارڈ کے کوڈز کی تعداد سے مماثل ہو۔",
+        "physical_gift_card_duplicate_code": "فزیکل گفٹ کارڈ لائن آئٹم ڈپلیکیٹ کوڈ پر مشتمل ہے۔",
+        "physical_gift_card_invalid_code": "فزیکل گفٹ کارڈ کوڈ غلط ہے۔",
+        "email_blank": "ایک ای میل درج کریں۔",
+        "phone_blank": "ایک فون نمبر درج کریں۔"
+      },
+      "captcha": {
+        "title": "جاری رکھنے کے لیے کیپچا مکمل کریں۔",
+        "errors": {
+          "not_solved": "جاری رکھنے کے لیے کیپچا مکمل کریں۔"
+        }
+      },
+      "clipboard": {
+        "copied": "کاپی",
+        "failed_to_copy": "کاپی کرنے میں ناکام"
+      },
+      "discount_errors": {
+        "generic_error": "آپ کے آرڈر پر کارروائی نہیں ہو سکی کیونکہ آپ کا ڈسکاؤنٹ کوڈ مزید دستیاب نہیں ہے۔ اپنے آرڈر کی کل کا جائزہ لیں اور دوبارہ کوشش کریں۔"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "شاپ پے لوڈ کرنے میں ایک مسئلہ ہے۔",
+          "try_again_later": "اپنا کنکشن چیک کریں یا اس ونڈو کو بند کریں اور چند لمحوں میں دوبارہ کوشش کریں۔",
+          "checkout_has_expired": "آپ کے چیک آؤٹ کی میعاد ختم ہو گئی ہے۔ اس ونڈو کو بند کریں اور {{shopName}} سے دوبارہ چیک آؤٹ کرنے کی کوشش کریں۔"
+        },
+        "return_to_store": "{{shopName}} پر واپس جائیں",
+        "return_to_store_simple": "اسٹور پر واپس جائیں۔"
+      },
+      "wallets": {
+        "return_to_store": "اسٹور پر واپس جائیں۔",
+        "return_to_checkout": "چیک آؤٹ پر واپس جائیں۔",
+        "redirect_hint": "آپ کو {{walletName}} کے ساتھ لاگ ان کرنے کو کہا جائے گا۔",
+        "logged_in": "{{email}} سے منسلک",
+        "shipping_line_label": "شپنگ",
+        "payment_in_progress_title": "ادائیگی جاری ہے۔",
+        "payment_in_progress_body": "آپ کی ادائیگی پر کارروائی ہو رہی ہے۔ آپ کا آرڈر جلد مکمل ہو جائے گا۔",
+        "call_to_action": "{{walletName}} سے ادائیگی کریں",
+        "redirection_notice": "\" {{buttonLabel}} \" پر کلک کرنے کے بعد، آپ کو اپنی خریداری کو محفوظ طریقے سے مکمل کرنے کے لیے {{walletName}} پر بھیج دیا جائے گا۔",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} دستیاب نہیں ہے۔",
+            "description": "{{walletName}} دستیاب نہیں تھا۔ ادائیگی کا ایک مختلف طریقہ استعمال کریں یا بعد میں دوبارہ کوشش کریں۔",
+            "instructions": "{{walletName}} کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کرنے کے لیے اسٹور پر واپس جائیں یا کوئی اور طریقہ چیک کریں۔",
+            "unavailable_for_country": "{{walletName}} {{countryName}} میں دستیاب نہیں ہے۔ اپنی خریداری مکمل کرنے کے لیے ادائیگی کا ایک مختلف طریقہ منتخب کریں۔"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} فی الحال آپ کے آرڈر کے لیے دستیاب نہیں ہے۔ اپنی خریداری جاری رکھنے کے لیے، چیک آؤٹ کا دوسرا طریقہ منتخب کریں۔"
+          },
+          "generic": "{{walletName}} کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+          "discount_code": "اس ڈسکاؤنٹ کوڈ کو لاگو کرنے سے قاصر ہے۔ براہ کرم اپنے کوڈ کا جائزہ لیں اور دوبارہ کوشش کریں۔",
+          "terminal": "{{walletName}} کے ساتھ ایک مسئلہ تھا۔ براہ کرم ادائیگی کا ایک مختلف طریقہ استعمال کریں۔",
+          "detour": {
+            "stock_problems": "کچھ آئٹمز اب دستیاب نہیں ہیں۔ {{walletName}} بند کریں اور دوبارہ کوشش کریں۔",
+            "price_change": "کچھ اشیاء کی قیمتوں میں تبدیلی آئی ہے۔ اپنے آرڈر کا جائزہ لینے کے لیے {{walletName}} کو بند کریں اور دوبارہ کوشش کریں۔",
+            "queue": "آپ کو چیک آؤٹ کے لیے قطار میں کھڑا کر دیا گیا ہے۔ جاری رکھنے کے لیے {{walletName}} کو بند کریں۔"
+          },
+          "unsupported": {
+            "address": "مرچنٹ اس پتے پر ڈیلیور نہیں کر سکتا",
+            "wallet_is_unavailable": "{{walletName}} اس پتے کے ساتھ استعمال نہیں کیا جا سکتا۔ ایک مختلف پتہ منتخب کریں یا اپنی خریداری مکمل کرنے کے لیے {{walletName}} کو بند کریں۔",
+            "postal_code": "یہ مقام تعاون یافتہ نہیں ہے۔"
+          },
+          "outdated": {
+            "shipping_method": "آپ کے آرڈر کے لیے شپنگ کے اختیارات بدل گئے ہیں۔ اپنے انتخاب کا جائزہ لیں۔",
+            "payment_terms": "ادائیگی کی شرائط بدل گئی ہیں۔ براہ کرم اپنے آرڈر کا جائزہ لیں۔"
+          },
+          "invalid": {
+            "shipping_address": "ایک درست ترسیل کا پتہ درج کریں۔",
+            "billing_address": "ایک درست بلنگ ایڈریس درج کریں۔",
+            "shipping_option": "ایک درست شپنگ آپشن کا انتخاب کریں۔",
+            "email": "ایک درست ای میل درج کریں۔",
+            "zone": "ایک درست ریاست/صوبہ درج کریں۔",
+            "emirate": "ایک درست امارت داخل کریں۔",
+            "postal_code": "ایک درست زپ/پوسٹل کوڈ درج کریں۔",
+            "phone": "ایک درست فون نمبر درج کریں۔",
+            "reduction_code": "ایک درست ڈسکاؤنٹ کوڈ یا گفٹ کارڈ درج کریں۔",
+            "billing_must_match_shipping": "شپنگ ایڈریس سے مماثل ہونا ضروری ہے۔"
+          },
+          "missing": {
+            "first_name": "پہلا نام درج کریں۔",
+            "last_name": "آخری نام درج کریں۔",
+            "address1": "ایک پتہ درج کریں۔",
+            "address2": "ایک اپارٹمنٹ، سویٹ، وغیرہ درج کریں۔",
+            "city": "شہر میں داخل ہوں۔",
+            "province": "ایک ریاست/صوبہ منتخب کریں۔",
+            "country": "ایک ملک/علاقہ منتخب کریں۔",
+            "zip": "زپ/پوسٹل کوڈ درج کریں۔",
+            "phone": "ایک فون نمبر درج کریں۔"
+          },
+          "formatting": {
+            "name_contains_emojis": "اپنے نام سے ایموجی ڈیلیٹ کریں۔",
+            "postal_code_contains_emoji": "اپنے پوسٹل کوڈ سے ایموجی حذف کریں۔",
+            "first_name_too_long": "پہلا نام بہت زیادہ حروف پر مشتمل ہے۔",
+            "last_name_too_long": "آخری نام بہت زیادہ حروف پر مشتمل ہے۔"
+          },
+          "select_different_shipping_address_to_resolve_errors": "آپ کا شپنگ ایڈریس غلط ہے۔ ایک مختلف پتہ منتخب کریں یا نیا استعمال کریں۔"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "نوٹ کے سائز کو 5000 یا اس سے کم حروف تک کم کریں۔"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "گفٹ کارڈ کی قیمت 0 سے زیادہ ہونی چاہیے۔",
+            "gift_card_price_must_not_exceed_limit": "گفٹ کارڈ کی قیمت %{gift_card_limit} سے زیادہ نہیں ہونی چاہیے۔",
+            "subtotal_limit_reached": "لائن آئٹمز کی زیادہ سے زیادہ قیمت تک پہنچ گئی ہے۔"
+          }
+        }
       }
     },
     "notices": {
@@ -1160,6 +1366,58 @@
         "immediately": "اب پک اپ کے لیے تیار ہیں۔",
         "next_day": "اگلے دن پک اپ کے لیے تیار"
       }
+    },
+    "pagination": {
+      "previous": "پچھلا",
+      "next": "اگلا"
+    },
+    "links": {
+      "powered_by_shopify": "Shopify کے ذریعہ تقویت یافتہ",
+      "learn_more": "مزید جانیں"
+    },
+    "feed": {
+      "more": "مزید"
+    },
+    "attributes": {
+      "email": "ای میل",
+      "password": "پاس ورڈ",
+      "password_confirmation": "پاس ورڈ کی تصدیق",
+      "first_name": "پہلا نام",
+      "last_name": "آخری نام",
+      "body": "جسم",
+      "signature": "پتہ"
+    },
+    "addresses": {
+      "zip_code": "زپ کوڈ",
+      "postal_code": "پوسٹل کوڈ",
+      "postcode": "پوسٹ کوڈ",
+      "pincode": "پن کوڈ",
+      "region": "علاقہ",
+      "prefecture": "پریفیکچر",
+      "province": "صوبہ",
+      "state": "ریاست",
+      "state_and_territory": "ریاست/علاقہ",
+      "county": "کاؤنٹی",
+      "emirate": "امارات",
+      "governorate": "گورنریٹ",
+      "confirm": "کیا آپ واقعی یہ پتہ حذف کرنا چاہتے ہیں؟"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "نمایاں",
+        "best_selling": "بہترین فروخت",
+        "az": "حروف تہجی کے لحاظ سے، AZ",
+        "za": "حروف تہجی کے لحاظ سے، ZA",
+        "price_ascending": "قیمت، کم سے زیادہ",
+        "price_descending": "قیمت، زیادہ سے کم",
+        "date_ascending": "تاریخ، پرانی سے نئی",
+        "date_descending": "تاریخ، نئی سے پرانی"
+      }
+    },
+    "errors": {
+      "blank": "خالی نہیں ہو سکتا",
+      "blocked_address": "یہ مقام تعاون یافتہ نہیں ہے۔",
+      "credit_card_session_expired": "کریڈٹ کارڈ کی اجازت ختم ہو گئی ہے، براہ کرم اپنی ادائیگی کی معلومات دوبارہ درج کریں۔ آپ کے کارڈ سے چارج نہیں کیا گیا ہے۔"
     }
   },
   "customer_accounts": {
