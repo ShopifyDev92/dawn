@@ -1,0 +1,414 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "checkout": {
+      "general": {
+        "loading": "لوڈ ہو رہا ہے…",
+        "loading_title": "چیک آؤٹ - {{shopName}}",
+        "google_map_title": "گوگل میپ",
+        "confirm_order_button_label": "آرڈر کی تصدیق کریں۔",
+        "submit_order_button_label": "آرڈر جمع کروائیں۔",
+        "submit_for_review_button_label": "جائزہ لینے کے لیے جمع کروائیں۔",
+        "submit_for_review_notice_label": "آپ کے آرڈر کا جائزہ لینے تک ادائیگی واجب الادا نہیں ہوگی۔",
+        "continue_to_payment_plans_button_label": "ادائیگی کے منصوبوں کو جاری رکھیں",
+        "back_button_label": "واپسی",
+        "choose_delivery_strategy": "ترسیل کا طریقہ منتخب کریں۔",
+        "autocomplete_zero_item": "کوئی آئٹمز دستیاب نہیں ہیں۔",
+        "autocomplete_powered_by_google": "تقویت یافتہ بذریعہ {{brandName}}",
+        "submit": "جمع کروائیں۔",
+        "processing": "کارروائی ہو رہی ہے…",
+        "stepper": {
+          "increase": "بڑھائیں {{type}}",
+          "decrease": "{{type}} کو کم کریں",
+          "minimum_reached": "کم از کم {{value}} تک پہنچ گیا۔",
+          "maximum_reached": "{{value}} کی زیادہ سے زیادہ حد تک پہنچ گئی۔"
+        },
+        "remove_item": "ہٹائیں %{label}",
+        "remove_tag": "ٹیگ کو ہٹا دیں۔",
+        "dates": {
+          "weekdays": {
+            "monday": "پیر",
+            "tuesday": "منگل",
+            "wednesday": "بدھ",
+            "thursday": "جمعرات",
+            "friday": "جمعہ",
+            "saturday": "ہفتہ",
+            "sunday": "اتوار"
+          },
+          "weekdays_abbreviation": {
+            "monday": "مو",
+            "tuesday": "ٹو",
+            "wednesday": "ہم",
+            "thursday": "و",
+            "saturday": "ص",
+            "sunday": "ایس یو"
+          },
+          "months": {
+            "january": "جنوری",
+            "february": "فروری",
+            "march": "مارچ",
+            "april": "اپریل",
+            "may": "مئی",
+            "june": "جون",
+            "july": "جولائی",
+            "august": "اگست",
+            "september": "ستمبر",
+            "october": "اکتوبر",
+            "november": "نومبر",
+            "december": "دسمبر"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "پچھلا مہینہ دکھائیں، {{month}} {{year}}",
+          "show_next_month": "اگلے مہینے دکھائیں، {{month}} {{year}}",
+          "range_start": "رینج شروع",
+          "in_range": "رینج میں",
+          "range_end": "رینج کا اختتام"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "{{number}} مارکر کا کلسٹر",
+            "other": "{{number}} مارکر کا جھرمٹ"
+          }
+        },
+        "sheet": {
+          "expand": "پھیلائیں۔"
+        },
+        "dropzone": {
+          "add_file": "فائل شامل کریں۔",
+          "invalid_file_type": "فائل کی قسم تعاون یافتہ نہیں ہے۔",
+          "dragged_over": "فائل کو اپ لوڈ کرنے کے لیے ڈراپ کریں۔"
+        }
+      },
+      "contact": {
+        "title": "معلومات",
+        "address_title": "پتہ",
+        "shipping_used_as_billing_notice": "اسے اس آرڈر کے لیے آپ کے بلنگ ایڈریس کے طور پر بھی استعمال کیا جائے گا۔",
+        "delivery_option_title": "ترسیل کا طریقہ",
+        "contact_method_title": "رابطہ کریں۔",
+        "email_label": "ای میل",
+        "email_placeholder": "ای میل",
+        "email_or_phone_label": "ای میل یا موبائل فون نمبر",
+        "email_or_phone_placeholder": "ای میل یا موبائل فون نمبر",
+        "stored_addresses_label": "محفوظ کردہ پتے",
+        "available_addresses_label": "دستیاب پتے",
+        "new_address_label": "نیا پتہ استعمال کریں۔",
+        "first_name_label": "پہلا نام",
+        "optional_first_name_label": "پہلا نام (اختیاری)",
+        "last_name_label": "آخری نام",
+        "company_label": "کمپنی",
+        "company_attention_label": "کمپنی/توجہ",
+        "optional_company_attention_label": "کمپنی/توجہ (اختیاری)",
+        "optional_company_label": "کمپنی (اختیاری)",
+        "address1_label": "پتہ",
+        "address2_label": "اپارٹمنٹ، سویٹ، وغیرہ",
+        "optional_address2_label": "اپارٹمنٹ، سویٹ، وغیرہ (اختیاری)",
+        "city_label": "شہر",
+        "country_label": "ملک/علاقہ",
+        "country_code": "ملک/علاقے کا کوڈ",
+        "province_label": "صوبہ",
+        "province_placeholder": "صوبہ",
+        "county_label": "کاؤنٹی",
+        "county_placeholder": "کاؤنٹی",
+        "state_label": "ریاست",
+        "state_placeholder": "ریاست",
+        "region_label": "علاقہ",
+        "region_placeholder": "علاقہ",
+        "region_none": "کوئی بھی منتخب نہیں کیا گیا۔",
+        "prefecture_label": "پریفیکچر",
+        "prefecture_placeholder": "پریفیکچر",
+        "governorate_label": "گورنریٹ",
+        "governorate_placeholder": "گورنریٹ",
+        "emirate_label": "امارات",
+        "emirate_placeholder": "امارات",
+        "state_and_territory_label": "ریاست/علاقہ",
+        "state_and_territory_placeholder": "ریاست/علاقہ",
+        "phone_label": "فون"
+      },
+      "stock": {
+        "price_and_quantity_update": {
+          "title": "قیمت اور مقدار کی تازہ کاری",
+          "description": "ان آئٹمز کی قیمتیں اور دستیاب مقداریں بدل گئی ہیں اور آپ کی کارٹ میں اپ ڈیٹ ہو گئی ہیں۔"
+        },
+        "out_of_stock": {
+          "description": "یہ آئٹمز مزید دستیاب نہیں ہیں اور آپ کے کارٹ سے ہٹا دیے گئے ہیں۔",
+          "items_unavailable": "کچھ آئٹمز اب دستیاب نہیں ہیں اور آپ کی کارٹ سے ہٹا دی گئی ہیں۔"
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "غیر دستیاب پروڈکٹ",
+          "other": "غیر دستیاب مصنوعات"
+        },
+        "products_not_available": {
+          "one": "اس پروڈکٹ کو آپ کے کارٹ سے ہٹا دیا جائے گا کیونکہ یہ آپ کے ملک/علاقے میں دستیاب نہیں ہے۔",
+          "other": "یہ پروڈکٹس آپ کے کارٹ سے ہٹا دی جائیں گی کیونکہ یہ آپ کے ملک/علاقے میں دستیاب نہیں ہیں۔"
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "یہ پروڈکٹ آپ کے ملک/علاقے میں دستیاب نہیں ہے۔",
+          "other": "یہ مصنوعات آپ کے ملک/علاقے میں دستیاب نہیں ہیں۔"
+        },
+        "unavailable_label": "دستیاب نہیں"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "%{count} آئٹم کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔",
+            "other": "%{count} آئٹمز کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔"
+          },
+          "message": {
+            "one": "یہ آئٹم آپ کے کارٹ سے ہٹا دیا جائے گا کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔",
+            "other": "یہ آئٹمز آپ کی کارٹ سے ہٹا دی جائیں گی کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔"
+          },
+          "label": "کوئی ڈیلیوری نہیں۔"
+        }
+      },
+      "order_summary": {
+        "title": "آرڈر کا خلاصہ",
+        "group_title_label": "\"%{group_title}\" کا حصہ",
+        "number_items": {
+          "one": "%{count} آئٹم",
+          "other": "%{count} آئٹمز"
+        },
+        "view_all_items": {
+          "one": "%{count} آئٹم دیکھیں",
+          "other": "تمام %{count} آئٹمز دیکھیں"
+        },
+        "more_items_modal": {
+          "search_item": "تلاش کریں۔",
+          "clear_search": "تلاش صاف کریں۔",
+          "empty_results": "\"%{searchText}\" کے لیے کوئی نتیجہ نہیں ملا۔ ہجے چیک کریں یا کوئی مختلف لفظ یا فقرہ استعمال کریں۔",
+          "number_items_shown": "%{shownNumber} از %{totalNumber} آئٹمز"
+        },
+        "order_name_label": "آرڈر %{name}",
+        "shopping_cart_label": "خریداری کی ٹوکری",
+        "discount_title": "رعایت",
+        "discount_title_stacking": {
+          "one": "رعایت",
+          "other": "چھوٹ"
+        },
+        "discount_order_stacking": {
+          "one": "آرڈر ڈسکاؤنٹ",
+          "other": "چھوٹ آرڈر کریں۔"
+        },
+        "discount_label": "ڈسکاؤنٹ کوڈ",
+        "discount_not_found": "درج کردہ کوڈ سے مماثل ایک درست رعایت تلاش کرنے سے قاصر",
+        "discount_placeholder": "ڈسکاؤنٹ کوڈ",
+        "discount_code_applied": "ڈسکاؤنٹ کوڈ لاگو کیا گیا۔",
+        "gift_card_applied": "گفٹ کارڈ لاگو کر دیا گیا۔",
+        "enter_shipping_address": "شپنگ ایڈریس درج کریں۔",
+        "gift_card_title": "گفٹ کارڈ",
+        "gift_card_label": "گفٹ کارڈ",
+        "gift_card_placeholder": "گفٹ کارڈ",
+        "gift_card_and_discount_title": "ڈسکاؤنٹ کوڈ یا گفٹ کارڈ",
+        "gift_card_and_discount_label": "ڈسکاؤنٹ کوڈ یا گفٹ کارڈ",
+        "gift_card_and_discount_placeholder": "ڈسکاؤنٹ کوڈ یا گفٹ کارڈ",
+        "remove_gift_card_label": "گفٹ کارڈ صاف کریں۔",
+        "remove_discount_label": "رعایت کو ہٹا دیں۔",
+        "return_restocking_fee_label": "ری سٹاکنگ فیس",
+        "return_shipping_fee_label": "واپسی شپنگ",
+        "free_shipping_discount_label": "مفت شپنگ",
+        "applied_free_shipping_discount_label": "لاگو",
+        "apply_discount_button_label": "لگائیں",
+        "applied_discount_message": "آرڈر کی کل قیمت پر %{amount} کی چھوٹ",
+        "discount_has_been_applied": "ڈسکاؤنٹ لاگو کر دیا گیا ہے۔",
+        "discount_has_been_removed": "رعایت ہٹا دی گئی ہے۔",
+        "gift_card_has_been_applied": "گفٹ کارڈ اپلائی کر دیا گیا ہے۔",
+        "gift_card_has_been_removed": "گفٹ کارڈ ہٹا دیا گیا ہے۔",
+        "gift_card_subscriptions_notice": "گفٹ کارڈز صرف آپ کی پہلی ادائیگی پر لاگو ہوں گے۔",
+        "discount_already_applied": "اس آرڈر پر رعایت کا اطلاق کیا گیا ہے۔ آپ کوئی اور رعایت شامل نہیں کر سکتے۔",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ آپ کی کارٹ میں موجود اشیاء کے لیے درست نہیں ہے۔",
+        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ لاگو کرنے کے لیے اپنی شپنگ کی معلومات درج کریں۔",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ ابھی آپ کے لیے دستیاب نہیں ہے۔",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ کے لیے اہل صارف کی ضرورت ہے۔",
+        "shipping_information_does_not_meet_discount_requirements_notice": "آپ کے شپنگ ایڈریس کے لیے <strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ دستیاب نہیں ہے۔",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> ڈسکاؤنٹ کوڈ پہلے ہی استعمال ہو چکا ہے۔",
+        "subtotal_label": "ذیلی ٹوٹل",
+        "subtotal_label_with_quantity": {
+          "one": "ذیلی ٹوٹل • %{count} آئٹم",
+          "other": "ذیلی ٹوٹل • %{count} آئٹمز"
+        },
+        "shipping_label": "شپنگ",
+        "pickup_label": "اسٹور میں پک اپ",
+        "no_pickup_location": "پک اپ کے کوئی مقامات دستیاب نہیں ہیں۔",
+        "tip_label": "ٹپ",
+        "calculating_shipping": "حساب کر رہا ہے…",
+        "calculating": "حساب کر رہا ہے…",
+        "shipping_default_value": "اگلے مرحلے پر حساب لگایا گیا۔",
+        "shipping_discount_title": "شپنگ ڈسکاؤنٹ",
+        "shipping_pending_message": "ابھی تک دستیاب نہیں ہے۔",
+        "shipping_policy_link": "شپنگ کے اخراجات",
+        "taxes_label": "ٹیکس",
+        "estimated_taxes_label": "تخمینی ٹیکس",
+        "information_estimated_taxes_label": "ٹیکس (تخمینہ)",
+        "estimated_taxes_finalization_tooltip_content": "آپ کے آرڈر کرنے کے بعد حتمی ٹیکس اور کل کی تصدیق ای میل یا ٹیکسٹ کے ذریعے کی جائے گی۔",
+        "order_total_label": "آرڈر ٹوٹل",
+        "price_before_discount_aria_text": "اصل قیمت",
+        "price_after_discount_aria_text": "رعایتی قیمت",
+        "discount_code_aria_text": "ڈسکاؤنٹ کوڈ",
+        "total_savings": "کل بچت",
+        "total_label": "کل",
+        "total_outstanding_label": "ادا کرنے کی رقم",
+        "partial_total_label": "کل",
+        "free_total_label": "مفت",
+        "free_shipping_total_label": "مفت",
+        "paid_label": "ادا کیا",
+        "payment_due_label": "ادائیگی واجب الادا",
+        "vat_label_html": "ٹیکسوں میں %{amount} بھی شامل ہے۔",
+        "duties_included_label": "کل ٹیکس اور ڈیوٹیز شامل ہیں۔ ڈیلیوری پر کوئی اضافی چارجز نہیں۔",
+        "discount_and_gift_card_savings_notice": "ڈسکاؤنٹ میں %{discount_amount} اور گفٹ کارڈز میں %{gift_card_amount} کے بعد",
+        "discount_savings_notice": "رعایت میں %{discount_amount} کے بعد",
+        "gift_card_savings_notice": "گفٹ کارڈز میں %{gift_card_amount} کے بعد",
+        "cost_table_title": "لاگت کا خلاصہ"
+      },
+      "payment": {
+        "simulated_express_checkout": "آپ کے علاقے یا براؤزر کی وجہ سے ایڈیٹر کے پیش نظارہ میں بٹوے دستیاب نہیں ہیں۔",
+        "vaulting_agreement_label": "تیز چیک آؤٹ کے لیے میری ادائیگی کی معلومات کو %{company} کے ساتھ محفوظ کریں۔",
+        "business_customer_vaulting_payment_label": "چیک آؤٹ پر اس کارڈ کو محفوظ کریں اور %{company} کو اس مقام کے لیے مستقبل کی خریداریوں کے لیے اسے چارج کرنے کی اجازت دیں۔ اس مقام پر تفویض کردہ تمام رابطے کارڈ استعمال کر سکتے ہیں۔",
+        "purchase_options_and_vaulting_agreement_label": "آپ کی کارٹ میں ایک یا زیادہ آئٹمز ایک موخر یا سبسکرپشن خریداری ہے۔ اپنی ادائیگی جاری رکھ کر، آپ اس بات سے اتفاق کرتے ہیں کہ آپ کی ادائیگی کا طریقہ خود بخود اس صفحہ پر درج قیمت اور فریکوئنسی کے حساب سے وصول کیا جائے گا جب تک کہ یہ ختم نہیں ہو جاتا یا آپ منسوخ کر دیتے ہیں۔ تمام منسوخیاں %{cancellation_policy_label} کے تابع ہیں۔",
+        "purchase_options_cancellation_policy_label": "منسوخی کی پالیسی",
+        "use_different_credit_card_label": "ایک مختلف کارڈ استعمال کریں۔",
+        "saved_credit_card": "آپ کا محفوظ کردہ کریڈٹ کارڈ",
+        "saved_credit_card_info": "آخری چار ہندسے",
+        "saved_credit_card_cvv_verification": "تصدیقی مقاصد کے لیے، براہ کرم اپنے کارڈ کا سیکیورٹی کوڈ درج کریں۔",
+        "saved_credit_card_actions": {
+          "edit": "ترمیم کریں۔",
+          "delete": "حذف کریں۔"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "تمام محفوظ کردہ کارڈز دیکھیں",
+          "done": "ہو گیا",
+          "cancel": "منسوخ کریں۔"
+        },
+        "add_credit_card_modal": {
+          "title": "کارڈ شامل کریں۔",
+          "save": "محفوظ کریں۔",
+          "cancel": "منسوخ کریں۔"
+        },
+        "delete_credit_card_modal": {
+          "title": "کارڈ حذف کریں۔",
+          "confirmation": "کیا آپ واقعی {{brandName}} کو حذف کرنا چاہتے ہیں جس کا اختتام {{lastDigits}} ہے؟",
+          "cancel": "منسوخ کریں۔",
+          "delete": "حذف کریں۔"
+        },
+        "edit_credit_card_modal": {
+          "title": "کارڈ میں ترمیم کریں۔",
+          "done": "ہو گیا",
+          "cancel": "منسوخ کریں۔",
+          "description": "آپ صرف اپنے کارڈ کے بلنگ ایڈریس میں ترمیم کر سکتے ہیں۔",
+          "fields": {
+            "default": "بطور ڈیفالٹ سیٹ کریں۔",
+            "card_number": "کارڈ نمبر",
+            "expiry": "میعاد ختم ہونے کی تاریخ",
+            "security_code": "سیکیورٹی کوڈ",
+            "name": "کارڈ پر نام",
+            "billing": "کو بل"
+          }
+        },
+        "expired_cards_info": {
+          "one": "%{count} ایکسپائرڈ کارڈ ہے، جسے آپ اپنے اکاؤنٹ میں دیکھ اور ترمیم کر سکتے ہیں۔",
+          "other": "%{count} میعاد ختم ہونے والے کارڈز ہیں، جنہیں آپ اپنے اکاؤنٹ میں دیکھ اور ترمیم کر سکتے ہیں۔"
+        },
+        "local_payment_method_receiver_notice": "اپنا آرڈر دینے کے بعد، آپ کو ادائیگی کی تفصیلات موصول ہوں گی۔ {{dueDays}} دنوں کے اندر ATM یا آن لائن ادائیگی کریں۔",
+        "order_edit_banner_title": "{{amount_owed}} کی ادائیگی درکار ہے۔",
+        "order_edit_banner_subtitle": "آپ کا آرڈر {{order_number}} اپ ڈیٹ کر دیا گیا تھا۔ ان تبدیلیوں کا جائزہ لیں، پھر اپنے آرڈر کی تصدیق کے لیے ادائیگی کریں۔",
+        "order_edit_banner_items_added": {
+          "one": "شامل کیا گیا۔",
+          "other": "شامل کیا گیا %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "ہٹا دیا گیا۔",
+          "with_quantities": "{{quantity}} میں سے {{delta}} کو ہٹا دیا گیا"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "واپس کیا گیا {{quantity}}",
+          "with_quantities": "واپس کیا گیا {{delta}} از {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "واپسی سے ہٹا دیا گیا۔",
+          "with_quantities": "واپسی سے {{delta}} کو ہٹا دیا گیا۔"
+        },
+        "order_edit_banner_single_item_added": "شامل کیا گیا۔",
+        "order_edit_banner_multiple_items_added": "شامل کیا گیا {{amount}}",
+        "order_edit_banner_single_item_removed": "ہٹا دیا گیا۔",
+        "order_edit_banner_multiple_items_removed": "ہٹا دیا گیا {{amount}}",
+        "order_edit_banner_single_item_returned": "واپس آ گیا۔",
+        "order_edit_banner_multiple_items_returned": "واپس کیا گیا {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "واپسی سے ہٹا دیا گیا۔",
+        "order_edit_banner_multiple_items_return_line_item_removed": "واپسی سے {{amount}} کو ہٹا دیا گیا۔",
+        "order_edit_banner_updated_order_label": "تازہ کاری شدہ آرڈر",
+        "gift_card_wrapper": {
+          "heading": "گفٹ کارڈ",
+          "apply_gift_card_label": "گفٹ کارڈ لگائیں۔",
+          "apply_another_gift_card_label": "دوسرا گفٹ کارڈ لگائیں۔",
+          "gift_card_label": "گفٹ کارڈ %{identifier}",
+          "payment_tag": "گفٹ کارڈ",
+          "add_label": "گفٹ کارڈ شامل کریں۔",
+          "manage_label": "گفٹ کارڈز کا نظم کریں۔"
+        },
+        "gift_card_store_credit": {
+          "add_label": "گفٹ کارڈ یا اسٹور کریڈٹ شامل کریں۔",
+          "manage_label": "گفٹ کارڈز یا اسٹور کریڈٹ کا نظم کریں۔"
+        },
+        "gift_card_checkbox_label": "گفٹ کارڈ لگائیں۔",
+        "custom_onsite_payment_method_modal": {
+          "title": "اپنی مرضی کے مطابق آن سائٹ ادائیگی کی تصدیق"
+        },
+        "markets_pro_disclaimer_label": "نیچے کلک کر کے اور اپنا آرڈر مکمل کر کے، آپ گلوبل-e کے %{markets_pro_terms} اور %{privacy_policy} پر، اس ٹرانزیکشن کے لیے مرچنٹ آف ریکارڈ کے طور پر Global-e سے اپنے آئٹمز خریدنے سے اتفاق کرتے ہیں۔ Global-e %{shop_name} کے لیے ایک بین الاقوامی تکمیل سروس فراہم کنندہ ہے۔",
+        "markets_pro_disclaimer_terms_and_conditions": "شرائط و ضوابط",
+        "markets_pro_disclaimer_privacy_policy": "رازداری کی پالیسی",
+        "markets_pro_disclaimer_terms_and_conditions_title": "مرچنٹ آف ریکارڈ شرائط و ضوابط",
+        "markets_pro_disclaimer_privacy_policy_title": "مرچنٹ آف ریکارڈ پرائیویسی پالیسی",
+        "purchase_order_number": {
+          "title": "پی او نمبر",
+          "label": "PO نمبر (اختیاری)"
+        },
+        "alternative_payment_currency_total_notice": "نوٹ: آپ سے %{amount_due} چارج کیا جائے گا۔",
+        "alternative_payment_currency_total_manual_payment_notice": "نوٹ: تبدیل شدہ کل %{amount_due} ہے۔",
+        "waiting_on_taxes_message": "اگر اگلے چند سیکنڈ میں آپ کے ٹیکس کا حساب نہیں ہوتا ہے تو صفحہ کو ریفریش کریں۔",
+        "waiting_on_taxes_notice": "ٹیکسوں کا حساب لگانا",
+        "payment_method": "ادائیگی کا طریقہ",
+        "expired_payment_method": "ادائیگی کا منتخب طریقہ ختم ہو گیا ہے۔",
+        "payment_method_update_failed": "ادائیگی کا طریقہ اپ ڈیٹ ناکام ہو گیا۔",
+        "proposed_gateway_unavailable": "مجوزہ ادائیگی کا گیٹ وے دستیاب نہیں ہے۔",
+        "pay_in_installments_split_pay_short": "%{amount} کی 4 ادائیگیاں",
+        "gift_cards_unavailable": "آپ کا گفٹ کارڈ اب اس آرڈر پر لاگو نہیں کیا جا سکتا ہے اور اسے ہٹا دیا گیا ہے۔",
+        "payment_flexibility_terms_id_mismatch": "ادائیگی کی لچک کی شرائط ID سے مماثل نہیں ہے۔"
+      },
+      "billing": {
+        "billing_address_title": "کو بل",
+        "same_as_shipping": "شپنگ ایڈریس جیسا ہی",
+        "add_address": "ایک مختلف پتہ استعمال کریں۔",
+        "edit": "ترمیم کریں۔",
+        "delete": "حذف کریں۔",
+        "address_more": "اس ایڈریس کے لیے مزید کارروائیاں",
+        "address_edit": "ایڈریس میں ترمیم کریں۔",
+        "address_delete": "پتہ حذف کریں۔",
+        "address_confirm": "کیا آپ واقعی یہ پتہ اپنے اکاؤنٹ سے حذف کرنا چاہتے ہیں؟",
+        "address_form": {
+          "add_address": "ایڈریس شامل کریں۔",
+          "save": "محفوظ کریں۔",
+          "cancel": "منسوخ کریں۔"
+        }
+      },
+      "company_location": {
+        "location_title": "مقام"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "موجودہ بیلنس %{amount}",
+        "credit_card_expires_on_notice": "%{ماہ}/%{سال} کو ختم ہو جائے گا",
+        "express_payment_gateway_label": "ایکسپریس",
+        "manual_payment_gateway_label": "دستی",
+        "billing_address_title": "بلنگ کا پتہ"
+      }
+    }
+  }
+}
