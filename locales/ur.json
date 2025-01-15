@@ -2767,7 +2767,93 @@
       "processing": "کارروائی ہو رہی ہے…",
       "increase": "بڑھائیں {{type}}",
       "decrease": "{{type}} کو کم کریں",
-      "minimumReached": "کم از کم {{value}} تک پہنچ گیا۔"
+      "minimumReached": "کم از کم {{value}} تک پہنچ گیا۔",
+      "maximumReached": "{{value}} کی زیادہ سے زیادہ حد تک پہنچ گئی۔",
+      "january": "جنوری",
+      "february": "فروری",
+      "march": "مارچ",
+      "april": "اپریل",
+      "may": "مئی",
+      "june": "جون",
+      "july": "جولائی",
+      "august": "اگست",
+      "september": "ستمبر",
+      "october": "اکتوبر",
+      "november": "نومبر",
+      "december": "دسمبر",
+      "monday": "پیر",
+      "tuesday": "منگل",
+      "wednesday": "بدھ",
+      "thursday": "جمعرات",
+      "friday": "جمعہ",
+      "saturday": "ہفتہ",
+      "sunday": "اتوار",
+      "mondayAbbreviation": "مو",
+      "tuesdayAbbreviation": "ٹو",
+      "wednesdayAbbreviation": "ہم",
+      "thursdayAbbreviation": "و",
+      "saturdayAbbreviation": "ص",
+      "sundayAbbreviation": "ایس یو",
+      "showNextMonth": "اگلے مہینے دکھائیں، {{month}} {{year}}",
+      "showPreviousMonth": "پچھلا مہینہ دکھائیں، {{month}} {{year}}",
+      "rangeStart": "رینج شروع",
+      "inRange": "رینج میں",
+      "rangeEnd": "رینج کا اختتام",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} آئٹم دستیاب ہے۔",
+        "other": "{{count}} آئٹمز دستیاب ہیں۔"
+      },
+      "removeItem": "ہٹائیں {{label}}",
+      "removeTag": "ٹیگ کو ہٹا دیں۔",
+      "month": {
+        "one": "مہینہ",
+        "other": "مہینے"
+      },
+      "mapClusterTitle": {
+        "one": "{{number}} مارکر کا کلسٹر",
+        "other": "{{number}} مارکر کا جھرمٹ"
+      },
+      "expandSheet": "پھیلائیں۔",
+      "qrCode": "کیو آر کوڈ",
+      "addFile": "فائل شامل کریں۔",
+      "dropzoneInvalidFileType": "فائل کی قسم تعاون یافتہ نہیں ہے۔",
+      "dropzoneDraggedOver": "فائل کو اپ لوڈ کرنے کے لیے ڈراپ کریں۔"
+    },
+    "profile_preview_bar": {
+      "customize_button": "حسب ضرورت بنائیں",
+      "hide_bar": "چھپائیں بار",
+      "navigate_to_admin": "ایڈمن پر جائیں۔",
+      "close_preview": "پیش نظارہ بند کریں۔",
+      "previewing": "آپ پیش نظارہ کر رہے ہیں:",
+      "saved_at": "{{date}} {{time}} پر محفوظ کیا گیا",
+      "viewing": "آپ دیکھ رہے ہیں:",
+      "not_available": "پروفائل ڈیٹا دستیاب نہیں ہے۔",
+      "actions_button": "اعمال"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "{{extensionName}} نامی ایکسٹینشن منتخب کریں",
+        "unselect": "{{extensionName}} نامی ایکسٹینشن کو غیر منتخب کریں",
+        "move_down": "توسیع کو اگلی پوزیشن پر منتقل کریں۔",
+        "move_up": "توسیع کو پچھلی پوزیشن پر منتقل کریں۔",
+        "remove": "توسیع کو ہٹا دیں۔",
+        "move_down_tooltip": "اگلی پوزیشن پر جائیں۔",
+        "move_up_tooltip": "پچھلی پوزیشن پر جائیں۔",
+        "remove_tooltip": "ہٹا دیں۔"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "یہ لنک ایڈیٹر کے اندر نہیں کھولا جا سکتا۔ یہ ایک نئی ونڈو میں کھلے گا ( {{resolved_to_link}} )۔ جاری رکھنے کے لیے ٹھیک ہے پر کلک کریں۔"
+    },
+    "settings": {
+      "title": "ترتیبات",
+      "loading_accessibility_message": "ترتیبات کا صفحہ لوڈ ہو رہا ہے۔",
+      "log_out_everywhere": {
+        "title": "ہر جگہ لاگ آؤٹ کریں۔",
+        "description": "اگر آپ کا کوئی آلہ کھو گیا ہے یا آپ کو سیکیورٹی خدشات ہیں تو اپنے اکاؤنٹ کی سیکیورٹی کو یقینی بنانے کے لیے ہر جگہ لاگ آؤٹ کریں۔",
+        "button": "ہر جگہ لاگ آؤٹ کریں۔",
+        "warning_message": "آپ اس ڈیوائس پر بھی لاگ آؤٹ ہو جائیں گے۔"
+      }
     }
   },
   "blogs": {
@@ -3090,6 +3176,48 @@
       "message": "پیغام",
       "max_characters": "{{ max_chars }} حروف زیادہ سے زیادہ",
       "send_on_label": "بھیجیں (اختیاری)"
+    }
+  },
+  "sections": {
+    "announcements": {
+      "previous_announcement": "پچھلا اعلان",
+      "next_announcement": "اگلا اعلان",
+      "announcement": "اعلان",
+      "announcement_bar": "اعلان بار"
+    },
+    "header": {
+      "announcement": "اعلان",
+      "menu": "مینو",
+      "cart_count": {
+        "one": "{{ count }} آئٹم",
+        "other": "{{ count }} آئٹمز"
+      }
+    },
+    "cart": {
+      "title": "آپ کی ٹوکری",
+      "caption": "کارٹ آئٹمز",
+      "remove_title": "ہٹائیں {{ title }}",
+      "estimated_total": "تخمینی کل",
+      "new_estimated_total": "نیا تخمینہ کل",
+      "note": "خصوصی ہدایات کا آرڈر دیں۔",
+      "checkout": "چیک کریں",
+      "empty": "آپ کی ٹوکری خالی ہے۔",
+      "cart_error": "آپ کی کارٹ کو اپ ڈیٹ کرتے وقت ایک خرابی تھی۔ براہ کرم دوبارہ کوشش کریں۔",
+      "cart_quantity_error_html": "آپ اس آئٹم کی صرف {{ quantity }} اپنی کارٹ میں شامل کر سکتے ہیں۔",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "ڈیوٹی اور ٹیکس شامل ہیں۔ چھوٹ اور <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">شپنگ کا</a> حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "ڈیوٹی اور ٹیکس شامل ہیں۔ چھوٹ اور شپنگ کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "taxes_included_shipping_at_checkout_with_policy_html": "ٹیکس شامل ہیں۔ چھوٹ اور <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">شپنگ کا</a> حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "taxes_included_shipping_at_checkout_without_policy": "ٹیکس شامل ہیں۔ چھوٹ اور شپنگ کا حساب چیک آؤٹ پر کیا جاتا ہے۔",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "فرائض شامل ہیں۔ چیک آؤٹ پر ٹیکس، چھوٹ اور <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">شپنگ کا</a> حساب لگایا جاتا ہے۔",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "فرائض شامل ہیں۔ چیک آؤٹ پر ٹیکس، چھوٹ اور شپنگ کا حساب لگایا جاتا ہے۔",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "چیک آؤٹ پر ٹیکس، چھوٹ اور <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">شپنگ کا</a> حساب لگایا جاتا ہے۔",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "چیک آؤٹ پر ٹیکس، چھوٹ اور شپنگ کا حساب لگایا جاتا ہے۔",
+      "headings": {
+        "product": "پروڈکٹ",
+        "total": "کل",
+        "quantity": "مقدار",
+        "image": "مصنوعات کی تصویر"
+      }
     }
   }
 }
