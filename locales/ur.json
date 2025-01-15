@@ -355,7 +355,92 @@
         "discount_and_gift_card_savings_notice": "ڈسکاؤنٹ میں %{discount_amount} اور گفٹ کارڈز میں %{gift_card_amount} کے بعد",
         "discount_savings_notice": "رعایت میں %{discount_amount} کے بعد",
         "gift_card_savings_notice": "گفٹ کارڈز میں %{gift_card_amount} کے بعد",
-        "cost_table_title": "لاگت کا خلاصہ"
+        "cost_table_title": "لاگت کا خلاصہ",
+        "cost_table_item_column_header": "آئٹم",
+        "cost_table_value_column_header": "قدر",
+        "description_label": "تفصیل",
+        "price_label": "قیمت",
+        "price_per_item": {
+          "accessibility_label": "فی آئٹم %{price}"
+        },
+        "quantity_label": "مقدار",
+        "product_change_label": "تبدیلی",
+        "product_image_label": "مصنوعات کی تصویر",
+        "product_image_quantity_label": "مقدار",
+        "scroll_order_summary": "مزید آئٹمز کے لیے سکرول کریں۔",
+        "expand_order_summary_short": "دکھائیں۔",
+        "collapse_order_summary_short": "چھپائیں",
+        "expand_order_summary": "آرڈر کا خلاصہ دکھائیں۔",
+        "collapse_order_summary": "آرڈر کا خلاصہ چھپائیں۔",
+        "original_price": "اصل قیمت",
+        "sale_price": "فروخت کی قیمت",
+        "total_updated_label": "تازہ کاری شدہ کل قیمت:",
+        "order_total_updated_label": "تازہ کاری شدہ کل",
+        "total_already_paid_label": "ادا کیا",
+        "unit_price": {
+          "accessible_separator": "فی"
+        },
+        "gift_card_ending": "%{last_characters} سے ختم ہونے والا گفٹ کارڈ",
+        "estimated_tax_label": "تخمینہ ٹیکس",
+        "multiple_shipping_lines_label": "کل شپنگ",
+        "recurring_subtotal_label": "اعادی ذیلی ٹوٹل",
+        "recurring_total_label": "اعادی کل",
+        "recurring_total_tooltip": "اس میں شپنگ، ٹیکس، ڈیوٹی، یا کوئی قابل اطلاق رعایت شامل نہیں ہے۔",
+        "confirmation_number_label": "تصدیق #%{confirmation_number}",
+        "higher_value_discount_applied": "آپ کی موجودہ چھوٹ کے ساتھ <strong style=\"text-transform:uppercase\">%{code}</strong> استعمال نہیں کیا جا سکتا۔",
+        "percent_off_shipping": "شپنگ پر %{percent}% چھوٹ",
+        "amount_off_shipping": "شپنگ پر %{amount} چھوٹ",
+        "deferred_payment_info": {
+          "title": "%{amount_due} کی ادائیگی %{due_at} کو واجب الادا ہے",
+          "description_html": "آپ کے آرڈر کے بارے میں سوالات کے لیے، %{contact_us}۔",
+          "paid_today": "کل ادائیگی آج",
+          "due_on_fulfillment_title": "%{amount_due} کی ادائیگی کی تکمیل پر واجب الادا ہے۔",
+          "due_on_receipt_title": "%{amount_due} کی ادائیگی رسید پر واجب الادا ہے۔"
+        },
+        "deferred_balance_info": {
+          "title": "{{amount_due}} کا بیلنس {{due_at}} کو باقی ہے",
+          "due_on_fulfillment_title": "{{amount_due}} کا بیلنس پورا ہونے پر باقی ہے۔"
+        },
+        "payment_terms_totals": {
+          "due_today": "کل واجب الادا آج",
+          "due_later": "کل واجب الادا %{due_at}",
+          "due_on_fulfillment": "تکمیل پر کل واجب الادا",
+          "due_on_receipt": "رسید پر کل واجب الادا",
+          "due_later_checkout_to_draft": "کل واجب الادا بعد میں",
+          "total_paid": "کل ادائیگی"
+        },
+        "maximum_discount_code_limit_reached": "آپ ڈسکاؤنٹ کوڈز کی زیادہ سے زیادہ تعداد تک پہنچ گئے ہیں۔ <strong style=\"text-transform:uppercase\">%{code}</strong> استعمال کرنے کے لیے موجودہ کوڈ کو ہٹا دیں۔",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ابھی کام نہیں کر رہا ہے۔ مدد کے لیے ہم سے رابطہ کریں۔",
+        "due_on_fulfillment": "تکمیل پر واجب الادا",
+        "subscriptions": "سبسکرپشنز",
+        "duties_label": "فرائض",
+        "duties_and_taxes_label": "ڈیوٹی اور ٹیکس",
+        "error_duties_tooltip": "یہ آرڈر دوسرے ملک سے بھیجا جا رہا ہے، اس لیے ڈیلیوری پر ڈیوٹی اور ٹیکس وصول کیے جا سکتے ہیں۔",
+        "may_be_charged_on_delivery": "ترسیل پر چارج کیا جا سکتا ہے",
+        "total_updated_label_with_price": "تازہ کاری شدہ کل قیمت: %{totalPrice}",
+        "updated_shipping_method": "اپ ڈیٹ کردہ ترسیل کا طریقہ: %{shipping_method}",
+        "recurring_payments": "بار بار چلنے والی ادائیگیاں",
+        "recurring_total_multiple_label": "اس آرڈر میں متعدد آئٹمز کے لیے بار بار چارج ہوتا ہے۔",
+        "deferred_total_due_date_label": "کل واجب الادا {{date}}",
+        "full_price": "پوری قیمت: %{price}",
+        "custom_discount": "حسب ضرورت رعایت",
+        "expand_component_information": {
+          "one": "%{count} آئٹم دکھائیں۔",
+          "other": "%{count} آئٹمز دکھائیں۔"
+        },
+        "collapse_component_information": {
+          "one": "%{count} آئٹم چھپائیں۔",
+          "other": "چھپائیں %{count} آئٹمز"
+        },
+        "component_quantity_title": "%{مقدار} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "رعایت شامل کریں۔",
+          "merchandise_quantity_label": {
+            "one": "%{count} آئٹم",
+            "other": "%{count} آئٹمز"
+          }
+        },
+        "alternative_payment_currency_total": "%{amount_due} کے طور پر چارج کیا گیا"
       },
       "payment": {
         "simulated_express_checkout": "آپ کے علاقے یا براؤزر کی وجہ سے ایڈیٹر کے پیش نظارہ میں بٹوے دستیاب نہیں ہیں۔",
@@ -1706,7 +1791,42 @@
         },
         "local_pickup": {
           "search_address": "پتہ تلاش کریں۔"
-        }
+        },
+        "title": "شپنگ",
+        "delivery_title": "ڈیلیوری",
+        "shipping_method_title": "ترسیل کا طریقہ",
+        "shipping_method_one_time_purchase_group_title": "ایک بار کی خریداری",
+        "shipping_method_first_shipment_group_title": {
+          "one": "پہلی کھیپ",
+          "other": "پہلی ترسیل"
+        },
+        "shipping_method_subscription_group_title": "رکنیت",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "بار بار چلنے والی کھیپ",
+          "other": "بار بار چلنے والی ترسیل"
+        },
+        "subscription_shipping": "سبسکرپشن شپنگ",
+        "subscription_local_delivery": "سبسکرپشن مقامی ترسیل",
+        "subscription_pickup": "سبسکرپشن پک اپ",
+        "waiting_on_rate_notice": "دستیاب شپنگ ریٹس حاصل کر رہے ہیں…",
+        "waiting_on_pickup_location_notice": "پک اپ کے مقامات دستیاب ہو رہے ہیں…",
+        "no_rates_for_cart_or_destination_notice": "آپ کی کارٹ یا ایڈریس کے لیے شپنگ کے کوئی طریقے دستیاب نہیں ہیں۔",
+        "no_pickup_location_notice": "آپ کی کم از کم ایک پروڈکٹ پک اپ کے لیے دستیاب نہیں ہے۔",
+        "no_rates_for_country_notice": "اس ایڈریس کے لیے کوئی شپنگ ریٹس نہیں ملے۔",
+        "no_rates_contact_notice": "مزید معلومات کے لیے ہم سے رابطہ کریں۔",
+        "free_rate_label": "مفت",
+        "cheapest_rate_label": "سب سے سستا",
+        "please_enter_your_shipping_information_notice": "براہ کرم اپنی شپنگ کی معلومات درج کریں۔",
+        "estimated_delivery_date": {
+          "one": "%{count} کاروباری دن",
+          "other": "%{count} کاروباری دن"
+        },
+        "estimated_delivery_date_range": "%{کم سے کم} سے %{زیادہ سے زیادہ} کاروباری دن",
+        "estimated_delivery_time": "تخمینی ترسیل %{time}",
+        "estimated_delivery_time_range": "تخمینی ڈیلیوری %{min_time}–%{max_time}",
+        "delivery_today": "اسی دن کی ترسیل %{time}",
+        "delivery_tomorrow": "اگلے دن کی ترسیل %{time}",
+        "two_day_delivery": "2 دن کی ترسیل %{time}"
       }
     },
     "notices": {
