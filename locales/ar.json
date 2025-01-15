@@ -379,7 +379,8 @@
           "no_purchase_order_number": "(لا يوجد رقم طلب شراء)",
           "due_after_order_reviewed_html": "المستحق بعد مراجعة الطلب",
           "review_title_free_order": "قم بمراجعة طلبك وإكماله",
-          "payment_method_saved_company_location": "احفظ البطاقة لهذا الموقع"
+          "payment_method_saved_company_location": "احفظ البطاقة لهذا الموقع",
+          "contact_method_title": "اتصال"
         },
         "block_title": "راجع معلوماتك",
         "item_header": {
@@ -626,7 +627,8 @@
             "other": "%{count} عناصر"
           }
         },
-        "alternative_payment_currency_total": "تم تحصيل الرسوم كـ %{amount_due}"
+        "alternative_payment_currency_total": "تم تحصيل الرسوم كـ %{amount_due}",
+        "price_label": "سعر"
       },
       "shipping": {
         "title": "شحن",
@@ -1265,6 +1267,9 @@
             "subtotal_limit_reached": "تم الوصول إلى الحد الأقصى لقيمة عناصر السطر."
           }
         }
+      },
+      "pickup_point": {
+        "search_button": "يبحث"
       }
     },
     "sentence": {
@@ -1461,6 +1466,10 @@
         "date_ascending": "التاريخ من القديم إلى الجديد",
         "date_descending": "التاريخ من الجديد إلى القديم"
       }
+    },
+    "page_titles": {
+      "search": "يبحث",
+      "collections": "المجموعات"
     }
   },
   "customer_accounts": {
@@ -1561,7 +1570,8 @@
         "summary": "شحن",
         "free": "حر",
         "one_time": "الشحن لمرة واحدة",
-        "subscription": "شحن الاشتراك"
+        "subscription": "شحن الاشتراك",
+        "free_shipping_discount": "ًالشحن مجانا"
       },
       "pickup": {
         "pickup": "يلتقط",
@@ -1639,7 +1649,8 @@
       "contact_information": "معلومات الاتصال",
       "company": "شركة",
       "fully_refunded_label": "تم استرداد المبلغ",
-      "group_title_label": "جزء من: {{groupTitle}}"
+      "group_title_label": "جزء من: {{groupTitle}}",
+      "contact": "اتصال"
     },
     "B2B": {
       "draft_order_details": {
@@ -1841,7 +1852,8 @@
         },
         "order_list_column_headers_location": "موقع",
         "order_list_column_headers_status": "حالة",
-        "removed_company_contact_tooltip": "تم إزالته من الشركة"
+        "removed_company_contact_tooltip": "تم إزالته من الشركة",
+        "order_list_column_headers_contact": "اتصال"
       }
     },
     "errors": {
@@ -2522,7 +2534,11 @@
         "other": "إذا لم يتم استلامها،"
       },
       "let_us_know": "أخبرنا",
-      "contact_us": "اتصل بنا."
+      "contact_us": "اتصل بنا.",
+      "list_title": "طلبات"
+    },
+    "navigation_and_structure": {
+      "orders_link_label": "طلبات"
     }
   },
   "customer": {
@@ -2551,6 +2567,9 @@
       "password": "كلمة المرور",
       "password_confirm": "تأكيد كلمة المرور",
       "submit": "إعادة تعيين كلمة المرور"
+    },
+    "order": {
+      "price": "سعر"
     }
   },
   "gift_cards": {
@@ -2757,7 +2776,8 @@
         "product": "منتج",
         "total": "المجموع",
         "quantity": "كمية",
-        "image": "صورة المنتج"
+        "image": "صورة المنتج",
+        "price": "سعر"
       },
       "update": "تحديث"
     },
@@ -2874,7 +2894,8 @@
       "previous": "الصفحة السابقة"
     },
     "search": {
-      "reset": "مسح مصطلح البحث"
+      "reset": "مسح مصطلح البحث",
+      "search": "يبحث"
     },
     "cart": {
       "view": "عرض عربة التسوق ( {{ count }} )",
@@ -2916,5 +2937,8 @@
     "star_reviews_info": "{{ rating_value }} من أصل {{ rating_max }} نجمة",
     "collapsible_content_title": "محتوى قابل للطي",
     "complementary_products": "المنتجات التكميلية"
+  },
+  "localization": {
+    "search": "يبحث"
   }
 }
