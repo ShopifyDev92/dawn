@@ -718,6 +718,151 @@
       "contact_information": "رابطہ کی معلومات",
       "company": "کمپنی",
       "fully_refunded_label": "رقم کی واپسی"
+    },
+    "B2B": {
+      "locations": {
+        "multiple_tax_exemptions_and": "اور",
+        "tax_exemptions_modal_close": "بند",
+        "taxes_none": "کوئی نہیں۔",
+        "tax_exemptions_modal_button_accessibility_label": "تمام ٹیکس چھوٹ دیکھیں"
+      },
+      "location_selection": {
+        "continue_to_store": "ذخیرہ کرنا جاری رکھیں",
+        "description": "اگر آپ کے پاس پہلے سے ہی آپ کے کارٹ میں آئٹمز ہیں، تو مقامات کو تبدیل کرنے سے کارٹ کی قیمتوں اور مقدار پر اثر پڑ سکتا ہے۔",
+        "list_accessibility_label": "مقامات کی فہرست",
+        "list_item_without_address_accessibility_label": "{{name}} : کوئی پتہ نہیں۔",
+        "list_loading_accessibility_message": "مقامات کی فہرست لوڈ ہو رہی ہے۔",
+        "list_loading_address_accessibility_message": "{{locationName}} کا پتہ لوڈ ہو رہا ہے",
+        "list_loading_finished_accessibility_message": "مقامات کی فہرست لوڈ ہو گئی ہے۔",
+        "loading_store_accessibility_message": "سٹور پر جا رہے ہیں۔",
+        "no_location_title": "صرف ذاتی احکامات",
+        "no_location_description": "اب آپ کو {{company}} کے لیے آرڈر دینے کی اجازت نہیں ہے۔ آپ اب بھی ذاتی آرڈر دے سکتے ہیں۔",
+        "no_locations_found": "کوئی مقامات نہیں ملے",
+        "search": "ایک مقام تلاش کریں۔",
+        "search_location_title": "ایک مقام منتخب کریں۔",
+        "selection_cancel_button": "منسوخ کریں۔",
+        "selection_confirmation_button": "مقام کا انتخاب کریں۔",
+        "title": "آپ کس مقام کے لیے خرید رہے ہیں؟",
+        "clear_search": "تلاش صاف کریں۔",
+        "try_new_search": "ایک نئی تلاش کی کوشش کریں۔"
+      },
+      "addresses": {
+        "add_billing_address_button": "بلنگ ایڈریس شامل کریں۔",
+        "add_billing_address_section_accessibility_label": "بلنگ ایڈریس شامل کریں۔",
+        "add_shipping_address_button": "شپنگ ایڈریس شامل کریں۔",
+        "add_shipping_address_section_accessibility_label": "شپنگ ایڈریس شامل کریں۔",
+        "billing_address_card_title": "بلنگ کا پتہ",
+        "cancel_adding_billing_address_accessibility_label": "بلنگ ایڈریس شامل کرنا منسوخ کریں۔",
+        "cancel_adding_shipping_address_accessibility_label": "شپنگ ایڈریس شامل کرنا منسوخ کریں۔",
+        "save_new_billing_address_accessibility_label": "بلنگ ایڈریس محفوظ کریں۔",
+        "save_new_shipping_address_accessibility_label": "شپنگ ایڈریس محفوظ کریں۔",
+        "shipping_address_card_title": "شپنگ ایڈریس"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "سب چھپائیں۔",
+          "show_all": "سب دکھائیں۔",
+          "hide_all_accessibility_label": "جائزہ میں تمام آرڈرز چھپائیں۔",
+          "show_all_accessibility_label": "جائزہ میں تمام آرڈرز دکھائیں۔",
+          "show_all_orders_in_review": "جائزہ میں تمام آرڈرز دکھائیں۔",
+          "show_less_orders_in_review": "جائزہ میں کم آرڈرز دکھائیں۔",
+          "title": "زیر التواء",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "آپ کے پاس کوئی زیر التواء آرڈر نہیں ہیں۔",
+            "pending_orders": {
+              "one": "آپ کے پاس {{count}} آرڈر زیر التواء ہے۔",
+              "other": "آپ کے پاس {{count}} آرڈرز زیر التواء ہیں۔"
+            },
+            "more_than_pagination_length": "آپ کے پاس {{count}} سے زیادہ زیر التواء آرڈرز ہیں۔"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "جائزہ نیویگیشن بٹنوں میں آرڈرز"
+          }
+        },
+        "order_list_column_headers_location": "مقام",
+        "order_list_column_headers_status": "حیثیت",
+        "removed_company_contact_tooltip": "کمپنی سے نکال دیا گیا۔"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "آرڈر {{draftOrderName}} } سے تصدیق شدہ {{date}} }",
+        "loading": "آرڈر کی تفصیلات لوڈ ہو رہی ہیں۔",
+        "loading_finished_accessibility_message": "آرڈر کی تفصیلات لوڈ کر دی گئی ہیں۔",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "آپ کی ادائیگی {{count}} دن کی باقی ہے۔",
+              "other": "آپ کی ادائیگی {{count}} دن کی بقایا ہے۔"
+            },
+            "banner_due": {
+              "one": "آپ کی ادائیگی {{count}} دن میں واجب الادا ہے۔",
+              "other": "آپ کی ادائیگی {{count}} دنوں میں واجب الادا ہے۔"
+            },
+            "banner_due_today": "آج آپ کی ادائیگی واجب الادا ہے۔",
+            "title": "ادائیگی واجب الادا",
+            "title_with_date": "ادائیگی کی آخری تاریخ {{date}}",
+            "title_due_on_receipt": "ادائیگی ابھی باقی نہیں ہے۔",
+            "title_due_on_fulfillment": "تکمیل پر واجب الادا ادائیگی",
+            "description_overdue": "آپ کی ادائیگی میں تاخیر ہوئی ہے۔",
+            "description_partially_paid": "یہ آرڈر جزوی طور پر ادا کیا گیا تھا۔ آپ کا بیلنس باقی ہے۔",
+            "description_authorized": "آپ کے ادائیگی کے طریقہ سے مقررہ تاریخ پر چارج کیا جائے گا، یا آپ ابھی ادائیگی کر سکتے ہیں۔",
+            "description_waiting_for_manual_payment": "اس آرڈر کی ادائیگی زیر التواء ہے۔ ادائیگی موصول ہونے پر بیلنس اپ ڈیٹ ہو جائے گا۔",
+            "description_due_on_receipt": "ادائیگی واجب الادا ہونے پر آپ کو ایک رسید موصول ہوگی۔",
+            "description_due_on_receipt_partially_paid": "یہ آرڈر جزوی طور پر ادا کیا گیا تھا۔ آپ کا بیلنس باقی ہے۔ ادائیگی واجب الادا ہونے پر آپ کو ایک رسید موصول ہوگی۔",
+            "description_due_on_fulfillment": "اس آرڈر میں تمام اشیاء کی تکمیل کے بعد ادائیگی واجب ہے۔",
+            "description_due_on_fulfillment_partially_paid": "یہ آرڈر جزوی طور پر ادا کیا گیا تھا۔ آپ کا بیلنس باقی ہے۔ اس آرڈر میں تمام اشیاء کی تکمیل کے بعد ادائیگی واجب ہے۔"
+          },
+          "draft": {
+            "description": "آرڈر کی تصدیق ہونے پر ادائیگی کی تفصیلات کا فیصلہ کیا جاتا ہے۔",
+            "title": "ادائیگی ابھی باقی نہیں ہے۔",
+            "in_review": {
+              "description": "آرڈر کی تصدیق ہونے پر ادائیگی کی تفصیلات کا فیصلہ کیا جاتا ہے۔",
+              "title": "ادائیگی ابھی باقی نہیں ہے۔"
+            },
+            "submitted": {
+              "description": "اس آرڈر کی تصدیق کے لیے ادائیگی جمع کروائیں۔",
+              "title": "تصدیق کے لیے ادائیگی کریں۔",
+              "deposit": {
+                "title": "ادائیگی واجب الادا ہے۔",
+                "due_later": "بیلنس {{translatedName}} شرائط پر ہے اور {{dueDate}} کو واجب الادا ہے۔",
+                "due_on_fulfillment": "اس آرڈر میں موجود تمام آئٹمز کی تکمیل کے بعد بیلنس واجب الادا ہے۔",
+                "due_on_receipt": "آپ کو بقیہ بیلنس کے لیے ایک رسید موصول ہوگی۔",
+                "due_on_date": "بیلنس {{dueDate}} کو واجب الادا ہے۔"
+              }
+            },
+            "deposit": {
+              "due_later": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ بیلنس {{translatedName}} شرائط پر ہوگا۔",
+              "due_on_fulfillment": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ آرڈر پورا ہونے پر بیلنس واجب الادا ہوگا۔",
+              "due_on_receipt": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ بیلنس بعد میں ادا کیا جائے گا۔",
+              "due_on_date": "آپ کے آرڈر کی تصدیق ہونے پر {{depositAmount}} واجب الادا ہو جائے گا۔ بیلنس {{dueDate}} کو واجب الادا ہوگا۔"
+            }
+          },
+          "paid": {
+            "title": "ادا کیا",
+            "title_with_date": "ادا کیا گیا {{date}}",
+            "description": "آپ کا آرڈر پوری طرح ادا کر دیا گیا ہے۔"
+          },
+          "refund": {
+            "title": "رقم کی واپسی",
+            "title_with_date": "ریفنڈ کیا گیا {{date}}",
+            "description_full_refund": "آپ کو اس آرڈر کے لیے مکمل ریفنڈ مل گیا ہے۔",
+            "description_single_refund": "آپ کو اس آرڈر کے لیے جزوی ریفنڈ موصول ہوا ہے۔",
+            "description_multiple_refunds": "آپ کو اس آرڈر کے لیے جزوی ریفنڈز موصول ہوئے ہیں۔"
+          },
+          "canceled": {
+            "title": "ادائیگی منسوخ کر دی گئی۔",
+            "description": "آپ کو چارج نہیں کیا گیا تھا۔"
+          },
+          "pay_now": "ابھی ادائیگی کریں۔",
+          "pay_now_accessibility_label": "آرڈر {{orderName}} کے لیے ابھی ادائیگی کریں",
+          "title": "ادائیگی کی حیثیت"
+        },
+        "order_timeline": {
+          "expand_events_label": "تفصیلات دکھائیں۔",
+          "expand_events_accessibility_label": "ڈرافٹ آرڈر کی تفصیلات دکھائیں۔",
+          "hide_events_label": "تفصیلات چھپائیں۔"
+        }
+      }
     }
   },
   "blogs": {
