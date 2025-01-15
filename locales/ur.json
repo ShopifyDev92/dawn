@@ -131,7 +131,29 @@
         "emirate_placeholder": "امارات",
         "state_and_territory_label": "ریاست/علاقہ",
         "state_and_territory_placeholder": "ریاست/علاقہ",
-        "phone_label": "فون"
+        "phone_label": "فون",
+        "optional_phone_label": "فون (اختیاری)",
+        "phone_placeholder": "فون",
+        "phone_tooltip": "اگر ہمیں آپ کے آرڈر کے بارے میں آپ سے رابطہ کرنے کی ضرورت ہے۔",
+        "zip_code_label": "زپ کوڈ",
+        "optional_zip_code_label": "زپ کوڈ (اختیاری)",
+        "zip_code_placeholder": "زپ کوڈ",
+        "postal_code_label": "پوسٹل کوڈ",
+        "optional_postal_code_label": "پوسٹل کوڈ (اختیاری)",
+        "postal_code_placeholder": "پوسٹل کوڈ",
+        "postcode_label": "پوسٹ کوڈ",
+        "optional_postcode_label": "پوسٹ کوڈ (اختیاری)",
+        "postcode_placeholder": "پوسٹ کوڈ",
+        "pincode_label": "پن کوڈ",
+        "optional_pincode_label": "پن کوڈ (اختیاری)",
+        "pincode_placeholder": "پن کوڈ",
+        "civic_number_warning": "اگر آپ کے پاس گھر کا نمبر ہے تو شامل کریں۔",
+        "optional_last_name_label": "آخری نام (اختیاری)",
+        "different_shipping_address_label": "ایک مختلف پتے پر بھیجیں۔",
+        "different_shipping_address_text": "اس آرڈر کے لیے ایک بار کا پتہ استعمال کریں۔",
+        "change_company_location_link_label": "کمپنی کا مقام تبدیل کریں۔",
+        "change_location_link_label": "مقام تبدیل کریں۔",
+        "ship_to_company": "{{companyName}} کو بھیجیں"
       },
       "stock": {
         "price_and_quantity_update": {
@@ -141,6 +163,72 @@
         "out_of_stock": {
           "description": "یہ آئٹمز مزید دستیاب نہیں ہیں اور آپ کے کارٹ سے ہٹا دیے گئے ہیں۔",
           "items_unavailable": "کچھ آئٹمز اب دستیاب نہیں ہیں اور آپ کی کارٹ سے ہٹا دی گئی ہیں۔"
+        },
+        "page_title": "انوینٹری کے مسائل",
+        "title": "اسٹاک ختم",
+        "items_unavailable_notice": "کچھ آئٹمز اب دستیاب نہیں ہیں۔",
+        "product_column_header": "مصنوعات",
+        "quantity_column_header": "مقدار",
+        "price_column_header": "قیمت",
+        "status_column_header": "حیثیت",
+        "removed_from_cart_notice": "کارٹ سے ہٹا دیا گیا۔",
+        "sold_out_label": "بک گیا۔",
+        "reduced_label": "کم کر دیا",
+        "reduced_with_quantity_label": "صرف %{quantity_available} باقی ہے۔",
+        "remove_from_cart_button_label": "کارٹ سے ہٹا دیں۔",
+        "continue_shopping_button_label": "جاری رکھیں",
+        "go_back_to_cart_button_label": "میری ٹوکری پر واپس جائیں۔",
+        "remove": "ہٹا دیں۔",
+        "return_to_store_label": "اسٹور پر واپس جائیں۔",
+        "continue_cta_label": "چیک آؤٹ جاری رکھیں",
+        "item_label": {
+          "one": "{{count}} آئٹم",
+          "other": "{{count}} آئٹمز"
+        },
+        "empty_cart_label": "آپ کی ٹوکری خالی ہے۔",
+        "quantity_update": {
+          "page_title": "مقدار کی تازہ کاری",
+          "title": "مقدار کی تازہ کاری",
+          "description": "ان آئٹمز کے لیے دستیاب مقداریں بدل گئی ہیں اور آپ کی کارٹ میں اپ ڈیٹ ہو گئی ہیں۔"
+        },
+        "unpurchasable_product": {
+          "title": "ناقابل خرید پروڈکٹ",
+          "header": "آپ کے کارٹ سے کچھ آئٹمز ہٹا دیے گئے تھے۔",
+          "message": "یہ اشیاء B2B آرڈرز کے لیے دستیاب نہیں ہیں۔",
+          "status_column_header": "دستیاب نہیں۔"
+        },
+        "unpurchasable_product_generic": {
+          "title": "ناقابل خرید پروڈکٹ",
+          "header": "آپ کے کارٹ سے کچھ آئٹمز ہٹا دیے گئے تھے۔",
+          "message": "یہ اشیاء دستیاب نہیں ہیں۔",
+          "status_column_header": "دستیاب نہیں۔"
+        },
+        "unfulfillable_product": {
+          "title": "ڈیلیوری دستیاب نہیں ہے۔",
+          "message": {
+            "one": "اس آئٹم کے لیے %{delivery_method} مزید دستیاب نہیں ہے۔",
+            "other": "%{delivery_method} اب ان اشیاء کے لیے دستیاب نہیں ہے۔"
+          },
+          "default_message": {
+            "one": "اس آئٹم کے لیے ڈیلیوری کا منتخب کردہ طریقہ مزید دستیاب نہیں ہے۔",
+            "other": "ان آئٹمز کے لیے ڈیلیوری کا منتخب کردہ طریقہ مزید دستیاب نہیں ہے۔"
+          }
+        },
+        "unshippable_product": {
+          "title": "کوئی ڈیلیوری دستیاب نہیں ہے۔",
+          "header": {
+            "one": "%{count} آئٹم کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔",
+            "other": "%{count} آئٹمز کے لیے کوئی ڈیلیوری دستیاب نہیں ہے۔"
+          },
+          "message": {
+            "one": "یہ آئٹم آپ کے کارٹ سے ہٹا دیا جائے گا کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔",
+            "other": "یہ آئٹمز آپ کی کارٹ سے ہٹا دی جائیں گی کیونکہ آپ کے پتے کے لیے ڈیلیوری کے کوئی طریقے دستیاب نہیں ہیں۔"
+          },
+          "status_column_header": "کوئی ڈیلیوری نہیں۔"
+        },
+        "price_update": {
+          "title": "قیمت کی تازہ کاری",
+          "description": "ان اشیاء کی قیمتیں بدل گئی ہیں اور آپ کی کارٹ میں اپ ڈیٹ ہو گئی ہیں۔"
         }
       },
       "contextual_availability": {
@@ -574,6 +662,206 @@
         "too_many_attempts": {
           "message": "بہت زیادہ کوششیں",
           "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
+        },
+        "line_to_check_out": "آپ چیک آؤٹ کرنے کے لیے لائن میں ہیں۔",
+        "cart_summary_heading": "آپ کی ٹوکری",
+        "merchandise": {
+          "available": "دستیاب ہے۔",
+          "sold_out": "فروخت"
+        },
+        "inventory": {
+          "partial_inventory_banner": "آپ کی کارٹ کا کچھ حصہ فروخت ہو چکا ہے اور چیک آؤٹ پر خریدنے کے لیے دستیاب نہیں ہوگا۔",
+          "sold_out": {
+            "heading": "آپ کی ٹوکری بک گئی ہے۔",
+            "storefront_body": "خریداری جاری رکھنے کے لیے واپس اسٹور پر جائیں۔",
+            "no_storefront_body": "بدقسمتی سے آپ جس چیز کو خریدنا چاہتے ہیں وہ اب دستیاب نہیں ہے۔",
+            "link": "واپس اسٹور پر"
+          }
+        },
+        "title": "قطار",
+        "time_to_checkout_title": "چیک آؤٹ کرنے کا وقت - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "متوقع انتظار کے وقت کا حساب لگانا",
+          "less_than_one": "متوقع انتظار کا وقت: ایک منٹ سے بھی کم",
+          "one": "متوقع انتظار کا وقت: {{count}} منٹ",
+          "other": "انتظار کا تخمینہ وقت: {{count}} منٹ"
+        },
+        "last_checked": "(آخری بار چیک کیا گیا: {{time}} )",
+        "footer": {
+          "heading": "اس صفحہ کو ریفریش نہ کریں، یہ خود بخود اپ ڈیٹ ہو جائے گا۔",
+          "body": "آپ کے کارٹ میں آئٹمز اس وقت تک محفوظ نہیں ہیں جب تک آپ چیک آؤٹ مکمل نہیں کر لیتے ہیں۔"
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "مفت",
+        "ship": "جہاز",
+        "ship_to_address": "ایڈریس پر بھیجیں۔",
+        "shipping_address": "شپنگ ایڈریس",
+        "pick_up": "اٹھاؤ",
+        "pick_up_from_store": "اسٹور میں پک اپ",
+        "pick_up_locations": "اسٹور کے مقامات",
+        "pick_up_in_one_hour": "عام طور پر 1 گھنٹے میں تیار ہوجاتا ہے۔",
+        "pick_up_in_two_hours": "عام طور پر 2 گھنٹے میں تیار ہوجاتا ہے۔",
+        "pick_up_in_four_hours": "عام طور پر 4 گھنٹے میں تیار ہو جاتا ہے۔",
+        "pick_up_in_twenty_four_hours": "عام طور پر 24 گھنٹوں میں تیار ہوجاتا ہے۔",
+        "pick_up_in_two_to_four_days": "عام طور پر 2-4 دنوں میں تیار ہوجاتا ہے۔",
+        "pick_up_in_five_or_more_days": "عام طور پر 5+ دنوں میں تیار ہوجاتا ہے۔",
+        "pick_up_in_zero_to_two_hours": "2 گھنٹے میں پک اپ کے لیے تیار",
+        "pick_up_in_two_to_four_hours": "4 گھنٹے میں پک اپ کے لیے تیار",
+        "pick_up_immediately": "اب پک اپ کے لیے تیار ہیں۔",
+        "pick_up_next_day": "اگلے دن پک اپ کے لیے تیار",
+        "pickup_point_method_definition": "پک اپ پوائنٹ پر بھیجیں۔",
+        "retail_method_definition": "ریٹیل شپنگ",
+        "none_method_definition": "کوئی شپنگ نہیں۔",
+        "subscription_pickup_information": "ڈیلیوری کا یہ طریقہ اس آرڈر میں موجود تمام آئٹمز اور اس سبسکرپشن کے مستقبل کے تمام آرڈرز پر لاگو ہوگا۔"
+      },
+      "customer_account": {
+        "not_user_label": "نہیں %{first_name}؟",
+        "have_an_account_label": "کیا آپ کا اکاؤنٹ ہے؟",
+        "sign_in_link_label": "لاگ ان کریں۔",
+        "sign_out_link_label": "لاگ آؤٹ کریں۔",
+        "save_my_information_label": "اس معلومات کو اگلی بار کے لیے محفوظ کریں۔",
+        "invalid_address": "منتخب کردہ پتہ غلط ہے۔ %{update_address_link} یا ایک مختلف پتہ منتخب کریں۔",
+        "incomplete_address": "منتخب کردہ پتہ نامکمل ہے۔ %{update_address_link} یا ایک مختلف پتہ منتخب کریں۔",
+        "rollup_label": "اکاؤنٹ",
+        "invalid_shipping_method_summary": "شپنگ کے دستیاب طریقے دیکھنے کے لیے ایک درست شپنگ ایڈریس منتخب کریں۔",
+        "saved_address_option_description": {
+          "one": "آپ کے پاس {{count}} محفوظ کردہ پتہ ہے۔",
+          "other": "آپ کے پاس {{count}} محفوظ کردہ پتے ہیں۔"
+        },
+        "saved_address_option_link": "محفوظ کردہ پتہ استعمال کریں۔",
+        "saved_address_modal_title": "میرا محفوظ کردہ پتہ استعمال کریں۔"
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "آپ کی درخواست پر کارروائی کرنے میں ایک مسئلہ تھا، براہ کرم اسٹور کے مالک سے رابطہ کریں۔"
+      },
+      "no_address_location": {
+        "title": "بغیر پتہ کے مقام",
+        "header": "آپ کے پاس اس مقام کے لیے ترسیل کا پتہ نہیں ہے۔",
+        "alt_header": "ترسیل کا پتہ غائب ہے۔",
+        "message": "چیک آؤٹ مکمل کرنے کے لیے اس مقام کا پتہ شامل کرنے کے لیے ہم سے رابطہ کریں۔",
+        "email_us_button_label": "ہمیں ایک ای میل بھیجیں۔"
+      },
+      "order_errors": {
+        "creation_failure": "آپ کا آرڈر بنانے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں، یا مزید تفصیلات کے لیے ہم سے رابطہ کریں۔",
+        "network_failure": "نیٹ ورک کی خرابی کی وجہ سے آپ کا آرڈر جمع نہیں کیا جا سکا۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+        "inventory_reservation_failure": "کچھ آئٹمز اب دستیاب نہیں ہیں۔"
+      },
+      "session_errors": {
+        "session_not_unique": "آپ کے آرڈر پر کارروائی کرنے میں ایک مسئلہ تھا۔ اسٹور پر واپس جانے کے لیے اس صفحہ کو ریفریش کریں۔",
+        "session_already_finished": "یہ آرڈر پہلے ہی جمع کرایا جا چکا ہے۔ آپ نیا آرڈر شروع کرنے کے لیے اسٹور پر واپس جا سکتے ہیں۔"
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "بند",
+        "business_hours": "کھلنے کے اوقات",
+        "no_business_hours": "کھلنے کے اوقات دستیاب نہیں ہیں۔",
+        "open_twenty_four_hours": "24/7 کھولیں۔",
+        "title": "پک اپ پوائنٹ",
+        "or": "یا",
+        "address_label": "پتہ",
+        "selector_tabs": "پک اپ پوائنٹ سلیکٹر",
+        "selector_tab_map": "نقشہ",
+        "selector_tab_list": "فہرست",
+        "could_not_resolve_address": "آپ کا پتہ نہیں مل سکا۔ دوبارہ کوشش کریں یا کوئی مختلف پتہ استعمال کریں۔",
+        "no_pickup_points_near_you": "منتخب پتے کے قریب کوئی پک اپ پوائنٹ نہیں ملا",
+        "no_pickup_points_near_location": "آپ کے مقام کے قریب کوئی پک اپ پوائنٹ نہیں ملا",
+        "no_pickup_points_found": "کوئی پک اپ پوائنٹ نہیں ملا",
+        "paginator": {
+          "next_accessibility_label": "اگلا صفحہ",
+          "previous_accessibility_label": "پچھلا صفحہ",
+          "header": {
+            "one": "دکھا رہا ہے %{first} - %{last} of %{count} پوائنٹ",
+            "other": "دکھا رہا ہے %{first} - %{last} of %{count} پوائنٹس"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} از %{count} پوائنٹ",
+            "other": "%{pickup_point_index} از %{count} پوائنٹس"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} of %{count} پوائنٹ",
+            "other": "%{first} - %{last} of %{count} پوائنٹس"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "آپ کے مقام کے قریب %{count} پک اپ پوائنٹ",
+          "other": "آپ کے مقام کے قریب %{count} پک اپ پوائنٹس"
+        },
+        "change": "تبدیلی",
+        "waiting_on_pickup_point_location_notice": "پک اپ پوائنٹس تلاش کر رہے ہیں...",
+        "geolocation": {
+          "shared_location_button": "میرا مقام استعمال کریں۔",
+          "errors": {
+            "unsuported_by_browser": "جغرافیائی محل وقوع حاصل کرنا آپ کے براؤزر سے تعاون یافتہ نہیں ہے۔ دوبارہ کوشش کریں یا کوئی مختلف براؤزر استعمال کریں۔",
+            "permission_not_allowed": "اپنے مقام کا اشتراک کرنے کی اجازت دیں۔",
+            "permission_denied": "آپ کا مقام حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "ہمارے چیک آؤٹ میں ایک مسئلہ تھا۔",
+          "message": "اس صفحہ کو ریفریش کریں یا چند منٹوں میں دوبارہ کوشش کریں۔",
+          "action": {
+            "cta": "صفحہ ریفریش کریں۔"
+          },
+          "request_id": "درخواست ID: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "کارٹ پر واپس جائیں۔",
+        "return_to_cart_to_update_quantities": "مقدار کو اپ ڈیٹ کرنے کے لیے %{return_to_cart_link_text}",
+        "subscription_changed": "آپ کی سبسکرپشنز میں سے ایک تبدیل ہو گئی ہے۔",
+        "company_location_changed": "آپ کی کارٹ کو اپ ڈیٹ کر دیا گیا ہے۔ اپنے آرڈر کو جمع کرانے سے پہلے اس کا جائزہ لیں۔",
+        "company_location_changed_product_removed": "آپ کی کارٹ کو اپ ڈیٹ کر دیا گیا ہے کیونکہ کچھ پروڈکٹس اس مقام پر دستیاب نہیں ہیں۔ اپنے آرڈر کو جمع کرانے سے پہلے اس کا جائزہ لیں۔",
+        "violations_title": "{{violation}} غائب یا غلط ہے۔",
+        "individual_violations_title": {
+          "DeliveryViolations": "شپنگ ایڈریس",
+          "PaymentViolations": "بلنگ کا پتہ",
+          "OtherViolations": "آرڈر کی معلومات",
+          "UnhandledViolations": "آرڈر کی معلومات"
+        },
+        "all_violations_content": "اس معلومات کو اپ ڈیٹ کرنے اور اپنا آرڈر مکمل کرنے کے لیے ہمیں کال کریں یا {{emailLink}} کریں:",
+        "all_violations_email_link": "ای میل",
+        "editable_shipping_address_violations_message_title": "اپنا آرڈر مکمل کرنے کے لیے یہ معلومات شامل کریں:",
+        "editable_shipping_address_violations_message_footer": "اس مقام کا پتہ مستقل طور پر اپ ڈیٹ کرنے کے لیے، {{emailLink}} ۔",
+        "editable_shipping_address_violations_email_link": "ہم سے رابطہ کریں",
+        "shipping_address_incomplete_title": "ترسیل کا پتہ نامکمل ہے۔",
+        "calculating_shipping": "شپنگ کا ابھی بھی حساب لگایا جا رہا ہے۔ چند سیکنڈ میں دوبارہ کوشش کریں۔ آپ کو چارج نہیں کیا گیا ہے۔",
+        "calculating_taxes": "ٹیکسوں کا ابھی بھی حساب لیا جا رہا ہے۔ چند سیکنڈ میں دوبارہ کوشش کریں۔ آپ کو چارج نہیں کیا گیا ہے۔"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "جائزہ لیں",
+          "link_label": "{{partnerDisplayName}} شرائط و ضوابط"
+        }
+      },
+      "online_store_chat": {
+        "title": "سوالات؟ ہمارے ساتھ چیٹ کریں۔"
+      },
+      "local_pickup": {
+        "location_address_search_label": "پتہ",
+        "location_information": {
+          "one": "یہاں %{count} اسٹور ہے جس کا اسٹاک %{address} کے قریب ہے",
+          "other": "%{count} اسٹورز ہیں جن کا اسٹاک %{address} کے قریب ہے"
+        },
+        "toggle_location": "میرا مقام تبدیل کریں۔",
+        "or": "یا",
+        "cancel": "منسوخ کریں۔",
+        "your_location": "آپ کا مقام",
+        "search_button": "اسٹورز تلاش کریں۔",
+        "no_stores_found": "کوئی اسٹورز نہیں ملے",
+        "could_not_resolve_address": "آپ کا پتہ نہیں مل سکا۔ دوبارہ کوشش کریں یا کوئی مختلف پتہ استعمال کریں۔",
+        "paginator": {
+          "accessibility_label": "مقامی پک اپ صفحہ بندی",
+          "previous": "پچھلا صفحہ",
+          "next": "اگلا صفحہ",
+          "label": {
+            "one": "%{first} - %{last} of %{count} اسٹور",
+            "other": "%{first} - %{last} %{count} اسٹورز"
+          }
+        },
+        "reveal_more_label": {
+          "one": "%{count} مزید مقام دکھائیں۔"
         }
       }
     }
@@ -860,8 +1148,166 @@
         "order_timeline": {
           "expand_events_label": "تفصیلات دکھائیں۔",
           "expand_events_accessibility_label": "ڈرافٹ آرڈر کی تفصیلات دکھائیں۔",
-          "hide_events_label": "تفصیلات چھپائیں۔"
+          "hide_events_label": "تفصیلات چھپائیں۔",
+          "hide_events_accessibility_label": "ڈرافٹ آرڈر کی تفصیلات چھپائیں۔"
+        },
+        "subtitle": "جمع کرایا {{date}}",
+        "title": "آرڈر {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "ادائیگی کا یہ طریقہ اس مقام سے آئندہ خریداریوں کے لیے مزید دستیاب نہیں ہوگا۔",
+          "description_with_replacement": "ادائیگی کے اس طریقے کو حذف کرنے سے اس مقام کے لیے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ آئندہ آرڈرز وصول کرنا جاری رکھنے کے لیے اسے ادائیگی کے متبادل طریقے سے بدل دیں۔"
+        },
+        "payment_details": {
+          "order_label": "آرڈر {{name}}",
+          "draft_label": "ڈرافٹ آرڈر {{name}}"
         }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "PO نمبر شامل کریں۔",
+        "add_modal_title": "PO نمبر شامل کریں۔",
+        "cancel": "منسوخ کریں۔",
+        "close_modal_accessibility_label": "PO نمبر موڈل بند کریں۔",
+        "discard": "رد کر دیں۔",
+        "discard_changes_modal_title": "تبدیلیوں کو مسترد کریں؟",
+        "edit_accessibility_label": "PO نمبر میں ترمیم کریں۔",
+        "edit_modal_title": "PO نمبر میں ترمیم کریں۔",
+        "empty_state": "کوئی PO نمبر نہیں۔",
+        "modal_po_number_input_label": "پی او نمبر",
+        "modal_po_number_input_max_length_error": "PO نمبرز میں زیادہ سے زیادہ {{maxLength}} حروف ہوتے ہیں۔",
+        "save": "محفوظ کریں۔",
+        "title": "PO # {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "اس پتہ کو حذف کرنے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا صفحہ ریفریش کریں۔"
+      },
+      "addresses_loading_issue": {
+        "description": "کنکشن کی خرابی۔ اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں۔"
+      },
+      "banner_title": {
+        "one": "اس میں {{count}} خرابی ہے۔",
+        "other": "اس میں {{count}} غلطیاں ہیں۔"
+      },
+      "failed_address_creation": {
+        "description": "آپ کا پتہ بنانے میں ایک مسئلہ تھا۔ اس صفحہ کو ریفریش کرنے کی کوشش کریں یا اپنا انٹرنیٹ کنکشن چیک کریں۔"
+      },
+      "failed_address_update": {
+        "description": "آپ کا پتہ اپ ڈیٹ کرنے میں ایک مسئلہ تھا۔ اس صفحہ کو ریفریش کرنے کی کوشش کریں یا اپنا انٹرنیٹ کنکشن چیک کریں۔"
+      },
+      "load_orders_error": {
+        "title": "آرڈرز لوڈ کرنے سے قاصر",
+        "description": "دوبارہ کوشش کریں یا بعد میں واپس آئیں۔",
+        "retry_button": "دوبارہ کوشش کریں۔"
+      },
+      "load_paypal_error": {
+        "description": "PayPal لوڈ کرنے میں ایک مسئلہ ہے۔ براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "logout_everywhere": {
+        "description": "لاگ آؤٹ کے دوران کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "no_access_to_locations": {
+        "description": "آپ کو کسی بھی مقام تک رسائی حاصل نہیں ہے۔"
+      },
+      "not_found": {
+        "description": "URL چیک کریں یا چند منٹوں میں دوبارہ کوشش کریں۔",
+        "title": "اس صفحہ کو لوڈ کرنے میں ایک مسئلہ ہے۔"
+      },
+      "order_not_found": {
+        "description": "یہ آرڈر موجود نہیں ہے یا آپ کو اسے دیکھنے کی اجازت نہیں ہے۔",
+        "title": "آرڈر نہیں ملا"
+      },
+      "profile_update_error": {
+        "description": "آپ کے پروفائل کو اپ ڈیٹ کرنے میں ایک مسئلہ تھا۔ اس صفحہ کو ریفریش کرنے کی کوشش کریں یا اپنا انٹرنیٹ کنکشن چیک کریں۔"
+      },
+      "retry_action_label": "دوبارہ کوشش کریں۔",
+      "load_extension_error": {
+        "title": "خرابی",
+        "description": "اس صفحہ کو ریفریش کریں یا چند منٹوں میں دوبارہ کوشش کریں۔",
+        "refresh_button": "صفحہ ریفریش کریں۔"
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "بہت زیادہ کوششیں",
+        "description": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
+      }
+    },
+    "payment_methods": {
+      "title": "ادائیگی کے طریقے",
+      "add_payment_method_button": "ادائیگی کا طریقہ شامل کریں۔",
+      "add_payment_method_banner": "تیز چیک آؤٹ یا پہلے سے مجاز خدمات کے لیے ادائیگی کا طریقہ شامل کریں۔",
+      "no_payment_methods_banner": "ادائیگی کا کوئی طریقہ شامل نہیں کیا گیا۔",
+      "edit_payment_method_button_accessibility_label": "{{paymentMethodName}} میں ترمیم کریں جس کا اختتام {{lastDigits}} پر ہو",
+      "edit_payment_method_brand_button_accessibility_label": "ترمیم کریں {{paymentMethodName}}",
+      "delete_payment_method_button": "حذف کریں۔",
+      "delete_payment_method_button_accessibility_label": "حذف کریں {{paymentMethodName}}",
+      "back_button": "پیچھے",
+      "back_button_accessibility_label": "{{paymentMethodStepTitle}} پر واپس جائیں",
+      "default": "طے شدہ",
+      "generic_card": "کارڈ",
+      "expiration_warning_button_accessibility_label": "{{lastDigits}} پر ختم ہونے والے {{paymentMethodName}} کے لیے ختم ہونے کی وارننگ دکھائیں",
+      "expires_soon": "اس کارڈ کی میعاد جلد ختم ہو رہی ہے۔",
+      "expired": "اس کارڈ کی میعاد ختم ہو چکی ہے۔",
+      "card_update_consent": "یہ ادائیگی کا طریقہ مستقبل کی خریداریوں کے لیے محفوظ کیا جائے گا۔",
+      "digital_wallet_title": "ڈیجیٹل والیٹ",
+      "credit_or_debit_card_title": "کریڈٹ یا ڈیبٹ کارڈ",
+      "google_pay": {
+        "loading": "Google Pay لوڈ ہو رہا ہے۔",
+        "errors": {
+          "generic": "Google Pay کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+          "missing_billing_address": "Google Pay کو ایک بلنگ پتہ درکار ہے۔ براہ کرم اپنے اکاؤنٹ میں ایک شامل کریں۔"
+        }
+      },
+      "apple_pay": {
+        "loading": "ایپل پے لوڈ ہو رہا ہے۔",
+        "errors": {
+          "generic": "Apple Pay میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ادائیگی کا کوئی دوسرا طریقہ استعمال کریں۔",
+          "not_available": "Apple Pay اس ڈیوائس پر دستیاب نہیں ہے۔",
+          "missing_billing_address": "Apple Pay کے لیے ایک بلنگ پتہ درکار ہے۔ براہ کرم اپنے اکاؤنٹ میں ایک شامل کریں۔"
+        }
+      },
+      "store_credit": {
+        "label": "اسٹور کریڈٹ",
+        "accesibility_label": "اسٹور کریڈٹ - {{formattedBalance}}",
+        "expirable_amounts_button": "میعاد ختم ہونے والی رقم دیکھیں",
+        "expirable_amounts_label": "ختم ہونے والی رقم",
+        "details_modal": {
+          "title": "ختم ہونے والا اسٹور کریڈٹ",
+          "balance_label": "توازن",
+          "expiration_date_label": "میعاد ختم ہونے کی تاریخ",
+          "amount_label": "رقم",
+          "date_label": "تاریخ",
+          "expirable_balance_info": "آپ کے بیلنس میں سے کچھ مستقبل کی تاریخ میں ختم ہو جائے گا۔",
+          "expirable_amount_label": "کل میعاد ختم ہونے والی رقم",
+          "expirable_amounts_info": "جلد ختم ہونے والی رقم کو چیک آؤٹ پر پہلے لاگو کیا جاتا ہے۔",
+          "expirable_amounts_button": "دیکھیں",
+          "expired_amounts_button": "میعاد ختم ہونے والی رقم دیکھیں",
+          "pagination": {
+            "load_more_label": "مزید لوڈ کریں۔",
+            "load_more_accessibility_label": "مزید میعاد ختم ہونے والی مقداریں لوڈ کریں۔"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "ادائیگی کے طریقہ کار کی تفصیلات",
+        "credit_card_details_accessibility_label": "{{lastDigits}} پر ختم ہونے والا",
+        "billing_title": "بلنگ کا پتہ",
+        "card_info_title": "کارڈ کی معلومات",
+        "payment_method_expiring_on": "{{expiryDate}} کو میعاد ختم ہو رہی ہے",
+        "payment_method_expired_on": "{{expiryDate}} کو میعاد ختم ہو گئی",
+        "preauthorized_payments": "پہلے سے مجاز ادائیگیاں",
+        "close_payment_modal": "بند",
+        "close_payment_modal_accessibility_label": "ادائیگی کے طریقہ کار کی تفصیلات کا ماڈل بند کریں۔",
+        "payment_method_not_found_error": "ادائیگی کا طریقہ تلاش کرنے سے قاصر",
+        "payment_details_loading": "ادائیگی کے طریقہ کار کی تفصیلات لوڈ ہو رہی ہیں۔",
+        "pre_authorized_payments": "پہلے سے مجاز ادائیگیاں",
+        "total_amount_of_subscription_line_items_left": "اور {{total}} مزید",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "کل {{totalItems}} آئٹمز، {{totalItemsToDisplay}} آئٹمز دکھا رہے ہیں۔",
+        "next_payment_due": "اگلی ادائیگی باقی ہے {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "ترمیم کریں۔"
       }
     }
   },
