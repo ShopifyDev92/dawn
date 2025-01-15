@@ -864,13 +864,172 @@
           "one": "%{count} مزید مقام دکھائیں۔"
         }
       }
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "fraud": "فراڈ آرڈر",
+          "customer": "گاہک تبدیل/منسوخ آرڈر",
+          "staff": "عملے کی غلطی",
+          "other": "دیگر"
+        },
+        "cash_on_delivery": "کیش آن ڈیلیوری (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "آپ کارٹ میں صرف %{count} %{name} شامل کر سکتے ہیں۔",
+        "too_many_items_in_cart": "آپ مزید %{name} کو کارٹ میں شامل نہیں کر سکتے۔",
+        "less_than_minimum": "اس آئٹم میں کم از کم %{min} ہے۔",
+        "more_than_maximum": "اس آئٹم میں زیادہ سے زیادہ %{max} ہے۔",
+        "not_respect_step": "آپ اس آئٹم کو صرف %{step} کے اضافے میں شامل کر سکتے ہیں۔",
+        "all_items_in_cart": "تمام %{count} %{name} آپ کی کارٹ میں ہیں۔",
+        "empty_update": "خالی ٹوکری کو اپ ڈیٹ نہیں کر سکتے",
+        "missing_parameters": "کوئی درست آئی ڈی یا لائن پیرامیٹر نہیں ہے۔",
+        "generic_error": "کارٹ کی خرابی۔",
+        "product_not_available": "پروڈکٹ دستیاب نہیں ہے۔",
+        "too_many_line_items_error": "آپ کی کارٹ میں %{max} سے زیادہ آئٹمز نہیں ہو سکتے۔",
+        "link_expired": "لنک کی میعاد ختم ہوگئی",
+        "link_no_longer_exists": "لنک اب موجود نہیں ہے۔",
+        "stock_problems_html": "ایک یا زیادہ آئٹمز اب دستیاب نہیں ہیں۔ ہم نے ایک <a href=\"%{link}\">تازہ کاری شدہ کارٹ</a> فراہم کی ہے۔",
+        "changed": "ٹوکری بدل گئی۔",
+        "items_changed": "ایک یا زیادہ آئٹمز تبدیل ہو گئے ہیں۔",
+        "product_sold_out": "پروڈکٹ '%{name}' پہلے ہی فروخت ہو چکی ہے۔",
+        "variant_not_found": "متغیر نہیں مل سکتا",
+        "variant_requires_selling_plan": "ویرینٹ صرف سیلنگ پلان کے ساتھ خریدا جا سکتا ہے۔",
+        "selling_plan_not_available_for_company_locations": "B2B آرڈرز کے لیے صرف ایک بار کی خریداری دستیاب ہے۔",
+        "digital_product_not_available_for_company_locations": "اس آئٹم کو B2B آرڈر میں شامل نہیں کیا جا سکتا",
+        "selling_plan_not_applicable": "ویرینٹ پر سیلنگ پلان لاگو نہیں کیا جا سکتا",
+        "shipping_address_not_required": "اس کارٹ کو شپنگ کی ضرورت نہیں ہے۔",
+        "shipping_address_invalid": "آپ کی ترسیل کے نرخوں کا حساب لگانے میں ایک مسئلہ تھا۔ اپنا آرڈر مکمل کرنے سے پہلے شپنگ ریٹ منتخب کرنے کے لیے چیک آؤٹ کرنا جاری رکھیں۔",
+        "bundle_requires_components": "بنڈل پروڈکٹ '%{name}' کو کارٹ میں شامل نہیں کیا جا سکتا۔",
+        "gift_card_with_components_not_supported": "بنڈل پروڈکٹ '%{name}' کو کارٹ میں شامل نہیں کیا جا سکتا۔",
+        "gift_card_price_must_be_greater_than_zero": "بنڈل پروڈکٹ '%{name}' کو کارٹ میں شامل نہیں کیا جا سکتا۔",
+        "gift_card_recipient_validation_error": "مخصوص گفٹ کارڈ وصول کنندہ غلط ہے۔",
+        "view_lines_limit_reached": "لائنیں %{limit} سے کم ہونی چاہئیں",
+        "cart_too_large": "ٹوکری بہت بڑی ہے۔",
+        "merchandise_line_transformers": {
+          "run_error": "آپ کی کارٹ میں ایک خرابی پیش آگئی۔"
+        }
+      },
+      "storefront": {
+        "invalid_password": "پاس ورڈ غلط ہے، براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "tags": {
+        "add_articles": "%{tag} ٹیگ والے مضامین تک تلاش کو تنگ کریں",
+        "add_products": "مماثل پروڈکٹس کے ٹیگ %{tag} تک محدود انتخاب",
+        "remove_articles": "ان مضامین کی تلاش وسیع کریں جن پر ٹیگ نہیں ہے %{tag}",
+        "remove_products": "ٹیگ %{tag} ہٹائیں"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "ہماری میلنگ لسٹ کو سبسکرائب کرنے کے لیے آپ کا شکریہ۔",
+        "disclaimer": "آپ کسی بھی وقت ان سبسکرائب کر سکتے ہیں۔",
+        "unsubscribe": "ان سبسکرائب کریں۔"
+      },
+      "unsubscribed": {
+        "confirmation": "آپ نے ہماری میلنگ لسٹ سے رکنیت ختم کر دی ہے۔",
+        "disclaimer": "آپ کو ہماری طرف سے مزید مارکیٹنگ کی اپ ڈیٹس موصول نہیں ہوں گی۔ آپ کسی بھی وقت دوبارہ سبسکرائب کر سکتے ہیں۔",
+        "preview": "آپ پیش نظارہ کر رہے ہیں کہ جب گاہک ان سبسکرائب کریں گے تو وہ کیا دیکھیں گے۔"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>آپ نے ای میل اوپن ٹریکنگ کا انتخاب کیا ہے۔</b>",
+          "visibility": "ای میل کھلے نرخوں کی اطلاع گمنام طور پر دی جائے گی۔ ہم صرف یہ دیکھیں گے کہ آیا آپ نے ای میل کھولنے کی مجموعی شرح کے حصے کے طور پر کوئی ای میل کھولی ہے۔",
+          "opt_out_html": "اگر آپ اس معلومات کا اشتراک نہیں کرنا چاہتے تو آپ ای میل اوپن ٹریکنگ سے <a style=\"text-decoration:underline;\" href=\"%{link}\">آپٹ آؤٹ</a> کر سکتے ہیں۔",
+          "preview_bar": "آپ اس بات کا جائزہ لے رہے ہیں کہ جب صارفین ای میل اوپن ٹریکنگ کا انتخاب کرتے ہیں تو وہ کیا دیکھیں گے۔"
+        },
+        "opt_out": {
+          "opted_out_html": "<b>آپ نے ای میل اوپن ٹریکنگ سے آپٹ آؤٹ کیا ہے۔</b>",
+          "visibility": "ہم نہیں دیکھیں گے کہ آیا آپ نے ہماری ای میلز کھولی ہیں۔",
+          "opt_in_html": "ای میل اوپن ٹریکنگ میں <a style=\"text-decoration:underline;\" href=\"%{link}\">آپٹ ان کریں</a> ۔",
+          "preview_bar": "آپ پیش نظارہ کر رہے ہیں کہ جب صارفین ای میل اوپن ٹریکنگ سے آپٹ آؤٹ کریں گے تو وہ کیا دیکھیں گے۔"
+        },
+        "no_longer_track": {
+          "status_html": "<b>ہم اب کسی بھی ای میل کے کھلنے کو ٹریک نہیں کرتے ہیں۔</b>",
+          "privacy_policy": "اس ای میل کے بھیجے جانے کے بعد، ہم نے اپنی پرائیویسی پالیسی کو اپ ڈیٹ کر دیا اور اب ہم اوپنز کو ٹریک نہیں کرتے۔"
+        },
+        "track": {
+          "status_html": "<b>ای میل اوپن ٹریکنگ کی اطلاع ہے۔</b>",
+          "visibility": "ہم صرف یہ دیکھیں گے کہ آیا آپ نے ای میل کھولی ہے، ای میل کھلنے کی کل شرح کے حصے کے طور پر۔"
+        },
+        "updated_policy": {
+          "status_html": "<b>ای میل اوپن ٹریکنگ کی اطلاع ہے۔</b>",
+          "visibility": "ہم نے اپنی پالیسی کو اپ ڈیٹ کر دیا ہے، اور اب ٹریک ای میلز کھلتے ہیں۔ ای میل کھلے نرخوں کی اطلاع گمنام طور پر دی جائے گی۔ ہم صرف یہ دیکھیں گے کہ آیا آپ نے ای میل کھلنے کی کل شرح کے حصے کے طور پر کوئی ای میل کھولی ہے۔",
+          "opt_out_html": "اگر آپ اس معلومات کو شیئر نہیں کرنا چاہتے تو آپ <a style=\"text-decoration:underline;\" href=\"%{link}\">ان سبسکرائب کر سکتے ہیں۔</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "اسٹاک میں",
+          "out_of_stock": "اسٹاک ختم"
+        }
+      },
+      "boolean": {
+        "true_label": "جی ہاں",
+        "false_label": "نہیں"
+      }
+    },
+    "search": {
+      "error": "آپ کے تلاش کے نتائج لوڈ کرنے میں ایک مسئلہ تھا۔ براہ کرم صفحہ ریفریش کریں یا بعد میں دوبارہ کوشش کریں۔",
+      "sorting": {
+        "relevance": "مطابقت",
+        "price_ascending": "قیمت، کم سے زیادہ",
+        "price_descending": "قیمت، زیادہ سے کم"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "خرابی - %{title}",
+      "products": "مصنوعات",
+      "shopping_cart": "آپ کی شاپنگ کارٹ",
+      "account": "اکاؤنٹ",
+      "create_account": "اکاؤنٹ بنائیں",
+      "reset_account": "اکاؤنٹ ری سیٹ کریں۔",
+      "addresses": "پتے",
+      "order": "آرڈر %{name}",
+      "search_results": {
+        "one": "تلاش کریں: \"%{terms}\" کے لیے %{count} نتیجہ ملا",
+        "other": "تلاش کریں: \"%{terms}\" کے لیے %{count} نتائج ملے"
+      },
+      "not_found": "404 نہیں ملا",
+      "challenge": "چیلنج",
+      "checkpoint": "چوکی"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} رعایتیں لاگو کر دی گئی ہیں۔"
+    },
+    "challenge": {
+      "message": "جاری رکھنے کے لیے، ہمیں بتائیں کہ آپ روبوٹ نہیں ہیں۔",
+      "error": "آپ کا جواب درست نہیں تھا، براہ کرم دوبارہ کوشش کریں۔",
+      "submit_button_text": "جمع کروائیں۔"
+    },
+    "checkpoint": {
+      "message": "جاری رکھنے کے لیے کیپچا حل کریں۔",
+      "error": "کیپچا کی توثیق ناکام ہوگئی",
+      "submit_button_text": "جمع کروائیں۔"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "عام طور پر 1 گھنٹے میں تیار ہوجاتا ہے۔",
+        "two_hours": "عام طور پر 2 گھنٹے میں تیار ہوجاتا ہے۔",
+        "four_hours": "عام طور پر 4 گھنٹے میں تیار ہوجاتا ہے۔",
+        "twenty_four_hours": "عام طور پر 24 گھنٹوں میں تیار ہوجاتا ہے۔",
+        "two_to_four_days": "عام طور پر 2-4 دنوں میں تیار ہوجاتا ہے۔",
+        "five_or_more_days": "عام طور پر 5+ دنوں میں تیار ہوجاتا ہے۔",
+        "zero_to_two_hours": "عام طور پر 2 گھنٹے میں تیار ہوجاتا ہے۔",
+        "two_to_four_hours": "عام طور پر 4 گھنٹے میں تیار ہوجاتا ہے۔",
+        "immediately": "اب پک اپ کے لیے تیار ہیں۔",
+        "next_day": "اگلے دن پک اپ کے لیے تیار"
+      }
     }
   },
   "customer_accounts": {
     "orders": {
       "order_status": {
         "gift_card_resend_description_text": {
-          "other": "اگر وہ موصول نہیں ہوئے تو متن دوبارہ بھیجیں یا"
+          "other": "اگر وہ موصول نہیں ہوئے تو متن دوبارہ بھیجیں یا",
+          "one": "اگر یہ موصول نہیں ہوا تو متن دوبارہ بھیجیں یا"
         },
         "confirmed_gift_card_additional_description": {
           "one": "گفٹ کارڈ الگ ای میل میں بھیجا جائے گا۔",
@@ -972,6 +1131,69 @@
               "claim_shop_cash_description": "آپ شاپ ایپ میں مستقبل کی خریداریوں پر اپنا شاپ کیش استعمال کر سکتے ہیں۔"
             }
           }
+        },
+        "attempted_delivery_label": "ترسیل کی کوشش کی۔",
+        "attempted_delivery_description": "ترسیل کی کوشش ناکام رہی۔",
+        "attempted_to_deliver_label": "پہنچانے کی کوشش کی۔",
+        "confirmed_description": "ہمیں آپ کا آرڈر مل گیا ہے۔",
+        "on_its_way_description": "یہ کھیپ اپنے راستے پر ہے۔",
+        "out_for_delivery_description": "یہ کھیپ ترسیل کے لیے باہر ہے۔",
+        "preparing_for_shipping_label": "شپنگ کے لیے تیاری کر رہا ہے۔",
+        "preparing_for_shipping_description": "یہ اشیاء شپنگ کے لیے تیار کی جا رہی ہیں۔",
+        "ready_for_pickup_label": "پک اپ کے لیے تیار",
+        "ready_for_pickup_description": "یہ اشیاء لینے کے لیے تیار ہیں۔ جب آپ اپنا آرڈر اٹھائیں تو براہ کرم اپنے آرڈر کی تصدیق لائیں۔",
+        "ready_for_pickup_location": "آپ کا آرڈر مقام پر پک اپ کے لیے تیار ہے۔",
+        "picked_up_label": "اٹھایا",
+        "picked_up_description": "یہ اشیاء اٹھا لی گئی ہیں۔",
+        "canceled_description": "آپ کا آرڈر {{date}} کو منسوخ کر دیا گیا تھا۔",
+        "canceled_label": "منسوخ",
+        "canceled_title": "آپ کا آرڈر منسوخ کر دیا گیا ہے۔",
+        "come_back": "اپنی شپمنٹ کی صورتحال کے بارے میں اپ ڈیٹس کے لیے اس صفحہ پر واپس آئیں۔",
+        "company_tracking_number": "{{company}} ٹریکنگ نمبر:",
+        "confirmed_label": "تصدیق شدہ",
+        "confirmed_title": "آپ کے آرڈر کی تصدیق ہو گئی ہے۔",
+        "confirmed_description_pickup": "آپ کا آرڈر پک اپ کے لیے تیار ہونے پر آپ کو ایک ای میل موصول ہوگی۔",
+        "confirmed_description_digital": "آپ کا آرڈر تیار ہونے پر آپ کو ایک ای میل موصول ہوگی۔",
+        "confirmed_description_gift_card_text": "آپ کا آرڈر تیار ہونے پر آپ کو ایک متن موصول ہوگا۔",
+        "delivered_description": "یہ کھیپ پہنچا دی گئی ہے۔",
+        "complete_label": "مکمل",
+        "delivered_label": "پہنچایا",
+        "delivered_title": "آپ کی کھیپ پہنچا دی گئی ہے۔",
+        "delivered_description_digital": {
+          "one": "یہ آئٹم مکمل ہے۔",
+          "other": "یہ اشیاء مکمل ہیں۔"
+        },
+        "delivered_description_gift_card": {
+          "one": "گفٹ کارڈ ای میل کے ذریعے بھیجا گیا تھا۔",
+          "other": "گفٹ کارڈز بذریعہ ای میل بھیجے گئے تھے۔"
+        },
+        "delivered_description_gift_card_text": {
+          "one": "گفٹ کارڈ بذریعہ ٹیکسٹ بھیجا گیا۔",
+          "other": "گفٹ کارڈز بذریعہ ٹیکسٹ بھیجے گئے تھے۔"
+        },
+        "gift_card_label": {
+          "one": "گفٹ کارڈ",
+          "other": "گفٹ کارڈز"
+        },
+        "gift_card_resend": {
+          "one": "ای میل دوبارہ بھیجیں۔",
+          "other": "ای میلز دوبارہ بھیجیں۔"
+        },
+        "gift_card_resend_text": {
+          "one": "متن دوبارہ بھیجیں۔",
+          "other": "متن دوبارہ بھیجیں۔"
+        },
+        "gift_resend_success": {
+          "one": "گفٹ کارڈ دوبارہ بھیجا گیا۔",
+          "other": "گفٹ کارڈز دوبارہ بھیجے گئے۔"
+        },
+        "gift_resend_failure": {
+          "one": "آپ کا گفٹ کارڈ دوبارہ بھیجنے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ہم سے رابطہ کریں۔",
+          "other": "آپ کے گفٹ کارڈز کو دوبارہ بھیجنے میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں یا ہم سے رابطہ کریں۔"
+        },
+        "gift_card_resend_description": {
+          "one": "اگر یہ موصول نہیں ہوا تو ای میل دوبارہ بھیجیں یا",
+          "other": "اگر وہ موصول نہیں ہوئے تو ای میلز دوبارہ بھیجیں یا"
         }
       },
       "status_mark_as_delivered": "بطور ڈیلیور نشان زد کریں۔",
@@ -989,7 +1211,91 @@
         "other": "اگر وہ وصول نہ ہوئے تو"
       },
       "let_us_know": "ہمیں بتائیں",
-      "contact_us": "ہم سے رابطہ کریں۔"
+      "contact_us": "ہم سے رابطہ کریں۔",
+      "order_list": {
+        "pagination": {
+          "nav_accessibility_label": "نیویگیشن بٹن کا آرڈر دیتے ہیں۔",
+          "next": "اگلا",
+          "next_accessibility_label": "اگلے احکامات",
+          "previous": "پچھلا",
+          "previous_accessibility_label": "پچھلے احکامات",
+          "load_more": "مزید لوڈ کریں۔",
+          "load_more_accessibility_label": "مزید آرڈرز لوڈ کریں۔"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "تفصیلات کے لیے آرڈر دیکھیں",
+            "estimated_delivery": "متوقع {{date}}",
+            "last_updated": "آخری بار اپ ڈیٹ کیا گیا {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "تخمینہ ترسیل {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "ادائیگی واجب الادا ہے۔",
+            "due": "ادائیگی کی آخری تاریخ {{date}}",
+            "due_today": "ادائیگی آج واجب الادا ہے۔",
+            "due_without_date": "ادائیگی واجب الادا",
+            "due_on_fulfillment": "تکمیل پر واجب الادا ادائیگی",
+            "pay_to_confirm": "تصدیق کے لیے ادائیگی کریں۔",
+            "payment_not_due": "ادائیگی ابھی باقی نہیں ہے۔"
+          },
+          "table_view": {
+            "overdue": "زائد المیعاد",
+            "due": "آخری تاریخ {{date}}",
+            "due_today": "آج واجب الادا ہے۔",
+            "paid": "ادا کیا",
+            "due_without_date": "واجب الادا",
+            "due_on_fulfillment": "تکمیل پر واجب الادا",
+            "pay_to_confirm": "تصدیق کے لیے ادائیگی کریں۔",
+            "payment_not_due": "ابھی واجب الادا نہیں۔"
+          }
+        },
+        "sort_by": "ترتیب دیں: {{option}}",
+        "sort_hide_options_accessibility_label": "تصدیق شدہ آرڈرز کے لیے ترتیب کے اختیارات چھپائیں۔",
+        "sort_show_options_accessibility_label": "تصدیق شدہ آرڈرز کے لیے ترتیب کے اختیارات دکھائیں۔",
+        "sort_currently_sorted_by_accessibility_label": "فی الحال ترتیب دیا گیا ہے: {{option}}",
+        "sort_title": "چھانٹنا",
+        "sort": {
+          "date": {
+            "newest": "تازہ ترین سے قدیم ترین",
+            "oldest": "قدیم سے تازہ ترین"
+          },
+          "location": {
+            "ascending": "مقام (AZ)",
+            "descending": "مقام (ZA)"
+          },
+          "order_number": {
+            "ascending": "آرڈر نمبر (کم سے زیادہ)",
+            "descending": "آرڈر نمبر (اعلی سے کم)"
+          },
+          "order_total": {
+            "ascending": "کل آرڈر (کم سے زیادہ)",
+            "descending": "کل آرڈر (زیادہ سے کم)"
+          }
+        },
+        "filter_title": "فلٹر",
+        "filter": {
+          "clear_section": "سیکشن صاف کریں۔",
+          "clear_all": "سب صاف کریں۔",
+          "apply": "لگائیں",
+          "date": {
+            "start_date": "تاریخ شروع",
+            "end_date": "اختتامی تاریخ",
+            "title": "آرڈر کی تاریخ",
+            "today": "آج",
+            "last_7_days": "آخری 7 دن",
+            "last_30_days": "آخری 30 دن",
+            "last_90_days": "آخری 90 دن",
+            "last_365_days": "پچھلے 12 مہینے",
+            "custom": "حسب ضرورت"
+          }
+        },
+        "table_view": "ٹیبل کا منظر دکھائیں۔",
+        "show_order_actions_accessibility_label": "آرڈر {{name}} کے لیے آرڈر کی کارروائیاں دکھائیں"
+      }
     },
     "order_details": {
       "shipment_timeline": {
