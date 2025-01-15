@@ -727,7 +727,8 @@
           "change_contact_method_link_label": "رابطے کی معلومات کو تبدیل کریں۔",
           "change_billing_address_link_label": "بلنگ ایڈریس تبدیل کریں۔",
           "change_shipping_address_link_label": "شپنگ ایڈریس تبدیل کریں۔",
-          "change_shipping_method_link_label": "شپنگ کا طریقہ تبدیل کریں۔"
+          "change_shipping_method_link_label": "شپنگ کا طریقہ تبدیل کریں۔",
+          "contact_method_title": "رابطہ کریں۔"
         },
         "block_title": "اپنی معلومات کا جائزہ لیں۔",
         "item_header": {
@@ -1018,7 +1019,8 @@
             "permission_not_allowed": "اپنے مقام کا اشتراک کرنے کی اجازت دیں۔",
             "permission_denied": "آپ کا مقام حاصل نہیں ہو سکا۔ دوبارہ کوشش کریں۔"
           }
-        }
+        },
+        "search_button": "تلاش کریں۔"
       },
       "error_page": {
         "terminal": {
@@ -2009,7 +2011,9 @@
       },
       "not_found": "404 نہیں ملا",
       "challenge": "چیلنج",
-      "checkpoint": "چوکی"
+      "checkpoint": "چوکی",
+      "search": "تلاش کریں۔",
+      "collections": "مجموعے"
     },
     "cart": {
       "discounts_with_count": "%{count} رعایتیں لاگو کر دی گئی ہیں۔"
@@ -2443,7 +2447,8 @@
         },
         "table_view": "ٹیبل کا منظر دکھائیں۔",
         "show_order_actions_accessibility_label": "آرڈر {{name}} کے لیے آرڈر کی کارروائیاں دکھائیں"
-      }
+      },
+      "list_title": "احکامات"
     },
     "order_details": {
       "shipment_timeline": {
@@ -2459,7 +2464,143 @@
       "card_ending_with": "{{lastDigits}} کے ساتھ ختم ہونے والا",
       "contact_information": "رابطہ کی معلومات",
       "company": "کمپنی",
-      "fully_refunded_label": "رقم کی واپسی"
+      "fully_refunded_label": "رقم کی واپسی",
+      "contact": "رابطہ کریں۔",
+      "shipping": {
+        "free_shipping_discount": "مفت شپنگ",
+        "address": "شپنگ ایڈریس",
+        "address_map_marker": "شپنگ ایڈریس",
+        "method": "ترسیل کا طریقہ",
+        "summary": "شپنگ",
+        "free": "مفت",
+        "one_time": "ایک بار شپنگ",
+        "subscription": "سبسکرپشن شپنگ"
+      },
+      "group_title_label": "کا حصہ: {{groupTitle}}",
+      "grouped_view_components": {
+        "expand_line_items": "{{count}} آئٹمز دکھائیں۔",
+        "collapse_line_items": "{{count}} آئٹمز چھپائیں۔",
+        "line_item_summary_list_accessibility_label": "{{productTitle}} بنڈل میں آئٹمز"
+      },
+      "discount": "رعایت",
+      "hide_items": "اشیاء چھپائیں۔",
+      "loading": "آرڈر کی تفصیلات لوڈ ہو رہی ہیں۔",
+      "loading_finished_accessibility_message": "آرڈر کی تفصیلات لوڈ کر دی گئی ہیں۔",
+      "location": "مقام",
+      "image_gallery": {
+        "next": "اگلی اشیاء دکھائیں۔",
+        "previous": "پچھلی اشیاء دکھائیں۔",
+        "load_more_items": {
+          "one": "مزید {{count}} آئٹمز لوڈ کریں۔",
+          "other": "مزید {{count}} آئٹمز لوڈ کریں۔"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "آرڈر کا خلاصہ دکھائیں۔",
+        "closed": "آرڈر کا خلاصہ چھپائیں۔"
+      },
+      "no_data": "کوئی نہیں۔",
+      "no_data_provided_accessibility_label": "{{fieldName}} خالی ہے۔",
+      "paid_amount": "ادا کیا",
+      "partially_refunded_label": "جزوی طور پر واپس کر دیا گیا۔",
+      "payment": {
+        "status_in_review": "جائزہ لینے کے بعد ادائیگی واجب الادا ہے۔",
+        "status_unpaid": "ادائیگی {{date}} کو واجب الادا",
+        "title": "ادائیگی",
+        "payment_type": {
+          "gift_card": "گفٹ کارڈ",
+          "store_credit": "سٹور کریڈٹ",
+          "money_order": "منی آرڈر",
+          "cash_on_delivery": "کیش آن ڈیلیوری (COD)",
+          "bank_deposit": "بینک ڈپازٹ",
+          "manual": "دستی"
+        },
+        "card_payment_details": "{{lastDigits}} کے ساتھ ختم ہونے والا - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "{{lastDigits}} کے ساتھ ختم ہونے والا - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "اسٹور کریڈٹ - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "شاپ پے قسطوں کے ساتھ ادا کیا گیا۔",
+          "view_schedule": "شیڈول دیکھیں"
+        },
+        "manual_payment_methods": {
+          "money_order": "منی آرڈر - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "کیش آن ڈیلیوری (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "بینک ڈپازٹ - {{formattedTransactionAmount}}",
+          "manual": "دستی - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "سب دکھائیں۔",
+          "show_less": "کم دکھائیں۔",
+          "details": "تفصیلات",
+          "payment_details": "ادائیگی کی تفصیلات"
+        },
+        "emv_details": {
+          "aid": "امداد:",
+          "source": "ذریعہ:"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "شاپ پے قسطوں کے ساتھ ادا کیا گیا۔",
+        "description": "شاپ ایپ میں یاد دہانیوں کے ساتھ اپنے ادائیگی کے شیڈول میں سرفہرست رہیں۔",
+        "payment_reminders_button": "ادائیگی کی یاد دہانی حاصل کریں۔",
+        "desktop_qr_code_content": {
+          "title": "یاد دہانیوں کے لیے اسکین کریں۔",
+          "description": "دکان کے ساتھ اپنی قسطوں کی یاد دہانی حاصل کریں۔"
+        }
+      },
+      "refunded_amount": "رقم کی واپسی",
+      "request_return_failed": "آپ کی درخواست پر کارروائی کرنے میں ایک مسئلہ تھا۔ براہ کرم دوبارہ کوشش کریں۔",
+      "remaining_amount": "باقی",
+      "marketing_section_title": "خبریں اور پیشکشیں۔",
+      "marketing_description": "آپ کو مارکیٹنگ کی ای میلز موصول ہوں گی۔ آپ کسی بھی وقت ان سبسکرائب کر سکتے ہیں۔",
+      "marketing_checkbox_label": "خبروں اور پیشکشوں کے ساتھ مجھے ای میل کریں۔",
+      "marketing_checkmark_label": "آپ نے ای میل کی خبریں اور پیشکشیں حاصل کرنے کے لیے سبسکرائب کیا ہے۔",
+      "returns": {
+        "expand_events_label": "تفصیلات دکھائیں۔",
+        "hide_events_label": "تفصیلات چھپائیں۔",
+        "ineligible_return_message": "اس آرڈر میں کوئی بھی آئٹمز واپسی کے اہل نہیں ہیں۔",
+        "ineligible_return_message_when_returned": "اس آرڈر میں کوئی اضافی آئٹمز واپسی کے اہل نہیں ہیں۔",
+        "print_shipping_label": "شپنگ لیبل پرنٹ کریں۔",
+        "return_and_refund_modal_header": "رقم کی واپسی کی پالیسی",
+        "tracking_number": "ٹریکنگ نمبر:"
+      },
+      "pickup": {
+        "pickup": "اٹھاؤ",
+        "pickup_location": "پک اپ کا مقام",
+        "pickup_point": "پک اپ پوائنٹ"
+      },
+      "show_items": "آئٹمز دکھائیں۔",
+      "show_order_summary": "آرڈر کا خلاصہ دکھائیں۔",
+      "hide_order_summary": "آرڈر کا خلاصہ چھپائیں۔",
+      "subtitle": "تصدیق شدہ {{date}}",
+      "subtotal": "ذیلی ٹوٹل",
+      "summary_list_title_accessibility_label": "اشیاء کا آرڈر دیں۔",
+      "summary_title": "آرڈر کا خلاصہ",
+      "summary_totals_title_accessibility_label": "آرڈر کا ٹوٹل",
+      "shop_order_tracking": {
+        "download_shop_to_track": "پیکج کو ٹریک کرنے کے لیے شاپ ڈاؤن لوڈ کریں۔",
+        "track_order_with_shop": "دکان کے ساتھ آرڈر کو ٹریک کریں۔",
+        "title_header": "اپنے فون سے اسکین کریں۔",
+        "real_time_delivery_updates": "آپ کا آرڈر بھیجے جانے کے بعد شاپ آپ کو ریئل ٹائم ڈیلیوری اپ ڈیٹس بھیجے گی۔"
+      },
+      "edit_summary": {
+        "added": "شامل کیا گیا۔",
+        "added_with_quantity": "شامل کیا گیا {{quantity}}",
+        "removed": "ہٹا دیا گیا۔",
+        "removed_with_quantity": "ہٹا دیا گیا {{quantity}}",
+        "updated_at": "آپ کا آرڈر {{date}} کو اپ ڈیٹ کیا گیا تھا",
+        "returned": "واپس آ گیا۔",
+        "returned_with_quantities": "{{total}} میں سے {{delta}} واپس آئے",
+        "removed_with_quantities": "{{total}} میں سے {{delta}} کو ہٹا دیا گیا",
+        "return_line_item_removed": "واپسی سے ہٹا دیا گیا۔",
+        "return_line_item_removed_with_quantities": "واپسی سے {{delta}} کو ہٹا دیا گیا۔"
+      },
+      "shop_pay": {
+        "order_completed_with": "کے ساتھ آرڈر مکمل ہوا۔",
+        "learn_more": "مزید جانیں"
+      },
+      "taxes": "ٹیکس",
+      "taxes_included": "ٹیکسوں میں {{amount}} بھی شامل ہے۔"
     },
     "B2B": {
       "locations": {
@@ -2524,7 +2665,8 @@
         },
         "order_list_column_headers_location": "مقام",
         "order_list_column_headers_status": "حیثیت",
-        "removed_company_contact_tooltip": "کمپنی سے نکال دیا گیا۔"
+        "removed_company_contact_tooltip": "کمپنی سے نکال دیا گیا۔",
+        "order_list_column_headers_contact": "رابطہ کریں۔"
       },
       "draft_order_details": {
         "draft_order_subtitle": "آرڈر {{draftOrderName}} } سے تصدیق شدہ {{date}} }",
@@ -2974,6 +3116,9 @@
         "button": "ہر جگہ لاگ آؤٹ کریں۔",
         "warning_message": "آپ اس ڈیوائس پر بھی لاگ آؤٹ ہو جائیں گے۔"
       }
+    },
+    "navigation_and_structure": {
+      "orders_link_label": "احکامات"
     }
   },
   "blogs": {
@@ -3156,7 +3301,8 @@
     "update_language": "زبان کو اپ ڈیٹ کریں۔",
     "update_country": "ملک/علاقہ کو اپ ڈیٹ کریں۔",
     "popular_countries_regions": "مقبول ممالک/علاقے۔",
-    "country_results_count": "{{ count }} ممالک/علاقے ملے"
+    "country_results_count": "{{ count }} ممالک/علاقے ملے",
+    "search": "تلاش کریں۔"
   },
   "customer": {
     "account": {
@@ -3234,7 +3380,8 @@
       "tracking_company": "کیریئر",
       "tracking_number": "ٹریکنگ نمبر",
       "subtotal": "ذیلی ٹوٹل",
-      "total_duties": "فرائض"
+      "total_duties": "فرائض",
+      "price": "قیمت"
     },
     "orders": {
       "title": "آرڈر کی تاریخ",
@@ -3336,8 +3483,14 @@
         "product": "پروڈکٹ",
         "total": "کل",
         "quantity": "مقدار",
-        "image": "مصنوعات کی تصویر"
+        "image": "مصنوعات کی تصویر",
+        "price": "قیمت"
       }
+    }
+  },
+  "general": {
+    "search": {
+      "search": "تلاش کریں۔"
     }
   }
 }
