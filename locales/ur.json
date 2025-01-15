@@ -1442,8 +1442,139 @@
       "page": "صفحہ",
       "products": "مصنوعات",
       "results_pages_with_count": {
-        "one": "{{ count }} صفحہ"
+        "one": "{{ count }} صفحہ",
+        "other": "{{ count }} صفحات"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} تجویز",
+        "other": "{{ count }} تجاویز"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} پروڈکٹ",
+        "other": "{{ count }} مصنوعات"
+      },
+      "results_with_count": {
+        "one": "{{ count }} نتیجہ",
+        "other": "{{ count }} نتائج"
+      },
+      "results_with_count_and_term": {
+        "one": "\" {{ terms }} \" کے لیے {{ count }} نتیجہ ملا",
+        "other": "\" {{ terms }} \" کے لیے {{ count }} نتائج ملے"
+      },
+      "title": "تلاش کے نتائج",
+      "search_for": "تلاش کریں \" {{ terms }} \"",
+      "suggestions": "تجاویز",
+      "pages": "صفحات"
+    },
+    "cart": {
+      "cart": "ٹوکری"
+    },
+    "contact": {
+      "form": {
+        "title": "رابطہ فارم",
+        "name": "نام",
+        "email": "ای میل",
+        "phone": "فون نمبر",
+        "comment": "تبصرہ",
+        "send": "بھیجیں۔",
+        "post_success": "ہم سے رابطہ کرنے کا شکریہ۔ ہم جلد از جلد آپ سے رابطہ کریں گے۔",
+        "error_heading": "براہ کرم درج ذیل کو ایڈجسٹ کریں:"
       }
+    },
+    "404": {
+      "title": "صفحہ نہیں ملا"
+    }
+  },
+  "localization": {
+    "country_label": "ملک/علاقہ",
+    "language_label": "زبان",
+    "update_language": "زبان کو اپ ڈیٹ کریں۔",
+    "update_country": "ملک/علاقہ کو اپ ڈیٹ کریں۔",
+    "popular_countries_regions": "مقبول ممالک/علاقے۔",
+    "country_results_count": "{{ count }} ممالک/علاقے ملے"
+  },
+  "customer": {
+    "account": {
+      "title": "اکاؤنٹ",
+      "details": "اکاؤنٹ کی تفصیلات",
+      "view_addresses": "پتے دیکھیں",
+      "return": "اکاؤنٹ کی تفصیلات پر واپس جائیں۔"
+    },
+    "account_fallback": "اکاؤنٹ",
+    "activate_account": {
+      "title": "اکاؤنٹ چالو کریں۔",
+      "subtext": "اپنے اکاؤنٹ کو چالو کرنے کے لیے اپنا پاس ورڈ بنائیں۔",
+      "password": "پاس ورڈ",
+      "password_confirm": "پاس ورڈ کی تصدیق کریں۔",
+      "submit": "اکاؤنٹ چالو کریں۔",
+      "cancel": "دعوت کو مسترد کریں۔"
+    },
+    "addresses": {
+      "title": "پتے",
+      "default": "طے شدہ",
+      "add_new": "ایک نیا پتہ شامل کریں۔",
+      "edit_address": "ایڈریس میں ترمیم کریں۔",
+      "first_name": "پہلا نام",
+      "last_name": "آخری نام",
+      "company": "کمپنی",
+      "address1": "پتہ 1",
+      "address2": "پتہ 2",
+      "city": "شہر",
+      "country": "ملک/علاقہ",
+      "province": "صوبہ",
+      "zip": "پوسٹل/زپ کوڈ",
+      "phone": "فون",
+      "set_default": "ڈیفالٹ ایڈریس کے طور پر سیٹ کریں۔",
+      "add": "ایڈریس شامل کریں۔",
+      "update": "پتہ اپ ڈیٹ کریں۔",
+      "cancel": "منسوخ کریں۔",
+      "edit": "ترمیم کریں۔",
+      "delete": "حذف کریں۔",
+      "delete_confirm": "کیا آپ واقعی یہ پتہ حذف کرنا چاہتے ہیں؟"
+    },
+    "log_in": "لاگ ان کریں۔",
+    "log_out": "لاگ آؤٹ کریں۔",
+    "login_page": {
+      "cancel": "منسوخ کریں۔",
+      "create_account": "اکاؤنٹ بنائیں",
+      "email": "ای میل",
+      "forgot_password": "اپنا پاس ورڈ بھول گئے؟",
+      "guest_continue": "جاری رکھیں",
+      "guest_title": "مہمان کے طور پر جاری رکھیں",
+      "password": "پاس ورڈ",
+      "title": "لاگ ان",
+      "sign_in": "سائن ان کریں۔",
+      "submit": "جمع کروائیں۔",
+      "alternate_provider_separator": "یا"
+    },
+    "order": {
+      "title": "آرڈر {{ name }}",
+      "date_html": "{{ date }} کو رکھا گیا",
+      "cancelled_html": "آرڈر {{ date }} کو منسوخ کر دیا گیا",
+      "cancelled_reason": "وجہ: {{ reason }}",
+      "billing_address": "بلنگ کا پتہ",
+      "payment_status": "ادائیگی کی حیثیت",
+      "shipping_address": "شپنگ ایڈریس",
+      "fulfillment_status": "تکمیل کی حیثیت",
+      "discount": "رعایت",
+      "shipping": "شپنگ",
+      "tax": "ٹیکس",
+      "product": "پروڈکٹ",
+      "quantity": "مقدار",
+      "total": "کل",
+      "total_refunded": "رقم کی واپسی",
+      "fulfilled_at_html": "پورا ہوا {{ date }}",
+      "track_shipment": "کھیپ کو ٹریک کریں۔",
+      "tracking_url": "ٹریکنگ لنک",
+      "tracking_company": "کیریئر",
+      "tracking_number": "ٹریکنگ نمبر",
+      "subtotal": "ذیلی ٹوٹل",
+      "total_duties": "فرائض"
+    },
+    "orders": {
+      "title": "آرڈر کی تاریخ",
+      "order_number": "آرڈر",
+      "order_number_link": "آرڈر نمبر {{ number }}"
     }
   }
 }
