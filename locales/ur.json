@@ -1751,8 +1751,133 @@
         "total_amount_of_subscription_line_items_left": "اور {{total}} مزید",
         "total_amount_of_subscription_line_items_left_accessibility_label": "کل {{totalItems}} آئٹمز، {{totalItemsToDisplay}} آئٹمز دکھا رہے ہیں۔",
         "next_payment_due": "اگلی ادائیگی باقی ہے {{dueDateInMonthDayYear}}",
-        "edit_payment_method_button": "ترمیم کریں۔"
+        "edit_payment_method_button": "ترمیم کریں۔",
+        "edit_payment_method_button_accessibility_label": "{{lastDigits}} پر ختم ہونے والے ادائیگی کے طریقے میں ترمیم کریں",
+        "loading_shop_pay": "شاپ پے لوڈ ہو رہا ہے۔",
+        "invalid_payment_method": "ادائیگی کا غلط طریقہ",
+        "invalid_payment_method_message": "آئندہ آرڈرز وصول کرنا جاری رکھنے کے لیے ایک نیا کریڈٹ کارڈ استعمال کریں۔",
+        "replace_payment_method": "ادائیگی کا طریقہ تبدیل کریں۔",
+        "checkout_card_banner": "یہ ادائیگی کا طریقہ صرف پہلے سے مجاز ادائیگیوں کے لیے استعمال کیا جا سکتا ہے۔ اگر آپ اس اسٹور میں لاگ ان ہیں تو یہ چیک آؤٹ پر ظاہر نہیں ہوگا۔",
+        "default_checkbox": "بطور ڈیفالٹ سیٹ کریں۔",
+        "default_checkbox_accessibility_label": "ادائیگی کے اس طریقے کو بطور ڈیفالٹ سیٹ کریں۔"
+      },
+      "edit_payment_method": {
+        "title": "ادائیگی کے طریقہ کار میں ترمیم کریں۔",
+        "save_payment_method_button": "محفوظ کریں۔",
+        "cancel_edit_payment_method_button": "منسوخ کریں۔",
+        "payment_method_updated_toast": "ادائیگی کا طریقہ اپ ڈیٹ ہو گیا۔",
+        "billing_address": "بلنگ کا پتہ",
+        "billing_address_add_new": "نیا شامل کریں۔",
+        "billing_address_choose_from_list": "فہرست میں سے انتخاب کریں۔",
+        "future_purchases_notice": "یہ ادائیگی کا طریقہ مستقبل کی خریداریوں کے لیے محفوظ کیا جائے گا۔",
+        "generic_error": "اپ ڈیٹ کرنے میں ایک مسئلہ تھا۔ براہ کرم دوبارہ کوشش کریں۔"
+      },
+      "card_fields": {
+        "card_number_label": "کارڈ نمبر",
+        "card_number_placeholder": "کارڈ نمبر",
+        "name_on_card_label": "کارڈ پر نام",
+        "name_on_card_placeholder": "کارڈ پر نام",
+        "card_expiry_label": "میعاد ختم ہونے کی تاریخ (MM/YY)",
+        "card_expiry_placeholder": "میعاد ختم ہونے کی تاریخ (MM/YY)",
+        "card_verification_value_label": "سیکیورٹی کوڈ",
+        "card_verification_value_placeholder": "سیکیورٹی کوڈ",
+        "card_start_label": "جاری ہونے کی تاریخ (MM/YY)",
+        "card_start_placeholder": "جاری ہونے کی تاریخ (MM/YY)",
+        "tooltip": {
+          "tooltip_accessibility_label": "مزید معلومات",
+          "card_verification_value_explanation_amex": "آپ کے کارڈ کے سامنے 4 ہندسوں کا سیکیورٹی کوڈ",
+          "card_verification_value_explanation_other": "آپ کے کارڈ کے پیچھے 3 ہندسوں کا سیکیورٹی کوڈ",
+          "card_verification_value_explanation": "3 ہندسوں کا سیکیورٹی کوڈ عام طور پر آپ کے کارڈ کے پچھلے حصے میں پایا جاتا ہے۔ امریکن ایکسپریس کارڈز کے سامنے 4 ہندسوں کا کوڈ ہوتا ہے۔",
+          "card_security_notice": "تمام لین دین محفوظ اور خفیہ ہیں۔"
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "اپنا نام بالکل اسی طرح درج کریں جیسا کہ آپ کے کارڈ پر لکھا ہے۔",
+          "credit_card_number_invalid": "ایک درست کارڈ نمبر درج کریں۔",
+          "credit_card_expiry_invalid": "ایک درست کارڈ کی میعاد ختم ہونے کی تاریخ درج کریں۔",
+          "credit_card_verification_value_blank": "اپنے کارڈ پر CVV یا سیکیورٹی کوڈ درج کریں۔"
+        }
+      },
+      "payment_delete": {
+        "title": "ادائیگی کا طریقہ حذف کریں۔",
+        "description_without_replacement": "ادائیگی کا یہ طریقہ آئندہ خریداریوں کے لیے مزید دستیاب نہیں ہوگا۔",
+        "description_with_replacement": "ادائیگی کے اس طریقے کو حذف کرنے سے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ آنے والے آرڈرز حاصل کرنا جاری رکھنے کے لیے آپ اختیاری طور پر اسے ادائیگی کے دوسرے طریقے سے بدل سکتے ہیں۔",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "ادائیگی کے اس طریقے کو حذف کرنے سے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ جب تک آپ کوئی متبادل ادائیگی کا طریقہ منتخب نہیں کرتے، اس ادائیگی کے طریقے سے موجودہ آرڈرز پر کسی بھی بقایا بیلنس کے لیے چارج کیا جائے گا۔ ادائیگی کا متبادل طریقہ منتخب کرنے سے آپ کو آنے والے سبسکرپشن آرڈرز بغیر کسی رکاوٹ کے موصول ہوں گے۔",
+          "with_pending_orders": "ادائیگی کے اس طریقے کو حذف کرنے سے یہ آپ کے اکاؤنٹ سے ہٹ جائے گا اور آئندہ خریداریوں کے لیے مزید دستیاب نہیں رہے گا۔ جب تک آپ کوئی متبادل ادائیگی کا طریقہ منتخب نہیں کرتے، تب تک موجودہ آرڈرز پر کسی بھی بقایا بیلنس کے لیے چارج کیا جائے گا۔",
+          "with_subscriptions": "ادائیگی کے اس طریقے کو حذف کرنے سے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ آئندہ آرڈرز وصول کرنا جاری رکھنے کے لیے اسے ادائیگی کے متبادل طریقے سے بدل دیں۔"
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "ادائیگی کے اس طریقے کو حذف کرنے سے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ موجودہ آرڈرز پر کسی بھی بقایا بیلنس کے لیے ادائیگی کا یہ طریقہ اب بھی چارج کیا جائے گا، لیکن آپ کو آئندہ سبسکرپشن آرڈرز موصول نہیں ہوں گے۔ سبسکرپشن آرڈرز وصول کرنا جاری رکھنے کے لیے ایک متبادل ادائیگی کا طریقہ شامل کریں۔",
+          "with_pending_orders": "ادائیگی کے اس طریقے کو حذف کرنے سے یہ آپ کے اکاؤنٹ سے ہٹ جائے گا اور آئندہ خریداریوں کے لیے مزید دستیاب نہیں رہے گا۔ یہ اب بھی موجودہ آرڈرز پر کسی بھی بقایا بیلنس کے لیے وصول کیا جائے گا۔",
+          "with_subscriptions": "ادائیگی کے اس طریقے کو حذف کرنے سے پہلے سے مجاز ادائیگیاں متاثر ہوں گی۔ آئندہ آرڈرز وصول کرنا جاری رکھنے کے لیے ادائیگی کا متبادل طریقہ شامل کریں۔"
+        },
+        "payment_method_selector_placeholder": "متبادل ادائیگی کا طریقہ منتخب کریں (اختیاری)",
+        "payment_method_selector_no_alternative_payment": "کوئی متبادل طریقہ نہیں۔",
+        "replace_method_with_new_method_description": "آپ کا {{currentPaymentMethodName}} حذف کر دیا جائے گا اور آپ کے {{newPaymentMethodName}} سے بدل دیا جائے گا۔",
+        "error_when_deleting": "ہم معذرت خواہ ہیں لیکن کچھ غلط ہو گیا اور ہم ادائیگی کے اس طریقے کو حذف نہیں کر سکے۔ براہ کرم بعد میں دوبارہ کوشش کریں یا صفحہ ریفریش کریں۔",
+        "delete_and_replace_button": "حذف کریں اور تبدیل کریں۔",
+        "delete_and_replace_button_accessibility_label": "{{currentPaymentMethodName}} حذف کریں اور {{newPaymentMethodName}} سے تبدیل کریں۔",
+        "deleted_successfully": "ادائیگی کا طریقہ کامیابی سے حذف ہو گیا۔",
+        "loading_available_payment_methods_accessibility_label": "دستیاب ادائیگی کے طریقے لوڈ ہو رہے ہیں۔"
+      },
+      "add_payment_method": {
+        "title": "ادائیگی کا طریقہ شامل کریں۔",
+        "payment_method_added_confirmation": "ادائیگی کا طریقہ شامل کیا گیا۔",
+        "billing_address": {
+          "title": "بلنگ کا پتہ",
+          "add_billing_address_button": "نیا شامل کریں۔",
+          "add_billing_address_button_accessibility_label": "نیا بلنگ پتہ شامل کریں۔",
+          "choose_billing_address_from_list_button": "فہرست میں سے انتخاب کریں۔",
+          "choose_billing_address_from_list_button_accessibility_label": "فہرست میں سے ایک بلنگ پتہ منتخب کریں۔",
+          "missing_billing_address_error_message": "براہ کرم بلنگ ایڈریس کی وضاحت کریں۔",
+          "default_checkbox": "ڈیفالٹ ادائیگی کے طریقے کے طور پر سیٹ کریں۔"
+        }
+      },
+      "three_d_secure": {
+        "title": "3D سیکیور"
       }
+    },
+    "payment_method_brands": {
+      "visa": "ویزا",
+      "mastercard": "ماسٹر کارڈ",
+      "americanexpress": "امریکن ایکسپریس",
+      "discover": "دریافت کریں۔",
+      "dinersclub": "ڈنر کلب",
+      "jcb": "جے سی بی",
+      "elo": "ایلو",
+      "visaelectron": "ویزا الیکٹران",
+      "maestro": "استاد",
+      "dankort": "ڈانکورٹ",
+      "hipercard": "ہائپر کارڈ",
+      "unionpay": "یونین پے",
+      "laser": "لیزر",
+      "shoppay": "شاپ پے",
+      "applepay": "ایپل پے",
+      "googlepay": "گوگل پے",
+      "paypal": "پے پال",
+      "storecredit": "سٹور کریڈٹ",
+      "bogus": "بوگس"
+    },
+    "shop_policies": {
+      "legal_notice": "قانونی نوٹس",
+      "privacy_policy": "رازداری کی پالیسی",
+      "refund_policy": "رقم کی واپسی کی پالیسی",
+      "shipping_policy": "شپنگ پالیسی",
+      "subscription_policy": "منسوخی کی پالیسی",
+      "terms_of_sale": "فروخت کی شرائط",
+      "terms_of_service": "سروس کی شرائط"
+    },
+    "ui_components": {
+      "clipboardCopied": "کاپی",
+      "clipboardFailedToCopy": "کاپی کرنے میں ناکام",
+      "closeNotification": "بند",
+      "expandNotification": "مزید دیکھیں",
+      "closeModal": "بند",
+      "submit": "جمع کروائیں۔",
+      "processing": "کارروائی ہو رہی ہے…",
+      "increase": "بڑھائیں {{type}}",
+      "decrease": "{{type}} کو کم کریں",
+      "minimumReached": "کم از کم {{value}} تک پہنچ گیا۔"
     }
   },
   "blogs": {
