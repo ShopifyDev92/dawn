@@ -3131,7 +3131,14 @@
       "back_to_blog": "واپس بلاگ پر",
       "share": "اس مضمون کو شیئر کریں۔",
       "success": "آپ کا تبصرہ کامیابی کے ساتھ پوسٹ کیا گیا! شکریہ!",
-      "success_moderated": "آپ کا تبصرہ کامیابی کے ساتھ پوسٹ کیا گیا۔ ہم اسے تھوڑی دیر میں شائع کریں گے، کیونکہ ہمارا بلاگ معتدل ہے۔"
+      "success_moderated": "آپ کا تبصرہ کامیابی کے ساتھ پوسٹ کیا گیا۔ ہم اسے تھوڑی دیر میں شائع کریں گے، کیونکہ ہمارا بلاگ معتدل ہے۔",
+      "blog": "بلاگ",
+      "read_more_title": "مزید پڑھیں: {{ title }}",
+      "comments": {
+        "one": "{{ count }} تبصرہ",
+        "other": "{{ count }} تبصرے۔"
+      },
+      "moderated": "براہ کرم نوٹ کریں، تبصرے شائع ہونے سے پہلے ان کی منظوری ضروری ہے۔"
     }
   },
   "onboarding": {
@@ -3485,12 +3492,150 @@
         "quantity": "مقدار",
         "image": "مصنوعات کی تصویر",
         "price": "قیمت"
+      },
+      "update": "اپ ڈیٹ کریں۔",
+      "login": {
+        "title": "کیا آپ کا اکاؤنٹ ہے؟",
+        "paragraph_html": "تیزی سے چیک آؤٹ کرنے کے لیے <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link underlined-link\">لاگ ان کریں</a> ۔"
       }
+    },
+    "footer": {
+      "payment": "ادائیگی کے طریقے"
+    },
+    "featured_blog": {
+      "view_all": "تمام دیکھیں",
+      "onboarding_title": "بلاگ پوسٹ",
+      "onboarding_content": "اپنے صارفین کو اپنی بلاگ پوسٹ کا خلاصہ دیں۔"
+    },
+    "featured_collection": {
+      "view_all": "تمام دیکھیں",
+      "view_all_label": "{{ collection_name }} مجموعہ میں تمام مصنوعات دیکھیں"
+    },
+    "collection_list": {
+      "view_all": "تمام دیکھیں"
+    },
+    "collection_template": {
+      "empty": "کوئی پروڈکٹس نہیں ملے",
+      "title": "مجموعہ",
+      "use_fewer_filters_html": "کم فلٹرز استعمال کریں یا <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">سب کو ہٹا دیں۔</a>"
+    },
+    "video": {
+      "load_video": "ویڈیو لوڈ کریں: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "سلائیڈ لوڈ کریں۔",
+      "previous_slideshow": "پچھلی سلائیڈ",
+      "next_slideshow": "اگلی سلائیڈ",
+      "pause_slideshow": "سلائیڈ شو موقوف کریں۔",
+      "play_slideshow": "سلائیڈ شو چلائیں۔",
+      "slide": "سلائیڈ"
+    },
+    "page": {
+      "title": "صفحہ کا عنوان"
+    },
+    "quick_order_list": {
+      "product_total": "پروڈکٹ کا ذیلی ٹوٹل",
+      "view_cart": "کارٹ دیکھیں",
+      "each": "{{ money }} /ea",
+      "product": "پروڈکٹ",
+      "variant": "متغیر",
+      "variant_total": "مختلف کل",
+      "items_added": {
+        "one": "{{ quantity }} آئٹم شامل کیا گیا۔",
+        "other": "{{ quantity }} اشیاء شامل کی گئیں۔"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} آئٹم ہٹا دیا گیا۔",
+        "other": "{{ quantity }} آئٹمز ہٹا دیے گئے۔"
+      },
+      "product_variants": "مصنوعات کی مختلف حالتیں",
+      "total_items": "کل اشیاء",
+      "remove_all_single_item_confirmation": "اپنی کارٹ سے 1 آئٹم ہٹائیں؟",
+      "remove_all_items_confirmation": "اپنی کارٹ سے تمام {{ quantity }} آئٹمز کو ہٹا دیں؟",
+      "remove_all": "سب کو ہٹا دیں۔",
+      "cancel": "منسوخ کریں۔",
+      "min_error": "اس آئٹم میں کم از کم {{ min }} ہے",
+      "max_error": "اس آئٹم میں زیادہ سے زیادہ {{ max }} ہے",
+      "step_error": "آپ اس آئٹم کو صرف {{ step }} کے اضافے میں شامل کر سکتے ہیں"
     }
   },
   "general": {
     "search": {
-      "search": "تلاش کریں۔"
+      "search": "تلاش کریں۔",
+      "reset": "تلاش کی اصطلاح صاف کریں۔"
+    },
+    "password_page": {
+      "login_form_heading": "پاس ورڈ کا استعمال کرتے ہوئے اسٹور درج کریں:",
+      "login_password_button": "پاس ورڈ کا استعمال کرتے ہوئے درج کریں۔",
+      "login_form_password_label": "پاس ورڈ",
+      "login_form_password_placeholder": "آپ کا پاس ورڈ",
+      "login_form_error": "غلط پاس ورڈ!",
+      "login_form_submit": "داخل کریں۔",
+      "admin_link_html": "کیا آپ اسٹور کے مالک ہیں؟ <a href=\"/admin\" class=\"link underlined-link\">یہاں لاگ ان کریں۔</a>",
+      "powered_by_shopify_html": "یہ دکان {{ shopify }} کے ذریعے چلائی جائے گی"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "فیس بک پر شیئر کریں۔",
+        "share_on_twitter": "ایکس پر شیئر کریں۔",
+        "share_on_pinterest": "Pinterest پر پن کریں۔"
+      },
+      "links": {
+        "facebook": "فیس بک",
+        "pinterest": "پنٹیرسٹ",
+        "instagram": "انسٹاگرام",
+        "tumblr": "ٹمبلر",
+        "snapchat": "سنیپ چیٹ",
+        "youtube": "یوٹیوب",
+        "vimeo": "ویمیو"
+      }
+    },
+    "continue_shopping": "خریداری جاری رکھیں",
+    "pagination": {
+      "label": "صفحہ بندی",
+      "page": "صفحہ {{ number }}",
+      "next": "اگلا صفحہ",
+      "previous": "پچھلا صفحہ"
+    },
+    "cart": {
+      "view": "کارٹ دیکھیں ( {{ count }} )",
+      "view_empty_cart": "کارٹ دیکھیں",
+      "item_added": "آئٹم کو آپ کی کارٹ میں شامل کیا گیا۔"
+    },
+    "share": {
+      "close": "شیئر بند کریں۔",
+      "copy_to_clipboard": "لنک کاپی کریں۔",
+      "share_url": "لنک",
+      "success_message": "لنک کلپ بورڈ پر کاپی ہو گیا۔"
+    },
+    "slider": {
+      "of": "کی",
+      "next_slide": "دائیں سلائیڈ کریں۔",
+      "previous_slide": "بائیں سلائیڈ کریں۔",
+      "name": "سلائیڈر"
     }
+  },
+  "newsletter": {
+    "label": "ای میل",
+    "success": "سبسکرائب کرنے کا شکریہ",
+    "button_label": "سبسکرائب کریں۔"
+  },
+  "accessibility": {
+    "skip_to_text": "مواد پر جائیں۔",
+    "skip_to_product_info": "مصنوعات کی معلومات پر جائیں",
+    "close": "بند",
+    "unit_price_separator": "فی",
+    "vendor": "وینڈر:",
+    "error": "خرابی",
+    "refresh_page": "انتخاب کا انتخاب کرنے سے پورے صفحہ کی تازہ کاری ہوتی ہے۔",
+    "link_messages": {
+      "new_window": "ایک نئی ونڈو میں کھلتا ہے۔",
+      "external": "بیرونی ویب سائٹ کھولتا ہے۔"
+    },
+    "loading": "لوڈ ہو رہا ہے...",
+    "total_reviews": "کل جائزے",
+    "star_reviews_info": "{ {{ rating_max }} {{ rating_value }}",
+    "collapsible_content_title": "ٹوٹنے والا مواد",
+    "complementary_products": "تکمیلی مصنوعات"
   }
 }
