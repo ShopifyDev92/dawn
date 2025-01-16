@@ -200,6 +200,7 @@ if (!customElements.get('product-info')) {
             html.getElementById(`ProductSubmitButton-${this.sectionId}`)?.hasAttribute('disabled') ?? true,
             window.variantStrings.soldOut
           );
+this.updateStickyATC(html);
 
           publish(PUB_SUB_EVENTS.variantChange, {
             data: {
@@ -211,6 +212,27 @@ if (!customElements.get('product-info')) {
         };
       }
 
+
+
+updateStickyATC(html) {
+  const newStickyATCContainer = html.querySelector('.sticky-atc');
+  const currentStickyATCContainer = document.querySelector('.sticky-atc');
+
+  if (newStickyATCContainer && currentStickyATCContainer) {
+    const newContent = newStickyATCContainer.innerHTML.trim();
+
+    if (newContent === '') {
+      currentStickyATCContainer.classList.add('hidden');
+      currentStickyATCContainer.innerHTML = '';
+    } else {
+      currentStickyATCContainer.classList.remove('hidden');
+      currentStickyATCContainer.innerHTML = newContent;
+    }
+  }
+}
+
+
+      
       updateVariantInputs(variantId) {
         this.querySelectorAll(
           `#product-form-${this.dataset.section}, #product-form-installment-${this.dataset.section}`
