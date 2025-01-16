@@ -219,6 +219,7 @@
                         %}
                       </select>
                       {% render 'icon-caret' %}
+                      {{- 'icon-caret.svg' | inline_asset_content -}}
                     </div>
                   </div>
                 {%- endfor -%}
@@ -273,7 +274,6 @@
   </div>
 
   <script>
-
     document.addEventListener("DOMContentLoaded", function() {
         var atcElement = document.querySelector(".sticky-atc");
         var targetElement = document.querySelector('[id^="ProductSubmitButton-"]');
