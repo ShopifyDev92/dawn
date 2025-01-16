@@ -218,8 +218,10 @@
                           picker_type: picker_type
                         %}
                       </select>
-                      {% render 'icon-caret' %}
-                      {{- 'icon-caret.svg' | inline_asset_content -}}
+                      {% comment %}
+                        {% render 'icon-caret' %}
+                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                      {% endcomment %}
                     </div>
                   </div>
                 {%- endfor -%}
