@@ -7,7 +7,7 @@
   - section_id: {String} id of section to which this snippet belongs.
 
   Usage:
-  {% render 'sticky-add-to-cart', block: block, product: product, product_form_id: product_form_id, section_id: section.id %}
+  {% render 'sticky-atc-custom', block: block, product: product, product_form_id: product_form_id, section_id: section.id %}
 {% endcomment %}
 
 {% if settings.enable_sticky_atc %}
@@ -112,7 +112,7 @@
                               picker_type: picker_type
                             %}
                           </select>
-                          {{- 'icon-caret.svg' | inline_asset_content -}}
+                          {% render 'icon-caret' %}
                         </div>
                       </div>
                     {%- endfor -%}
@@ -218,7 +218,7 @@
                           picker_type: picker_type
                         %}
                       </select>
-                      {{- 'icon-caret.svg' | inline_asset_content -}}
+                      {% render 'icon-caret' %}
                     </div>
                   </div>
                 {%- endfor -%}
@@ -273,6 +273,7 @@
   </div>
 
   <script>
+
     document.addEventListener("DOMContentLoaded", function() {
         var atcElement = document.querySelector(".sticky-atc");
         var targetElement = document.querySelector('[id^="ProductSubmitButton-"]');
