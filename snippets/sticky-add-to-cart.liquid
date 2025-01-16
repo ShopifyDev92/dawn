@@ -112,8 +112,7 @@
                               picker_type: picker_type
                             %}
                           </select>
-
-                          <span class="svg-wrapper">{{ 'icon-cart.svg' | inline_asset_content }}</span>
+                          {{- 'icon-caret.svg' | inline_asset_content -}}
                         </div>
                       </div>
                     {%- endfor -%}
@@ -219,7 +218,7 @@
                           picker_type: picker_type
                         %}
                       </select>
-                      {{ 'icon-cart.svg' | inline_asset_content }}
+                      {{- 'icon-caret.svg' | inline_asset_content -}}
                     </div>
                   </div>
                 {%- endfor -%}
@@ -274,7 +273,6 @@
   </div>
 
   <script>
-
     document.addEventListener("DOMContentLoaded", function() {
         var atcElement = document.querySelector(".sticky-atc");
         var targetElement = document.querySelector('[id^="ProductSubmitButton-"]');
