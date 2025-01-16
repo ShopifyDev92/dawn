@@ -121,6 +121,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "enable_sticky_atc": true,
+    "enable_sticky_atc_variant_picker": false,
     "atc_button_background_color": "#800020",
     "atc_button_text_border_color": "#f6f6f8",
     "sticky_atc_title_font_style": "regular",
