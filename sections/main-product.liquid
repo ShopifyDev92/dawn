@@ -463,6 +463,9 @@
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+              
+
+{% assign variant_picker_block = block %}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
                   block: block,
@@ -717,6 +720,7 @@
         assign seo_media = product.featured_media
       endif
     -%}
+{% render 'sticky-add-to-cart', block: variant_picker_block, product: product, product_form_id: product_form_id, section_id: section.id %}
 
     <script type="application/ld+json">
       {{ product | structured_data }}
