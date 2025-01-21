@@ -102,32 +102,32 @@
           assign sizes = full_width
         endif
       -%}
-      {% if section.settings.isLazyload %}
+
+      {%- assign image_tag_attributes = 'width: '
+        | append: section.settings.image_2.width
+        | append: ', height: '
+        | append: image_height_2
+        | append: ", class: '"
+        | append: image_class_2
+        | append: "', sizes: "
+        | append: sizes
+        | append: ', widths: '
+        | append: widths
+        | append: ', fetchpriority: '
+        | append: fetch_priority
+      -%}
+
+      {%- if section.settings.isLazyload -%}
+        {%- assign lazyload_attribute = ", loading: 'lazy'" -%}
         {{
           section.settings.image_2
           | image_url: width: 3840
-          | image_tag:
-            loading: 'lazy',
-            width: section.settings.image_2.width,
-            height: image_height_2,
-            class: image_class_2,
-            sizes: sizes,
-            widths: widths,
-            fetchpriority: fetch_priority
+          | image_tag: image_tag_attributes
+          | append: lazyload_attribute
         }}
-      {% else %}
-        {{
-          section.settings.image_2
-          | image_url: width: 3840
-          | image_tag:
-            width: section.settings.image_2.width,
-            height: image_height_2,
-            class: image_class_2,
-            sizes: sizes,
-            widths: widths,
-            fetchpriority: fetch_priority
-        }}
-      {% endif %}
+      {%- else -%}
+        {{ section.settings.image_2 | image_url: width: 3840 | image_tag: image_tag_attributes }}
+      {%- endif %}
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
