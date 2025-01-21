@@ -70,17 +70,31 @@
           assign sizes = full_width
         endif
       -%}
-      {{
-        section.settings.image
-        | image_url: width: 3840
-        | image_tag:
-          width: section.settings.image.width,
-          height: image_height,
-          class: image_class,
-          sizes: sizes,
-          widths: widths,
-          fetchpriority: fetch_priority
-      }}
+      {%- assign image_tag_attributes = 'width: '
+        | append: section.settings.image.width
+        | append: ', height: '
+        | append: image_height
+        | append: ", class: '"
+        | append: image_class
+        | append: "', sizes: "
+        | append: sizes
+        | append: ', widths: '
+        | append: widths
+        | append: ', fetchpriority: '
+        | append: fetch_priority
+      -%}
+
+      {%- if section.settings.isLazyload -%}
+        {%- assign lazyload_attribute = ", loading: 'lazy'" -%}
+        {{
+          section.settings.image_2
+          | image_url: width: 3840
+          | image_tag: image_tag_attributes
+          | append: lazyload_attribute
+        }}
+      {%- else -%}
+        {{ section.settings.image_2 | image_url: width: 3840 | image_tag: image_tag_attributes }}
+      {%- endif %}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
