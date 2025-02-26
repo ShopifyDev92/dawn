@@ -1,10 +1,9 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
-
-<!-- AMPIFY-ME:START -->
-{% include 'ampify-me-snippet' %}
-<!-- AMPIFY-ME:END -->
+    <!-- AMPIFY-ME:START -->
+    {% include 'ampify-me-snippet' %}
+    <!-- AMPIFY-ME:END -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -313,6 +312,9 @@
     {%- endif -%}
 
     {% sections 'header-group' %}
+    {%- if settings.show_breadcrumb_nav -%}
+      {% render 'breadcrumbs.liquid' %}
+    {%- endif -%}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
