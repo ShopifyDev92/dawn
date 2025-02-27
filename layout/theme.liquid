@@ -370,6 +370,28 @@
       };
     </script>
 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {% for faq in pages.faq.content | split: '<h3>' %}
+            {% assign question_answer = faq | split: '</h3>' %}
+            {% if question_answer.size > 1 %}
+            {
+              "@type": "Question",
+              "name": "{{ question_answer[0] | strip_html | escape }}",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "{{ question_answer[1] | strip_html | escape }}"
+              }
+            }{% unless forloop.last %},{% endunless %}
+            {% endif %}
+          {% endfor %}
+        ]
+      }
+    </script>
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
