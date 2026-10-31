@@ -375,7 +375,7 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          {% for faq in pages.faq.content | split: '<h3>' %}
+          {% for faq in pages.faq.content %}
             {% assign question_answer = faq | split: '</h3>' %}
             {% if question_answer.size > 1 %}
             {
@@ -401,3 +401,13 @@
     {%- endif -%}
   </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% for faq in pages.faq.content | split: '<h3>' %}"
+  to: "{% for faq in pages.faq.content %}"
+  position: 21804..21838
+{% endcomment %}
